@@ -1,0 +1,66 @@
+---
+import PublicLayout from '../../../layouts/PublicLayout.astro';
+import Icon from '../../../components/Icon.astro';
+import { homeInsights, localizedPath, getWhatsAppHref } from '../../../data/bms';
+
+export function getStaticPaths() {
+  return homeInsights.map((post) => {
+    const slug = post.href.replace('/blog/', '');
+    return {
+      params: { slug },
+      props: { post },
+    };
+  });
+}
+
+const { post } = Astro.props;
+const waHref = getWhatsAppHref('/blog', 'en');
+---
+
+<PublicLayout
+  lang="en"
+  currentPath={`/en${post.href}`}
+  title={`${post.anchor} — BMS Services`}
+  description={post.description}
+>
+  <article class="py-20 md:py-28">
+    <div class="container mx-auto px-4 max-w-3xl">
+      <a
+        href={localizedPath('/blog', 'en')}
+        class="inline-flex items-center gap-1 text-sm font-semibold text-brand-blue mb-6 hover:underline"
+      >
+        ← Back to Blog
+      </a>
+      <span class="block text-xs font-semibold uppercase tracking-wider text-brand-blue mb-2">
+        Insights · BMS Services
+      </span>
+      <h1 class="text-3xl md:text-5xl font-extrabold tracking-tight leading-tight">
+        {post.anchor}
+      </h1>
+      <p class="mt-6 text-lg text-muted-foreground leading-relaxed">
+        {post.description}
+      </p>
+      <div class="mt-10 premium-card p-8 space-y-4 text-foreground/85 leading-relaxed">
+        <p>
+          In today's fast-moving digital landscape, growing businesses need unified systems that
+          provide accurate, real-time visibility across every operation.
+        </p>
+        <p>
+          Through <strong>{post.anchor}</strong>, BMS Services helps organizations architect
+          scalable, secure software tailored to their exact business workflows.
+        </p>
+      </div>
+      <div class="mt-12 rounded-3xl bg-brand-navy p-8 text-white text-center">
+        <h2 class="text-2xl font-bold">Want to discuss this topic for your business?</h2>
+        <a
+          href={waHref}
+          target="_blank"
+          rel="noopener noreferrer"
+          class="inline-flex items-center justify-center gap-2 mt-6 rounded-full bg-white text-brand-navy hover:bg-white/90 font-semibold h-12 px-6 text-sm"
+        >
+          Free Consultation <Icon name="ArrowRight" size={16} />
+        </a>
+      </div>
+    </div>
+  </article>
+</PublicLayout>

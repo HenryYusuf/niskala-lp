@@ -1,0 +1,107 @@
+---
+import ServiceDetailPage from '../../../components/ServiceDetailPage.astro';
+import { getServices, EN_SERVICE_SLUG_MAP, type ServiceItem } from '../../../data/bms';
+
+export function getStaticPaths() {
+  const services = getServices('en');
+  const bespokeExtras: ServiceItem[] = [
+    {
+      slug: 'jasa-pembuatan-erp-system',
+      icon: 'Layers',
+      title: 'Custom ERP System Development',
+      short: 'Custom ERP that brings all your business operations together in one system.',
+      description:
+        'We design and build custom ERP systems tailored to your exact operational workflows—integrating finance, inventory, procurement, manufacturing, and HR into a single unified platform.',
+      benefits: [
+        'Unify all departments into a single real-time source of truth',
+        'No escalating per-user monthly SaaS license fees',
+        '100% aligned with your company SOPs and multi-level approvals',
+        'Seamless integration with accounting software, marketplaces, and hardware',
+      ],
+      signs: [
+        'Departments rely on disconnected spreadsheets and manual reconciliation',
+        'Monthly financial and operational closing takes weeks',
+        'Off-the-shelf SaaS ERP is too rigid or expensive at scale',
+      ],
+      whyBms: [],
+      process: [
+        { step: 'Discovery & Process Audit', desc: 'Map workflows and requirements across teams.' },
+        { step: 'Architecture & Blueprint', desc: 'Design database schema, permissions, and UI/UX.' },
+        { step: 'Phased Development', desc: 'Iterative delivery with transparent sprint demos.' },
+        { step: 'Go-Live & Training', desc: 'Data migration, team onboarding, and ongoing support.' },
+      ],
+      useCases: [],
+      techStack: ['React', 'Node.js', 'PostgreSQL', 'Docker'],
+      faqs: [],
+    },
+    {
+      slug: 'custom-software-ai',
+      icon: 'Sparkles',
+      title: 'Custom Software with AI',
+      short: 'Up to 40% cheaper, 50% faster, fully custom.',
+      description:
+        'Build custom enterprise software faster and more cost-effectively with AI-accelerated engineering audited by our senior developers.',
+      benefits: [
+        'Up to 50% faster delivery compared to traditional development cycles',
+        'Up to 40% cost savings without compromising code quality',
+        'Built-in AI capabilities (document OCR, data copilots, automated workflows)',
+        '100% source code ownership with zero vendor lock-in',
+      ],
+      signs: [
+        'You need custom software on a tight deadline',
+        'You want AI-powered automation embedded into internal operations',
+        'You want to launch and validate a digital product rapidly',
+      ],
+      whyBms: [],
+      process: [
+        { step: 'Rapid Scoping', desc: 'Define core requirements and system architecture.' },
+        { step: 'AI-Accelerated Build', desc: 'Fast iteration reviewed by senior engineers.' },
+        { step: 'QA & Security Audit', desc: 'Performance, security, and business logic verification.' },
+        { step: 'Deployment & Handover', desc: 'Production launch with full documentation.' },
+      ],
+      useCases: [],
+      techStack: ['TypeScript', 'React', 'Python', 'OpenAI', 'PostgreSQL'],
+      faqs: [],
+    },
+    {
+      slug: 'operational-control-partner',
+      icon: 'ShieldCheck',
+      title: 'Operational Control Partner',
+      short: 'Full control over your inventory and operations.',
+      description:
+        'Hands-on operational partnership combining process audits, SOP standardization, and inventory/financial control systems to eliminate leakage.',
+      benefits: [
+        'Real-time stock and cashflow visibility across all branches and warehouses',
+        'Prevent inventory shrinkage and unapproved transactions',
+        'Enforce company SOPs directly through system permissions',
+        'Dedicated on-the-ground implementation support for your team',
+      ],
+      signs: [
+        'Frequent stock discrepancies between system records and physical warehouse counts',
+        'Difficulty monitoring multi-branch operations in real time',
+        'SOPs are bypassed because controls are not enforced by software',
+      ],
+      whyBms: [],
+      process: [
+        { step: 'Operational Audit', desc: 'Identify bottlenecks and leakage points.' },
+        { step: 'SOP & Control Design', desc: 'Establish multi-tier approval and control rules.' },
+        { step: 'System Implementation', desc: 'Deploy inventory and operational control modules.' },
+        { step: 'Continuous Evaluation', desc: 'Monitor compliance and optimize workflows.' },
+      ],
+      useCases: [],
+      techStack: ['Cloud ERP', 'Barcode/QR System', 'Real-time Dashboard'],
+      faqs: [],
+    },
+  ];
+
+  const all = [...services, ...bespokeExtras];
+  return all.map((service) => ({
+    params: { slug: EN_SERVICE_SLUG_MAP[service.slug] || service.slug },
+    props: { service },
+  }));
+}
+
+const { service } = Astro.props;
+---
+
+<ServiceDetailPage service={service} lang="en" />

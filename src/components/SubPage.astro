@@ -1,0 +1,312 @@
+---
+import PublicLayout from '../layouts/PublicLayout.astro';
+import Icon from './Icon.astro';
+import {
+  brand,
+  t,
+  localizedPath,
+  getWhatsAppHref,
+  homeInsights,
+  getPortfolio,
+  type Lang,
+} from '../data/bms';
+
+interface Props {
+  page: 'about' | 'pricing' | 'blog' | 'case-studies' | 'contact';
+  lang?: Lang;
+}
+
+const { page, lang = 'id' } = Astro.props;
+
+const routeMap = {
+  about: '/tentang-kami',
+  pricing: '/harga',
+  blog: '/blog',
+  'case-studies': '/case-studies',
+  contact: '/kontak',
+};
+
+const currentPath = localizedPath(routeMap[page], lang);
+const waHref = getWhatsAppHref(routeMap[page], lang);
+const portfolio = getPortfolio(lang);
+
+const pageHeadings: Record<
+  Props['page'],
+  { eyebrow: string; titleA: string; titleB: string; subtitle: string }
+> = {
+  about: {
+    eyebrow: lang === 'en' ? 'About BMS Services' : 'Tentang BMS Services',
+    titleA: t('why.title_a', lang),
+    titleB: t('why.title_b', lang),
+    subtitle: t('why.subtitle', lang),
+  },
+  pricing: {
+    eyebrow: lang === 'en' ? 'Transparent Pricing' : 'Estimasi Harga Transparan',
+    titleA: lang === 'en' ? 'Invest in' : 'Investasi untuk',
+    titleB: lang === 'en' ? 'scalable growth' : 'pertumbuhan bisnis',
+    subtitle:
+      lang === 'en'
+        ? 'Flexible engagement models tailored to your project scope, timeline, and business goals.'
+        : 'Model kerja sama fleksibel yang disesuaikan dengan scope project, timeline, dan target bisnis Anda.',
+  },
+  blog: {
+    eyebrow: 'Insights',
+    titleA: lang === 'en' ? 'Latest articles' : 'Artikel terbaru',
+    titleB: lang === 'en' ? 'from the BMS team' : 'dari tim BMS',
+    subtitle:
+      lang === 'en'
+        ? 'Practical guides on custom software, ERP, business automation, and digital growth.'
+        : 'Panduan praktis seputar software custom, ERP, business automation, dan pertumbuhan digital.',
+  },
+  'case-studies': {
+    eyebrow: 'Case Studies',
+    titleA: lang === 'en' ? 'Real impact' : 'Dampak nyata',
+    titleB: lang === 'en' ? 'for our clients' : 'untuk klien kami',
+    subtitle:
+      lang === 'en'
+        ? 'Deep dives into how we helped businesses automate operations and scale revenue.'
+        : 'Studi kasus mendalam bagaimana kami membantu bisnis mengotomasi operasional dan meningkatkan revenue.',
+  },
+  contact: {
+    eyebrow: t('footer.contact', lang),
+    titleA: lang === 'en' ? "Let's discuss" : 'Mari diskusikan',
+    titleB: lang === 'en' ? 'your next project' : 'project Anda',
+    subtitle: t('cta.subtitle', lang),
+  },
+};
+
+const heading = pageHeadings[page];
+---
+
+<PublicLayout
+  lang={lang}
+  currentPath={currentPath}
+  title={`${heading.eyebrow} — BMS Services`}
+  description={heading.subtitle}
+>
+  <section class="py-20 md:py-28 bg-secondary/40">
+    <div class="container mx-auto px-4 text-center max-w-3xl">
+      <p class="text-sm font-semibold uppercase tracking-wider text-brand-blue mb-3">
+        {heading.eyebrow}
+      </p>
+      <h1 class="text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight">
+        {heading.titleA} <span class="gradient-text">{heading.titleB}</span>
+      </h1>
+      <p class="mt-4 text-lg text-muted-foreground">{heading.subtitle}</p>
+    </div>
+  </section>
+
+  {page === 'about' && (
+    <section class="py-20">
+      <div class="container mx-auto px-4 grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+        {[
+          {
+            icon: 'ShieldCheck',
+            title: t('why.item.cert.title', lang),
+            desc: t('why.item.cert.desc', lang),
+          },
+          {
+            icon: 'Clock',
+            title: t('why.item.ontime.title', lang),
+            desc: t('why.item.ontime.desc', lang),
+          },
+          {
+            icon: 'Lock',
+            title: t('why.item.security.title', lang),
+            desc: t('why.item.security.desc', lang),
+          },
+          {
+            icon: 'Headphones',
+            title: t('why.item.support.title', lang),
+            desc: t('why.item.support.desc', lang),
+          },
+        ].map((item) => (
+          <div class="premium-card p-7" data-reveal>
+            <div class="w-12 h-12 rounded-xl gradient-mesh text-white flex items-center justify-center mb-4">
+              <Icon name={item.icon} size={22} />
+            </div>
+            <h2 class="font-bold text-lg mb-2">{item.title}</h2>
+            <p class="text-sm text-muted-foreground leading-relaxed">{item.desc}</p>
+          </div>
+        ))}
+      </div>
+    </section>
+  )}
+
+  {page === 'pricing' && (
+    <section class="py-20">
+      <div class="container mx-auto px-4 grid md:grid-cols-3 gap-6">
+        {[
+          {
+            name: lang === 'en' ? 'Website & Landing Page' : 'Website & Landing Page',
+            price: lang === 'en' ? 'Starts from IDR 8M' : 'Mulai Rp 8 Juta',
+            desc:
+              lang === 'en'
+                ? 'Fast, SEO-ready company profile or high-converting landing page.'
+                : 'Company profile atau landing page cepat, mobile-first, dan siap SEO.',
+            features: [
+              'Custom UI/UX Design',
+              'Mobile-First & Core Web Vitals Optimized',
+              'CMS & Analytics Integration',
+              '30 Days Warranty & Support',
+            ],
+          },
+          {
+            name: lang === 'en' ? 'Custom Software & ERP' : 'Custom Software & ERP',
+            price: lang === 'en' ? 'Custom Quotation' : 'Sesuai Scope Project',
+            desc:
+              lang === 'en'
+                ? 'Tailored web apps, ERP, procurement, or workflow automation systems.'
+                : 'Sistem aplikasi web, ERP, procurement, atau workflow yang dibangun khusus.',
+            features: [
+              'Business Process Discovery',
+              'Full-Stack Custom Architecture',
+              'Role-Based Access & Audit Trail',
+              'API & Third-Party Integrations',
+            ],
+            featured: true,
+          },
+          {
+            name: lang === 'en' ? 'Dedicated Development Team' : 'Dedicated Development Team',
+            price: lang === 'en' ? 'Monthly Retainer' : 'Retainer Bulanan',
+            desc:
+              lang === 'en'
+                ? 'Senior engineers and designers embedded directly into your product team.'
+                : 'Engineer dan designer senior yang bergabung langsung memperkuat tim Anda.',
+            features: [
+              'Senior Full-Stack / Mobile Engineers',
+              'Transparent Sprint & GitHub Access',
+              'Flexible Scale Up / Down',
+              'Dedicated Project Management',
+            ],
+          },
+        ].map((tier) => (
+          <div
+            class={`premium-card p-8 flex flex-col justify-between ${
+              tier.featured ? 'ring-2 ring-brand-blue' : ''
+            }`}
+            data-reveal
+          >
+            <div>
+              <h2 class="text-xl font-bold">{tier.name}</h2>
+              <p class="text-3xl font-extrabold mt-3 gradient-text">{tier.price}</p>
+              <p class="text-sm text-muted-foreground mt-2 mb-6">{tier.desc}</p>
+              <ul class="space-y-3 mb-8">
+                {tier.features.map((f) => (
+                  <li class="flex items-center gap-2 text-sm">
+                    <Icon name="CheckCircle2" size={16} class="text-brand-blue shrink-0" />
+                    <span>{f}</span>
+                  </li>
+                ))}
+              </ul>
+            </div>
+            <a
+              href={waHref}
+              target="_blank"
+              rel="noopener noreferrer"
+              class="inline-flex items-center justify-center h-11 px-6 rounded-full gradient-mesh text-white text-sm font-semibold"
+            >
+              {t('nav.cta_consult', lang)}
+            </a>
+          </div>
+        ))}
+      </div>
+    </section>
+  )}
+
+  {page === 'blog' && (
+    <section class="py-20">
+      <div class="container mx-auto px-4 grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
+        {homeInsights.map((post) => (
+          <a
+            href={localizedPath(post.href, lang)}
+            class="group flex h-full flex-col premium-card p-6 transition-transform hover:-translate-y-1"
+            data-reveal
+          >
+            <span class="text-xs font-semibold uppercase tracking-wider text-brand-blue">Blog</span>
+            <h2 class="mt-2 text-lg font-bold leading-snug group-hover:text-brand-blue">
+              {post.anchor}
+            </h2>
+            <p class="mt-2 text-sm text-muted-foreground flex-1">{post.description}</p>
+            <span class="mt-4 inline-flex items-center gap-1 text-sm font-semibold text-brand-blue">
+              Baca artikel <Icon name="ArrowRight" size={14} />
+            </span>
+          </a>
+        ))}
+      </div>
+    </section>
+  )}
+
+  {page === 'case-studies' && (
+    <section class="py-20">
+      <div class="container mx-auto px-4 grid md:grid-cols-2 gap-8">
+        {portfolio.slice(0, 6).map((item) => (
+          <div class="premium-card overflow-hidden flex flex-col" data-reveal>
+            <div class="aspect-video bg-gradient-to-br from-brand-blue/20 via-brand-cyan/20 to-brand-pink/20 p-4">
+              <img
+                src={item.image_url}
+                alt={item.title}
+                loading="lazy"
+                class="w-full h-full object-contain"
+              />
+            </div>
+            <div class="p-6 flex-1 flex flex-col">
+              <span class="text-xs font-semibold uppercase tracking-wider text-brand-blue">
+                {item.category}
+              </span>
+              <h2 class="text-2xl font-bold mt-1 mb-2">{item.title}</h2>
+              <p class="text-sm text-muted-foreground mb-4">{item.challenge || item.description}</p>
+              {item.results && (
+                <div class="mt-auto flex flex-wrap gap-2 pt-4 border-t border-border">
+                  {item.results.map((r: string) => (
+                    <span class="text-xs font-semibold px-3 py-1 rounded-full bg-secondary text-brand-navy">
+                      {r}
+                    </span>
+                  ))}
+                </div>
+              )}
+            </div>
+          </div>
+        ))}
+      </div>
+    </section>
+  )}
+
+  {page === 'contact' && (
+    <section class="py-20">
+      <div class="container mx-auto px-4 max-w-4xl grid md:grid-cols-3 gap-6">
+        <a
+          href={`mailto:${brand.email}`}
+          class="premium-card p-7 text-center hover:-translate-y-1 transition-transform"
+          data-reveal
+        >
+          <div class="w-12 h-12 rounded-2xl gradient-mesh text-white flex items-center justify-center mx-auto mb-4">
+            <Icon name="Mail" size={22} />
+          </div>
+          <h2 class="font-bold text-lg mb-1">Email</h2>
+          <p class="text-sm text-muted-foreground">{brand.email}</p>
+        </a>
+        <a
+          href={waHref}
+          target="_blank"
+          rel="noopener noreferrer"
+          class="premium-card p-7 text-center hover:-translate-y-1 transition-transform"
+          data-reveal
+        >
+          <div class="w-12 h-12 rounded-2xl gradient-mesh text-white flex items-center justify-center mx-auto mb-4">
+            <Icon name="Phone" size={22} />
+          </div>
+          <h2 class="font-bold text-lg mb-1">WhatsApp & Telepon</h2>
+          <p class="text-sm text-muted-foreground">{brand.phone}</p>
+        </a>
+        <div class="premium-card p-7 text-center" data-reveal>
+          <div class="w-12 h-12 rounded-2xl gradient-mesh text-white flex items-center justify-center mx-auto mb-4">
+            <Icon name="MapPin" size={22} />
+          </div>
+          <h2 class="font-bold text-lg mb-1">Lokasi</h2>
+          <p class="text-sm text-muted-foreground">{brand.address}</p>
+        </div>
+      </div>
+    </section>
+  )}
+</PublicLayout>

@@ -1,0 +1,4570 @@
+{
+  "brand": {
+    "name": "BMS Services",
+    "tagline": "The Growth Partner for Your Business",
+    "email": "info@bmsservices.id",
+    "phone": "+62 (0)812-3740-0289",
+    "phoneIntl": "+6281237400289",
+    "whatsappNumber": "6281237400289",
+    "whatsappMessage": "Halo, saya ingin konsultasi dengan BMS Services",
+    "address": "Semarang, Jawa Tengah, Indonesia",
+    "founded": 2024,
+    "instagram": "https://instagram.com/bmsservices",
+    "linkedin": "https://linkedin.com/company/bmsservices"
+  },
+  "nav": [
+    {
+      "label": "Beranda",
+      "href": "/"
+    },
+    {
+      "label": "Layanan",
+      "href": "/layanan"
+    },
+    {
+      "label": "Portofolio",
+      "href": "/portofolio"
+    },
+    {
+      "label": "Tentang Kami",
+      "href": "/tentang-kami"
+    },
+    {
+      "label": "Harga",
+      "href": "/harga"
+    },
+    {
+      "label": "Blog",
+      "href": "/blog"
+    },
+    {
+      "label": "Case Studies",
+      "href": "/case-studies"
+    },
+    {
+      "label": "Kontak",
+      "href": "/kontak"
+    }
+  ],
+  "stats": [
+    {
+      "value": 50,
+      "suffix": "+",
+      "label": "Project Berhasil"
+    },
+    {
+      "value": 4.9,
+      "suffix": "/5",
+      "label": "Kepuasan Klien"
+    },
+    {
+      "value": 10,
+      "suffix": "+",
+      "label": "Tim Profesional"
+    }
+  ],
+  "testimonials": [
+    {
+      "name": "Eco Z",
+      "role": "Founder",
+      "company": "Eco Z Sustainability",
+      "quote": "BMS Services membantu kami membangun platform e-commerce dari nol. Hasilnya luar biasa, penjualan online kami naik 3x dalam 6 bulan pertama.",
+      "rating": 5
+    },
+    {
+      "name": "Gefra Dakbeheer",
+      "role": "Operations Manager",
+      "company": "Gefra Dakbeheer",
+      "quote": "Sistem manajemen project yang dibuat BMS sangat membantu efisiensi tim kami. Komunikasi mereka jelas dan delivery selalu tepat waktu.",
+      "rating": 5
+    },
+    {
+      "name": "Klantaanvragen",
+      "role": "CEO",
+      "company": "Klantaanvragen.nl",
+      "quote": "Profesional, cepat, dan hasilnya melebihi ekspektasi. BMS Services benar-benar growth partner, bukan sekadar vendor.",
+      "rating": 5
+    }
+  ],
+  "se": {
+    "software-development": {
+      "hero": "/assets/software-development-hero-new-h9voo1QS.png",
+      "solution": "/assets/software-development-solution-new-D9bsPEuk.png",
+      "process": "/assets/software-development-process-new-CmZgm0jh.png"
+    },
+    "custom-software-solutions": {
+      "hero": "/assets/custom-software-solutions-hero-new-8JN3bHVI.png",
+      "solution": "/assets/custom-software-solutions-solution-new-DfT-GhZt.png",
+      "process": "/assets/custom-software-solutions-process-UdA76D4B.png"
+    },
+    "enterprise-web-applications": {
+      "hero": "/assets/enterprise-web-applications-hero-new-BvHqH7E_.png",
+      "solution": "/assets/enterprise-web-applications-solution-CN-tOJzI.png",
+      "process": "/assets/enterprise-web-applications-process-new-Dpgp-SJ-.png"
+    },
+    "e-commerce-solutions": {
+      "hero": "/assets/e-commerce-solutions-hero-new-D7v7vrUl.png",
+      "solution": "/assets/e-commerce-solutions-solution-new-BPdGzgYI.png",
+      "process": "/assets/e-commerce-solutions-process-new-CsiIMkwF.png"
+    },
+    "ai-automation": {
+      "hero": "/assets/ai-automation-hero-v2-BR-L5iwm.png",
+      "solution": "/assets/ai-automation-solution-new-Dx5WrzNT.png",
+      "process": "/assets/ai-automation-process-new-D_XB5M7N.png"
+    },
+    "it-consulting-strategy": {
+      "hero": "/assets/it-consulting-strategy-hero-new-D9wHAufG.png",
+      "solution": "/assets/it-consulting-strategy-solution-CIASql1w.png",
+      "process": "/assets/it-consulting-strategy-process-v3-237HHMbQ.png"
+    },
+    "website-development": {
+      "hero": "/assets/website-development-hero-new-C64kj1Vr.png",
+      "solution": "/assets/website-development-solution-new-BEXLhgO7.png",
+      "process": "/assets/website-development-process-v2-Cee5X-uE.png"
+    },
+    "seo-digital-marketing": {
+      "hero": "/assets/seo-digital-marketing-hero-new-BvLLx42l.png",
+      "solution": "/assets/seo-digital-marketing-solution-new-v2-PfOGIDoD.png",
+      "process": "/assets/seo-digital-marketing-process-final-BH_MOFiX.png"
+    },
+    "maintenance-support": {
+      "hero": "/assets/maintenance-support-hero-CPr2uH3X.png",
+      "solution": "/assets/maintenance-support-solution-RRIiXtvh.png",
+      "process": "/assets/maintenance-support-process-DVILHv4h.png"
+    },
+    "procurement-management-system": {
+      "hero": "/assets/procurement-management-system-hero-DHRtyXJY.webp",
+      "solution": "/assets/procurement-management-system-solution-CPXR6aTQ.webp",
+      "process": "/assets/procurement-management-system-process-BuZYEhq2.webp"
+    },
+    "erp-online": {
+      "hero": "/assets/erp-online-hero-DR6Pyn0w.webp",
+      "solution": "/assets/erp-online-solution-CODzGM3p.webp",
+      "process": "/assets/erp-online-process-pOx58FQp.webp"
+    },
+    "workflow-management-system": {
+      "hero": "/assets/workflow-management-system-hero-Dn1iXX5T.webp",
+      "solution": "/assets/workflow-management-system-solution-CrA7ZnZO.webp",
+      "process": "/assets/workflow-management-system-process-DYr0l6Id.webp"
+    },
+    "recruitment-management-system": {
+      "hero": "/assets/recruitment-management-system-hero-BqqBONxF.webp",
+      "solution": "/assets/recruitment-management-system-solution-D-vVHmzL.webp",
+      "process": "/assets/recruitment-management-system-process-BHQeTu80.webp"
+    }
+  },
+  "blogPosts": [
+    {
+      "value": "50+",
+      "label": "Project Delivered"
+    },
+    {
+      "value": "4.9★",
+      "label": "Rating Klien"
+    },
+    {
+      "value": "<2 jam",
+      "label": "Response Time"
+    },
+    {
+      "value": "95%",
+      "label": "Client Retention"
+    }
+  ],
+  "servicesId": [
+    {
+      "slug": "software-development",
+      "icon": "Code2",
+      "title": "Dedicated Development Team",
+      "short": "Engineer senior siap join tim Anda untuk percepat roadmap produk dan menutup gap kapasitas.",
+      "description": "Kami menyediakan engineer senior, designer, dan product specialist sebagai perpanjangan tim internal Anda. Anda tetap memegang kendali roadmap dan prioritas, kami menambah kapasitas eksekusi dengan tim yang sudah terbiasa kerja dalam standar produksi.",
+      "benefits": [
+        "Tim siap kerja dalam hitungan minggu, bukan bulan",
+        "Engineer senior dengan pengalaman lintas industri",
+        "Bekerja sesuai workflow dan tooling tim Anda",
+        "Bisa scale up atau down tanpa beban hiring"
+      ],
+      "signs": [
+        "Tim engineer Anda kewalahan dengan permintaan fitur baru",
+        "Roadmap produk tertunda karena kekurangan engineer",
+        "Hiring developer berkualitas memakan waktu berbulan-bulan",
+        "Butuh skill spesifik (mobile, AI, DevOps) untuk project tertentu",
+        "Ingin scale tim cepat tanpa komitmen full-time hire"
+      ],
+      "whyBms": [
+        "Tim engineer senior dengan pengalaman lintas industri",
+        "Code quality first, semua merge melalui code review ketat",
+        "Transparansi penuh: akses GitHub, daily standup, demo mingguan"
+      ],
+      "testimonials": [
+        {
+          "name": "Eco Z",
+          "role": "Founder, Eco Z Sustainability",
+          "quote": "Tim BMS membantu kami launching MVP hanya dalam 7 minggu. Komunikasinya jelas dan code-nya rapi."
+        },
+        {
+          "name": "Klantaanvragen",
+          "role": "CEO, Klantaanvragen.nl",
+          "quote": "Mereka tidak hanya coding, mereka berpikir produk. Banyak ide bagus yang muncul dari tim BMS."
+        }
+      ],
+      "process": [
+        "Diskusi kebutuhan tim & skill profile",
+        "Match engineer dari talent pool kami",
+        "Onboarding ke workflow & tooling Anda",
+        "Sprint mingguan dengan demo & retrospective"
+      ],
+      "useCases": [
+        "Tim startup butuh tambahan engineer untuk percepat roadmap",
+        "Perusahaan in-house butuh skill spesifik (mobile, AI, DevOps)",
+        "Project jangka pendek tanpa beban hiring permanen",
+        "Augmentasi tim untuk delivery besar dengan deadline ketat"
+      ],
+      "techStack": [
+        "React",
+        "Next.js",
+        "Node.js",
+        "TypeScript",
+        "PostgreSQL",
+        "Docker",
+        "AWS"
+      ],
+      "faqs": [
+        {
+          "q": "Berapa cepat tim bisa mulai bekerja?",
+          "a": "Untuk skill umum (frontend, backend, fullstack) tim biasanya siap onboarding dalam 1 sampai 2 minggu. Skill yang lebih spesifik bisa butuh 3 minggu untuk matching yang tepat."
+        },
+        {
+          "q": "Apakah engineer bekerja full-time untuk tim saya?",
+          "a": "Ya, model utama kami dedicated. Engineer fokus 100% di project Anda, ikut daily standup, sprint planning, dan retrospective bersama tim internal."
+        },
+        {
+          "q": "Apa bedanya dengan Custom Software?",
+          "a": "Dedicated Development Team berarti Anda menambah engineer ke tim yang sudah punya roadmap. Custom Software berarti kami yang merancang dan membangun produk dari nol untuk Anda."
+        }
+      ],
+      "relatedSlugs": [
+        "custom-software-solutions",
+        "enterprise-web-applications"
+      ]
+    },
+    {
+      "slug": "custom-software-solutions",
+      "icon": "Cog",
+      "title": "Custom Software",
+      "navLabel": "Custom Software Solutions",
+      "short": "Kami bekerja seperti business partner. Memahami proses bisnis Anda dulu, baru bangun solusinya.",
+      "description": "Setiap bisnis itu unik. Kami merancang software custom yang menyesuaikan proses Anda, bukan sebaliknya. Dari ERP, CRM, hingga sistem manajemen inventaris, kami buat sesuai kebutuhan.",
+      "benefits": [
+        "100% sesuai workflow bisnis Anda",
+        "Integrasi dengan sistem yang sudah ada",
+        "Hak milik penuh atas source code",
+        "Hemat biaya jangka panjang vs SaaS"
+      ],
+      "signs": [
+        "Software off-the-shelf tidak cocok dengan workflow Anda",
+        "Tim Anda harus mengerjakan workaround manual setiap hari",
+        "Data tersebar di Excel, WhatsApp, dan tools terpisah",
+        "Biaya lisensi SaaS terus naik tapi feature-nya tidak terpakai",
+        "Anda butuh sistem yang scalable seiring pertumbuhan bisnis"
+      ],
+      "whyBms": [
+        "Spesialis di sistem custom, bukan template, bukan kompromi",
+        "Hak milik source code 100%, tidak ada vendor lock-in",
+        "Pendekatan iteratif: build → feedback → improve setiap minggu"
+      ],
+      "testimonials": [
+        {
+          "name": "Gefra Dakbeheer",
+          "role": "Operations Manager",
+          "quote": "Sistem manajemen project yang dibuat BMS persis seperti yang kami butuhkan. Tidak ada feature mubazir."
+        },
+        {
+          "name": "Eco Z",
+          "role": "Founder, Eco Z Sustainability",
+          "quote": "Awalnya pakai SaaS mahal yang setengah feature-nya tidak kepakai. Sekarang dengan custom software, biaya bulanan turun 60%."
+        }
+      ],
+      "process": [
+        {
+          "title": "Analisis kebutuhan mendalam",
+          "desc": "Sesi diskusi dan observasi langsung untuk memahami workflow, tools yang dipakai, dan masalah inti tim Anda.",
+          "deliverable": "Discovery report + daftar prioritas masalah."
+        },
+        {
+          "title": "Blueprint solusi & timeline",
+          "desc": "Kami susun arsitektur sistem, scope MVP, milestone, dan estimasi biaya yang transparan sebelum coding dimulai.",
+          "deliverable": "Blueprint dokumen, wireframe utama, timeline & quotation."
+        },
+        {
+          "title": "Iterative development dengan feedback",
+          "desc": "Build per sprint, demo mingguan, dan iterasi cepat sesuai feedback tim Anda agar tidak ada surprise di akhir.",
+          "deliverable": "Build mingguan di staging + ringkasan progress per sprint."
+        },
+        {
+          "title": "Pelatihan tim & go-live",
+          "desc": "Migrasi data, training tim Anda, dan pendampingan saat sistem live untuk memastikan adopsi mulus.",
+          "deliverable": "Sistem live di production, dokumentasi user, dan sesi training tim."
+        }
+      ],
+      "useCases": [
+        "ERP custom untuk manufaktur dengan workflow spesifik",
+        "CRM yang terintegrasi dengan WhatsApp Business",
+        "Sistem inventaris multi-gudang real-time",
+        "Aplikasi HR & payroll sesuai regulasi lokal"
+      ],
+      "techStack": [
+        "Laravel",
+        "React",
+        "PostgreSQL",
+        "Redis",
+        "REST API",
+        "Webhook"
+      ],
+      "faqs": [
+        {
+          "q": "Apa bedanya custom software dengan SaaS siap pakai?",
+          "a": "Custom software dibuat 100% sesuai proses Anda dan source code-nya milik Anda. SaaS lebih cepat tapi Anda harus menyesuaikan diri dengan keterbatasannya dan biaya berlangganan terus-menerus."
+        },
+        {
+          "q": "Bisakah diintegrasikan dengan sistem lama saya?",
+          "a": "Ya. Kami berpengalaman integrasi dengan ERP, accounting (Accurate, Jurnal), POS, e-commerce, dan banyak sistem lain via API atau database direct."
+        },
+        {
+          "q": "Bagaimana dengan biaya maintenance?",
+          "a": "Setelah go-live kami tawarkan paket maintenance bulanan. Karena source code milik Anda, Anda juga bebas pakai tim internal atau vendor lain."
+        }
+      ],
+      "relatedSlugs": [
+        "software-development",
+        "it-consulting-strategy"
+      ]
+    },
+    {
+      "slug": "enterprise-web-applications",
+      "icon": "Building2",
+      "title": "Enterprise Web Applications",
+      "short": "Aplikasi web enterprise yang aman, cepat, dan dapat diandalkan.",
+      "description": "Untuk bisnis yang membutuhkan aplikasi web skala enterprise dengan tingkat keamanan tinggi, performa optimal, dan kemampuan menangani ribuan pengguna secara bersamaan.",
+      "benefits": [
+        "Keamanan tingkat enterprise (SSO, RBAC)",
+        "Performa tinggi dengan load balancing",
+        "Audit log & compliance ready",
+        "SLA hingga 99.9% uptime"
+      ],
+      "signs": [
+        "Aplikasi internal Anda menangani ribuan user concurrent",
+        "Compliance & audit trail jadi requirement wajib",
+        "Butuh SSO dan integrasi dengan Active Directory / Okta",
+        "Downtime adalah masalah serius bagi operasional bisnis",
+        "Data sensitif harus terenkripsi at-rest dan in-transit"
+      ],
+      "whyBms": [
+        "Pengalaman membangun sistem skala enterprise dengan SLA tinggi",
+        "Standar security: OWASP Top 10, encryption, audit logging",
+        "Infrastructure as Code: reproducible, testable, scalable"
+      ],
+      "testimonials": [
+        {
+          "name": "Klantaanvragen",
+          "role": "CEO, Klantaanvragen.nl",
+          "quote": "Sistem yang BMS bangun handle ribuan request per menit tanpa hiccup. Monitoring-nya juga top."
+        },
+        {
+          "name": "Gefra Dakbeheer",
+          "role": "Operations Manager",
+          "quote": "SSO integration dengan Microsoft 365 berjalan mulus. Tim IT kami senang."
+        }
+      ],
+      "process": [
+        "Architecture review & security assessment",
+        "Skalabilitas & infrastructure planning",
+        "Phased rollout dengan monitoring",
+        "24/7 dedicated support"
+      ],
+      "useCases": [
+        "Portal karyawan dengan SSO untuk korporat 1000+ user",
+        "Platform B2B marketplace dengan multi-tenant",
+        "Sistem perbankan internal dengan audit compliance",
+        "Dashboard eksekutif dengan data lintas-departemen"
+      ],
+      "techStack": [
+        "Next.js",
+        "Kubernetes",
+        "PostgreSQL",
+        "Redis",
+        "Elasticsearch",
+        "Keycloak",
+        "Grafana"
+      ],
+      "faqs": [
+        {
+          "q": "Apakah Anda mendukung SSO dan SAML?",
+          "a": "Ya. Kami implementasi SSO via SAML, OAuth 2.0, atau OpenID Connect, kompatibel dengan Azure AD, Google Workspace, Okta, dan provider lain."
+        },
+        {
+          "q": "Bagaimana dengan compliance ISO/SOC?",
+          "a": "Kami merancang sistem dengan audit log lengkap, encryption at rest & in transit, role-based access, dan dokumentasi sesuai kebutuhan compliance Anda."
+        },
+        {
+          "q": "Berapa SLA yang Anda tawarkan?",
+          "a": "Untuk paket enterprise hingga 99.9% uptime dengan dedicated DevOps team dan monitoring 24/7."
+        }
+      ],
+      "relatedSlugs": [
+        "software-development",
+        "it-consulting-strategy"
+      ]
+    },
+    {
+      "slug": "e-commerce-solutions",
+      "icon": "ShoppingCart",
+      "title": "E-Commerce Solutions",
+      "short": "Toko online modern yang mengkonversi pengunjung menjadi pembeli.",
+      "description": "Bangun bisnis online Anda dengan platform e-commerce yang cepat, mobile-first, dan dilengkapi semua fitur yang Anda butuhkan: payment gateway lokal, integrasi marketplace, dan analitik penjualan.",
+      "benefits": [
+        "Integrasi payment gateway Indonesia",
+        "Mobile-first & PWA-ready",
+        "SEO optimized untuk Google Shopping",
+        "Dashboard penjualan real-time"
+      ],
+      "signs": [
+        "Toko marketplace saja tidak cukup, butuh brand sendiri",
+        "Konversi rendah karena UX toko online lambat",
+        "Stok antara website dan marketplace tidak sinkron",
+        "Kesulitan tracking ROI iklan karena analytics berantakan",
+        "Ingin scale dengan loyalty program & customer retention"
+      ],
+      "whyBms": [
+        "Spesialis e-commerce Indonesia yang paham payment & logistik lokal",
+        "Mobile-first design dengan Core Web Vitals dijaga",
+        "Integrasi marketplace, accounting, dan logistik out-of-the-box"
+      ],
+      "testimonials": [
+        {
+          "name": "Eco Z",
+          "role": "Founder, Eco Z Sustainability",
+          "quote": "Penjualan online naik 3x dalam 6 bulan setelah re-launch dengan BMS."
+        },
+        {
+          "name": "Klantaanvragen",
+          "role": "CEO, Klantaanvragen.nl",
+          "quote": "Conversion rate naik dari 1.2% ke 3.4% setelah BMS optimasi flow checkout."
+        }
+      ],
+      "process": [
+        "Riset pasar & competitor analysis",
+        "Desain UX yang konversi tinggi",
+        "Build platform & integrasi",
+        "Launch + marketing kickoff"
+      ],
+      "useCases": [
+        "Toko fashion dengan integrasi Tokopedia & Shopee",
+        "Marketplace multi-vendor dengan komisi otomatis",
+        "Subscription box dengan billing berulang",
+        "D2C brand dengan loyalty program & referral"
+      ],
+      "techStack": [
+        "Next.js",
+        "Shopify",
+        "Midtrans",
+        "Xendit",
+        "Algolia",
+        "Meta Pixel",
+        "GA4"
+      ],
+      "faqs": [
+        {
+          "q": "Payment gateway apa saja yang didukung?",
+          "a": "Midtrans, Xendit, Doku, dan iPaymu. Semua mendukung QRIS, transfer bank, kartu kredit, dan e-wallet (GoPay, OVO, Dana, ShopeePay)."
+        },
+        {
+          "q": "Bisakah saya sinkron stok dengan Tokopedia/Shopee?",
+          "a": "Ya, kami integrasikan via API resmi atau middleware seperti Jubelio sehingga stok dan pesanan tersinkronisasi otomatis."
+        },
+        {
+          "q": "Bagaimana dengan SEO untuk produk?",
+          "a": "Kami implementasi schema markup Product, sitemap dinamis, optimasi Core Web Vitals, dan integrasi Google Merchant Center untuk Google Shopping."
+        }
+      ],
+      "relatedSlugs": [
+        "website-development",
+        "seo-digital-marketing"
+      ]
+    },
+    {
+      "slug": "ai-automation",
+      "icon": "Sparkles",
+      "title": "AI & Automation",
+      "short": "Otomasi cerdas yang menghemat waktu dan meningkatkan produktivitas.",
+      "description": "Gunakan kekuatan AI dan automation untuk mempercepat operasi bisnis Anda: chatbot pintar, document automation, predictive analytics, hingga workflow automation end-to-end.",
+      "benefits": [
+        "Hemat ribuan jam kerja manual",
+        "Akurasi tinggi & error rate rendah",
+        "ROI terukur dalam hitungan bulan",
+        "Skala otomatis sesuai kebutuhan"
+      ],
+      "signs": [
+        "Tim Anda menghabiskan jam-jam untuk tugas repetitif",
+        "Customer service kewalahan menjawab pertanyaan yang sama",
+        "Data dari berbagai tools harus digabung manual ke Excel",
+        "Banyak dokumen masuk yang harus diketik ulang ke sistem",
+        "Anda ingin pakai AI tapi bingung mulai dari mana"
+      ],
+      "whyBms": [
+        "Pendekatan ROI-first: hitung benefit dulu, baru build",
+        "Pengalaman dengan GPT, Claude, Gemini, dan model open-source",
+        "Bisa hybrid: API enterprise untuk skala, on-prem untuk data sensitif"
+      ],
+      "testimonials": [
+        {
+          "name": "Gefra Dakbeheer",
+          "role": "Operations Manager",
+          "quote": "Chatbot WA yang BMS bangun handle 70% pertanyaan customer secara otomatis."
+        },
+        {
+          "name": "Eco Z",
+          "role": "Founder, Eco Z Sustainability",
+          "quote": "Document automation hemat 30 jam kerja per minggu untuk tim admin kami."
+        }
+      ],
+      "process": [
+        "Identifikasi proses untuk diotomasi",
+        "Pilot project dengan ROI calculation",
+        "Integration & deployment",
+        "Monitoring & optimisasi berkelanjutan"
+      ],
+      "useCases": [
+        "Chatbot WhatsApp customer service 24/7 dengan AI",
+        "Otomasi ekstraksi data dari invoice & dokumen PDF",
+        "Predictive analytics untuk forecasting penjualan",
+        "Workflow automation antar tools (CRM, email, Slack)"
+      ],
+      "techStack": [
+        "OpenAI",
+        "Anthropic",
+        "n8n",
+        "Make",
+        "Zapier",
+        "LangChain",
+        "Pinecone"
+      ],
+      "faqs": [
+        {
+          "q": "AI model apa yang Anda gunakan?",
+          "a": "Kami pilih sesuai use case. GPT-5 atau Claude untuk reasoning kompleks, Gemini untuk multimodal, dan model open-source bila butuh on-premise."
+        },
+        {
+          "q": "Apakah data perusahaan saya aman?",
+          "a": "Ya. Kami pakai API enterprise dengan zero-retention policy, atau deploy model on-premise/private cloud untuk data sensitif."
+        },
+        {
+          "q": "Berapa cepat ROI dari automation?",
+          "a": "Untuk proses repetitif tinggi, ROI biasanya tercapai dalam 3-6 bulan. Kami selalu hitung ROI dulu sebelum pilot project."
+        }
+      ],
+      "relatedSlugs": [
+        "custom-software-solutions",
+        "it-consulting-strategy"
+      ]
+    },
+    {
+      "slug": "it-consulting-strategy",
+      "icon": "Lightbulb",
+      "title": "IT Consulting & Strategy",
+      "short": "Strategi IT yang menyelaraskan teknologi dengan tujuan bisnis.",
+      "description": "Konsultasi teknologi untuk membantu Anda mengambil keputusan IT yang tepat: dari pemilihan stack, digital transformation roadmap, hingga audit keamanan dan optimisasi infrastruktur.",
+      "benefits": [
+        "Roadmap digital transformation yang jelas",
+        "Hindari kesalahan investasi IT mahal",
+        "Tim independen tanpa vendor bias",
+        "Pendampingan eksekusi end-to-end"
+      ],
+      "signs": [
+        "Bingung memilih antara membangun sendiri vs beli SaaS",
+        "Investasi IT besar tapi belum jelas roadmap-nya",
+        "Sistem warisan lama menghambat inovasi",
+        "Butuh second opinion sebelum tanda tangan vendor besar",
+        "Tim IT internal butuh mentoring & arahan strategis"
+      ],
+      "whyBms": [
+        "Vendor-agnostic, rekomendasi berbasis kebutuhan dan bukan komisi",
+        "Tim dengan latar enterprise architecture & operasional bisnis",
+        "Output konkret: roadmap, RFP, action plan, bukan slide kosong"
+      ],
+      "testimonials": [
+        {
+          "name": "Klantaanvragen",
+          "role": "CEO, Klantaanvragen.nl",
+          "quote": "Roadmap dari BMS menyelamatkan kami dari investasi salah arah senilai ratusan juta."
+        },
+        {
+          "name": "Gefra Dakbeheer",
+          "role": "Operations Manager",
+          "quote": "Vendor evaluation yang BMS lakukan sangat objektif. Kami merasa terbantu sekali."
+        }
+      ],
+      "process": [
+        "Assessment kondisi IT saat ini",
+        "Workshop strategi bersama stakeholder",
+        "Roadmap & action plan terukur",
+        "Pendampingan implementasi"
+      ],
+      "useCases": [
+        "Digital transformation roadmap untuk perusahaan tradisional",
+        "Audit keamanan & penetration testing",
+        "Vendor selection & RFP evaluation",
+        "Cloud migration strategy (on-premise → AWS/GCP)"
+      ],
+      "techStack": [
+        "AWS",
+        "GCP",
+        "Azure",
+        "Terraform",
+        "OWASP",
+        "TOGAF",
+        "ITIL"
+      ],
+      "faqs": [
+        {
+          "q": "Apakah konsultasi bisa hanya untuk advisory tanpa implementasi?",
+          "a": "Tentu. Banyak klien pakai kami untuk second opinion, vendor evaluation, atau roadmap saja. Implementasi tetap dijalankan tim internal atau vendor lain."
+        },
+        {
+          "q": "Berapa lama engagement konsultasi?",
+          "a": "Mulai dari workshop 1 minggu untuk audit cepat, hingga retainer bulanan untuk pendampingan transformasi 6-12 bulan."
+        },
+        {
+          "q": "Apakah Anda vendor-agnostic?",
+          "a": "Ya, kami tidak terikat dengan vendor manapun. Rekomendasi kami berbasis kebutuhan dan budget Anda, bukan komisi vendor."
+        }
+      ],
+      "relatedSlugs": [
+        "enterprise-web-applications",
+        "ai-automation"
+      ]
+    },
+    {
+      "slug": "website-development",
+      "icon": "Globe",
+      "title": "Website Development",
+      "short": "Website company profile, landing page, dan lead-gen yang cepat, mobile-first, dan siap ditemukan di Google.",
+      "description": "Kami bangun website untuk SMB yang fokus pada konversi: company profile, landing page kampanye, microsite produk, hingga portal konten. Mobile-first, performa kencang, SEO-ready, dan dilengkapi CMS yang mudah dipakai tim non-teknis Anda.",
+      "benefits": [
+        "Mobile-first design yang rapi di semua device",
+        "SEO-ready: schema markup, sitemap, meta tags otomatis",
+        "Loading cepat dengan Core Web Vitals dijaga",
+        "CMS user-friendly untuk update konten mandiri"
+      ],
+      "signs": [
+        "Website lama lambat dan tidak nyaman dibuka di HP",
+        "Susah update konten karena harus minta ke developer",
+        "Tidak muncul di halaman pertama Google untuk kata kunci penting",
+        "Desain ketinggalan jaman, kalah profesional vs kompetitor",
+        "Website ada tapi belum pernah generate leads serius"
+      ],
+      "whyBms": [
+        "Desain difokuskan pada konversi, bukan sekadar cantik",
+        "Core Web Vitals dijaga: LCP, INP, CLS semua di zona hijau",
+        "CMS yang dipilih sesuai kemampuan tim Anda, bukan paksaan"
+      ],
+      "testimonials": [
+        {
+          "name": "Eco Z",
+          "role": "Founder, Eco Z Sustainability",
+          "quote": "Website baru loading-nya jauh lebih cepat dan bounce rate turun drastis. Tim marketing kami juga senang karena bisa update sendiri."
+        },
+        {
+          "name": "Gefra Dakbeheer",
+          "role": "Operations Manager",
+          "quote": "Lead form di landing page yang BMS bangun langsung jalan dari hari pertama. Konversi naik 2x dibanding website lama kami."
+        }
+      ],
+      "process": [
+        "Brief, riset audiens, dan wireframe",
+        "Desain visual sesuai brand identity",
+        "Build, integrasi CMS, dan QA lintas device",
+        "Launch + handover dan training tim"
+      ],
+      "useCases": [
+        "Company profile profesional untuk perusahaan SMB",
+        "Landing page kampanye marketing dengan A/B testing",
+        "Portal berita atau blog dengan kategori dan author",
+        "Microsite produk atau event dengan timeline pendek"
+      ],
+      "techStack": [
+        "Next.js",
+        "Astro",
+        "WordPress",
+        "Sanity",
+        "Tailwind",
+        "Vercel",
+        "GA4"
+      ],
+      "faqs": [
+        {
+          "q": "Berapa lama buat website company profile?",
+          "a": "Biasanya 3-6 minggu dari brief sampai launch, tergantung jumlah halaman dan kompleksitas desain. Landing page tunggal bisa lebih cepat, sekitar 1-2 minggu."
+        },
+        {
+          "q": "Bisa update konten sendiri tanpa developer?",
+          "a": "Ya. Kami integrasikan CMS (Sanity, WordPress, atau Strapi) sehingga tim marketing Anda bisa edit teks, gambar, dan menambah halaman tanpa sentuh kode."
+        },
+        {
+          "q": "Apa bedanya dengan Custom Software atau Enterprise Web App?",
+          "a": "Website Development fokus pada presence online, marketing, dan konten. Custom Software dibuat untuk workflow internal bisnis. Enterprise Web App untuk aplikasi skala besar dengan SSO dan compliance."
+        }
+      ],
+      "relatedSlugs": [
+        "seo-digital-marketing",
+        "e-commerce-solutions"
+      ]
+    },
+    {
+      "slug": "seo-digital-marketing",
+      "icon": "Search",
+      "title": "SEO & Digital Marketing",
+      "short": "Naikkan ranking di Google dan tarik traffic berkualitas dengan SEO teknis, konten, dan iklan yang terukur.",
+      "description": "Website bagus tanpa traffic sama saja. Kami bantu Anda muncul di hasil pencarian dengan technical SEO, on-page SEO, content strategy, dan paid ads yang ROI-nya bisa diukur. Cocok dipasangkan dengan website atau toko online Anda.",
+      "benefits": [
+        "Naik ranking di Google untuk kata kunci yang relevan",
+        "Traffic organik berkualitas yang konversi",
+        "Iklan berbayar dengan ROAS yang dipantau ketat",
+        "Laporan transparan setiap bulan"
+      ],
+      "signs": [
+        "Website ada tapi tidak muncul di halaman pertama Google",
+        "Trafik website datar atau menurun beberapa bulan terakhir",
+        "Sudah pasang Google Ads tapi tidak tahu ROAS-nya berapa",
+        "Kompetitor terus muncul di atas Anda di hasil pencarian",
+        "Konten dibuat rutin tapi tidak menghasilkan leads"
+      ],
+      "whyBms": [
+        "Pendekatan technical-first: fix struktur dulu sebelum konten",
+        "Reporting transparan dengan dashboard real-time",
+        "Tim yang paham SEO Indonesia dan Bahasa konteks lokal"
+      ],
+      "testimonials": [
+        {
+          "name": "Klantaanvragen",
+          "role": "CEO, Klantaanvragen.nl",
+          "quote": "Dalam 4 bulan trafik organik kami naik 180%. Kata kunci utama yang dulu di halaman 3 sekarang di top 5."
+        },
+        {
+          "name": "Eco Z",
+          "role": "Founder, Eco Z Sustainability",
+          "quote": "ROAS Google Ads kami naik dari 2.1 ke 4.8 setelah BMS restruktur kampanye dan landing page."
+        }
+      ],
+      "process": [
+        "Audit teknis SEO & competitor analysis",
+        "Strategi keyword & content roadmap",
+        "Eksekusi: optimasi on-page, link building, ads",
+        "Reporting bulanan & iterasi"
+      ],
+      "useCases": [
+        "SMB yang ingin lead generation organik dari Google",
+        "E-commerce yang butuh Google Shopping & SEO produk",
+        "Brand baru yang perlu visibilitas cepat via paid ads",
+        "Perusahaan B2B yang butuh konten thought leadership"
+      ],
+      "techStack": [
+        "Google Search Console",
+        "GA4",
+        "Ahrefs",
+        "Semrush",
+        "Google Ads",
+        "Meta Ads",
+        "Tag Manager"
+      ],
+      "faqs": [
+        {
+          "q": "Berapa lama sampai SEO terlihat hasilnya?",
+          "a": "Untuk kata kunci kompetitif biasanya 3-6 bulan untuk mulai naik. Quick wins dari technical fix bisa terlihat dalam beberapa minggu pertama."
+        },
+        {
+          "q": "Apakah kami bisa pakai SEO saja tanpa iklan?",
+          "a": "Bisa. Banyak klien kami mulai dari SEO organik. Iklan kami sarankan kalau Anda butuh hasil cepat atau punya kampanye dengan deadline ketat."
+        },
+        {
+          "q": "Bagaimana saya tahu hasilnya nyata, bukan sekadar laporan?",
+          "a": "Kami berikan akses langsung ke Google Search Console, GA4, dan dashboard ads Anda. Semua angka bisa Anda verifikasi sendiri kapan saja."
+        }
+      ],
+      "relatedSlugs": [
+        "website-development",
+        "e-commerce-solutions"
+      ]
+    },
+    {
+      "slug": "maintenance-support",
+      "icon": "LifeBuoy",
+      "title": "Maintenance & Support Retainer",
+      "short": "Paket retainer bulanan untuk bug fix, security patch, monitoring uptime, dan minor updates website atau aplikasi Anda.",
+      "description": "Setelah website atau aplikasi launch, pekerjaan belum selesai. Kami sediakan retainer bulanan untuk menjaga sistem Anda tetap aman, cepat, dan up-to-date — dengan SLA yang jelas dan response time yang terukur.",
+      "benefits": [
+        "SLA jelas dengan response time terukur",
+        "Security patch & dependency update rutin",
+        "Monitoring uptime 24/7 dengan alert otomatis",
+        "Jam kerja tersisa dapat dipakai untuk minor improvements"
+      ],
+      "signs": [
+        "Website pernah down dan baru ketahuan setelah pelanggan komplain",
+        "Sudah lama tidak ada security update di sistem Anda",
+        "Setiap kali butuh perubahan kecil harus cari freelancer baru",
+        "Tidak ada yang memantau performa & error log secara rutin",
+        "Backup terakhir entah kapan terakhir di-test restore-nya"
+      ],
+      "whyBms": [
+        "SLA tertulis dengan response & resolution time yang jelas",
+        "Tim yang sama dari project asli tetap pegang sistem Anda",
+        "Laporan bulanan: uptime, incident, perubahan, dan pemakaian jam"
+      ],
+      "testimonials": [
+        {
+          "name": "Gefra Dakbeheer",
+          "role": "Operations Manager",
+          "quote": "Tim BMS responsif. Pernah ada bug critical jam 11 malam, jam 12 sudah ada hotfix. Tenang sekali."
+        },
+        {
+          "name": "Klantaanvragen",
+          "role": "CEO, Klantaanvragen.nl",
+          "quote": "Sudah 2 tahun pakai retainer BMS. Uptime 99.9%, security patch selalu up-to-date, dan kami tidak pernah pusing soal teknis lagi."
+        }
+      ],
+      "process": [
+        "Onboarding & audit kondisi sistem saat ini",
+        "Setup monitoring, backup, & alert",
+        "Eksekusi rutin: patch, fix, minor updates",
+        "Laporan bulanan & quarterly review"
+      ],
+      "useCases": [
+        "Website bisnis yang butuh uptime tinggi & update rutin",
+        "Aplikasi internal yang sudah live dan butuh perawatan jangka panjang",
+        "E-commerce dengan promo musiman yang butuh stand-by support",
+        "Startup yang ingin fokus growth dan outsource ops teknis"
+      ],
+      "techStack": [
+        "UptimeRobot",
+        "Sentry",
+        "GitHub Actions",
+        "Cloudflare",
+        "AWS Backup",
+        "Slack",
+        "PagerDuty"
+      ],
+      "faqs": [
+        {
+          "q": "Berapa jam yang termasuk dalam retainer bulanan?",
+          "a": "Paket dimulai dari 10 jam/bulan untuk maintenance ringan, hingga 40+ jam/bulan untuk sistem aktif. Jam tidak terpakai bisa di-roll over hingga 1 bulan."
+        },
+        {
+          "q": "Apakah retainer ini hanya untuk project yang BMS bangun?",
+          "a": "Tidak. Kami juga ambil retainer untuk sistem yang dibangun pihak lain, dengan onboarding singkat untuk audit code base dan infrastruktur dulu."
+        },
+        {
+          "q": "Bagaimana kalau ada incident di luar jam kerja?",
+          "a": "Untuk paket dengan 24/7 SLA, kami sediakan on-call rotation dengan response time maksimal 30 menit untuk incident critical."
+        }
+      ],
+      "relatedSlugs": [
+        "software-development",
+        "enterprise-web-applications"
+      ]
+    },
+    {
+      "slug": "procurement-management-system",
+      "icon": "ClipboardCheck",
+      "title": "Procurement Management System",
+      "navLabel": "Procurement Management",
+      "short": "Jasa pembuatan procurement management system custom. Dari permintaan pembelian sampai pembayaran vendor, semua tercatat, disetujui, dan terkontrol dalam satu sistem.",
+      "description": "Kami membangun sistem pengadaan yang mengikuti alur approval dan kebijakan pembelian perusahaan Anda, bukan template SaaS. Purchase request, RFQ, perbandingan penawaran vendor, purchase order, penerimaan barang, hingga pencocokan invoice berjalan di satu platform, lengkap dengan jejak audit dan kontrol anggaran per departemen.",
+      "benefits": [
+        "Approval berjenjang sesuai nilai, kategori, dan departemen",
+        "Kontrol anggaran sebelum PO terbit, bukan setelah uang keluar",
+        "Perbandingan penawaran vendor yang objektif dan terdokumentasi",
+        "Jejak audit lengkap untuk setiap permintaan, perubahan, dan persetujuan"
+      ],
+      "signs": [
+        "Permintaan pembelian masih lewat WhatsApp, email, atau kertas",
+        "Approval tertahan berhari-hari karena atasan sedang di luar kantor",
+        "Anggaran departemen baru ketahuan jebol setelah akhir bulan",
+        "Harga vendor untuk barang yang sama berbeda-beda tanpa alasan jelas",
+        "Tim finance kesulitan mencocokkan PO, surat jalan, dan invoice"
+      ],
+      "whyBms": [
+        "Discovery dulu: kami petakan alur pengadaan dan matriks approval Anda sebelum menulis kode",
+        "Source code 100% milik Anda, tanpa biaya lisensi per user",
+        "Integrasi dengan sistem akuntansi dan inventaris yang sudah Anda pakai"
+      ],
+      "testimonials": [],
+      "process": [
+        {
+          "title": "Pemetaan alur pengadaan",
+          "desc": "Kami petakan alur dari permintaan sampai pembayaran, matriks approval, kategori barang dan jasa, serta titik di mana proses sering tertahan.",
+          "deliverable": "Peta alur pengadaan, matriks approval, dan daftar prioritas masalah."
+        },
+        {
+          "title": "Blueprint sistem dan scope MVP",
+          "desc": "Kami tentukan modul yang dibangun pertama, integrasi yang dibutuhkan, serta timeline dan biaya yang transparan sebelum development dimulai.",
+          "deliverable": "Blueprint, wireframe utama, timeline, dan quotation."
+        },
+        {
+          "title": "Development per sprint dengan demo mingguan",
+          "desc": "Sistem dibangun bertahap, sehingga tim purchasing dan finance bisa mencoba dan memberi masukan sejak awal.",
+          "deliverable": "Build di staging dan ringkasan progress per sprint."
+        },
+        {
+          "title": "Migrasi data, training, dan go-live",
+          "desc": "Kami impor data vendor dan item, melatih pengguna per peran, dan mendampingi tim saat sistem mulai dipakai.",
+          "deliverable": "Sistem live, dokumentasi pengguna, dan sesi training per peran."
+        }
+      ],
+      "useCases": [
+        "Manufaktur dengan pembelian bahan baku rutin dari banyak vendor",
+        "Perusahaan multi-cabang yang ingin pengadaan terpusat dengan approval lokal",
+        "Kontraktor dengan anggaran pembelian per proyek",
+        "Distributor yang butuh PO tersinkron dengan stok gudang"
+      ],
+      "techStack": [
+        "Laravel",
+        "React",
+        "PostgreSQL",
+        "Redis",
+        "REST API",
+        "Webhook"
+      ],
+      "faqs": [
+        {
+          "q": "Apa itu procurement management system?",
+          "a": "Procurement management system adalah software untuk mengelola proses pengadaan barang dan jasa, mulai dari purchase request, approval, pemilihan vendor, purchase order, penerimaan barang, sampai pencocokan invoice, dalam satu alur yang tercatat."
+        },
+        {
+          "q": "Apa bedanya dengan software procurement SaaS?",
+          "a": "SaaS lebih cepat dipakai, tetapi alur approval dan kebijakan pembelian Anda harus menyesuaikan fitur yang tersedia, dan biaya lisensi dihitung per user setiap bulan. Sistem custom mengikuti proses Anda, source code menjadi milik Anda, dan tidak ada biaya lisensi per user."
+        },
+        {
+          "q": "Bisakah diintegrasikan dengan sistem akuntansi atau ERP yang sudah ada?",
+          "a": "Bisa. Kami mengintegrasikan lewat API atau koneksi database, misalnya dengan Accurate, Jurnal, sistem inventaris, atau ERP yang sudah berjalan. Detail integrasi kami pastikan saat discovery."
+        },
+        {
+          "q": "Apakah vendor bisa mengakses sistem untuk mengirim penawaran?",
+          "a": "Bisa, jika dibutuhkan. Portal vendor dapat dibuat agar vendor mengirim penawaran, mengonfirmasi PO, dan mengunggah invoice sendiri, sehingga tim purchasing tidak perlu merekap dari email."
+        },
+        {
+          "q": "Berapa lama pembuatan procurement management system?",
+          "a": "Tergantung jumlah modul, kerumitan alur approval, dan integrasi. Setelah discovery kami berikan timeline dan estimasi biaya tertulis sebelum development dimulai."
+        },
+        {
+          "q": "Berapa biaya pembuatannya?",
+          "a": "Biaya ditentukan oleh scope, bukan paket tetap. Anda bisa melihat gambaran awal lewat kalkulator di halaman Harga, lalu kami susun quotation tertulis setelah sesi discovery."
+        }
+      ],
+      "relatedSlugs": [
+        "erp-online",
+        "workflow-management-system"
+      ],
+      "caseStudySlugs": [
+        "iso-daksysteem-roofing-business-management-platform"
+      ],
+      "supportingPostSlugs": [
+        "procurement-management-system-solusi-digital-pengadaan"
+      ]
+    },
+    {
+      "slug": "erp-online",
+      "icon": "Cloud",
+      "title": "Software ERP Online",
+      "navLabel": "ERP Online",
+      "short": "ERP online yang dibangun sesuai proses bisnis Anda. Keuangan, stok, penjualan, dan pembelian tersinkron real-time dan bisa diakses dari kantor, gudang, atau cabang mana pun.",
+      "description": "Kami membangun ERP berbasis cloud yang menyatukan modul yang benar-benar Anda butuhkan dalam satu database. Tidak ada modul mubazir, tidak ada biaya lisensi per user, dan sistem bisa di-hosting di akun cloud milik perusahaan Anda atau dikelola oleh tim kami. Cocok untuk bisnis yang sudah tumbuh melampaui spreadsheet atau ERP SaaS yang kaku.",
+      "benefits": [
+        "Akses real-time dari browser dan HP, di mana pun tim berada",
+        "Satu database untuk keuangan, stok, penjualan, dan pembelian",
+        "Hak akses per peran, cabang, dan modul",
+        "Tanpa biaya lisensi per user, source code milik Anda"
+      ],
+      "signs": [
+        "Laporan stok dan penjualan antar cabang baru bisa direkap akhir bulan",
+        "Tim harus membuka beberapa aplikasi berbeda untuk satu transaksi",
+        "ERP lama hanya bisa diakses dari komputer kantor",
+        "Biaya lisensi ERP SaaS naik setiap kali tim bertambah",
+        "Fitur ERP siap pakai tidak cocok dengan cara kerja bisnis Anda"
+      ],
+      "whyBms": [
+        "Kami mulai dari proses bisnis Anda, lalu memilih modul yang benar-benar dibutuhkan",
+        "Rilis bertahap per modul, sehingga tim bisa mulai memakai sistem lebih cepat",
+        "Pendampingan setelah go-live lewat paket maintenance dan support"
+      ],
+      "testimonials": [],
+      "process": [
+        {
+          "title": "Analisis proses dan modul",
+          "desc": "Kami petakan alur keuangan, stok, penjualan, dan pembelian, lalu menentukan modul inti dan modul yang bisa menyusul.",
+          "deliverable": "Peta proses bisnis dan daftar prioritas modul."
+        },
+        {
+          "title": "Arsitektur dan rencana migrasi",
+          "desc": "Kami rancang struktur data, hak akses, opsi hosting, serta cara memindahkan data dari spreadsheet atau sistem lama.",
+          "deliverable": "Blueprint sistem, rencana migrasi data, timeline, dan quotation."
+        },
+        {
+          "title": "Development per modul",
+          "desc": "Modul dibangun dan dirilis bertahap dengan demo mingguan, sehingga masukan tim langsung masuk ke iterasi berikutnya.",
+          "deliverable": "Modul siap uji di staging dan ringkasan progress per sprint."
+        },
+        {
+          "title": "Migrasi data, training, dan go-live",
+          "desc": "Data lama dipindahkan dan divalidasi, pengguna dilatih per peran, dan kami mendampingi masa transisi.",
+          "deliverable": "Sistem live di cloud, dokumentasi pengguna, dan sesi training."
+        }
+      ],
+      "useCases": [
+        "Distributor multi-gudang yang butuh stok real-time antar lokasi",
+        "Retail dan F&B multi-cabang dengan laporan penjualan terpusat",
+        "Manufaktur yang menghubungkan produksi, stok bahan, dan pembelian",
+        "Perusahaan jasa yang menyatukan proyek, invoice, dan keuangan"
+      ],
+      "techStack": [
+        "React",
+        "Laravel",
+        "PostgreSQL",
+        "Redis",
+        "REST API",
+        "AWS"
+      ],
+      "faqs": [
+        {
+          "q": "Apa bedanya ERP online dengan ERP on-premise?",
+          "a": "ERP online berjalan di cloud dan diakses lewat browser, sehingga tim di kantor, gudang, dan cabang memakai data yang sama secara real-time. ERP on-premise diinstal di server kantor dan umumnya lebih sulit diakses dari luar."
+        },
+        {
+          "q": "Kenapa memilih ERP online custom dibanding ERP SaaS?",
+          "a": "ERP SaaS cocok bila proses Anda standar. Bila alur bisnis Anda spesifik, tim terus bertambah, atau Anda ingin memiliki source code dan data sepenuhnya, ERP custom biasanya lebih hemat dalam jangka panjang dan tidak memaksa tim mengubah cara kerja."
+        },
+        {
+          "q": "Apakah data kami aman di cloud?",
+          "a": "Kami menerapkan hak akses per peran, enkripsi koneksi, backup rutin, dan audit log. Anda juga bisa memilih hosting di akun cloud milik perusahaan sendiri."
+        },
+        {
+          "q": "Bisakah dimulai dari satu modul dulu?",
+          "a": "Bisa, dan itu yang kami sarankan. Mulai dari modul yang paling mendesak, misalnya stok atau penjualan, lalu tambahkan modul berikutnya setelah tim terbiasa."
+        },
+        {
+          "q": "Bisakah terhubung dengan aplikasi yang sudah kami pakai?",
+          "a": "Bisa. ERP dapat diintegrasikan dengan software akuntansi, marketplace, POS, atau payment gateway melalui API."
+        },
+        {
+          "q": "Berapa biaya pembuatan ERP online?",
+          "a": "Biaya tergantung jumlah modul, pengguna, dan integrasi. Gunakan kalkulator di halaman Harga untuk gambaran awal, lalu kami susun quotation tertulis setelah discovery."
+        }
+      ],
+      "relatedSlugs": [
+        "jasa-pembuatan-erp-system",
+        "procurement-management-system"
+      ],
+      "caseStudySlugs": [
+        "iso-daksysteem-roofing-business-management-platform",
+        "flexavi-sistem-manajemen-operasional-untuk-layanan-perbaikan-atap",
+        "case-study-pos-lila-store"
+      ],
+      "supportingPostSlugs": [
+        "apa-itu-erp-online-panduan-lengkap-untuk-bisnis-di-era-digital",
+        "cloud-erp-system-untuk-transformasi-bisnis-modern",
+        "erp-berbasis-cloud-solusi-modern-untuk-bisnis-bms-services"
+      ]
+    },
+    {
+      "slug": "workflow-management-system",
+      "icon": "Workflow",
+      "title": "Workflow Management System",
+      "navLabel": "Workflow Management",
+      "short": "Jasa pembuatan workflow management system custom. Approval, formulir internal, dan tugas antar divisi berjalan sesuai aturan perusahaan, dengan status yang bisa dipantau kapan saja.",
+      "description": "Kami ubah proses yang selama ini berjalan lewat chat, email, dan kertas menjadi alur digital yang terstruktur. Setiap permintaan punya pemilik, batas waktu, dan riwayat yang jelas. Aturan approval, eskalasi, dan notifikasi disesuaikan dengan struktur organisasi Anda, sehingga pekerjaan tidak lagi tertahan di satu meja.",
+      "benefits": [
+        "Alur approval dan eskalasi sesuai struktur organisasi Anda",
+        "Status setiap permintaan terlihat real-time, tanpa perlu bertanya",
+        "Notifikasi otomatis lewat email atau WhatsApp saat ada tugas baru",
+        "Jejak audit lengkap untuk setiap keputusan dan perubahan"
+      ],
+      "signs": [
+        "Permintaan internal tercecer di grup WhatsApp dan email",
+        "Tidak ada yang tahu sebuah pengajuan sedang tertahan di siapa",
+        "Formulir kertas harus ditandatangani dan diantar dari meja ke meja",
+        "Proses yang sama dikerjakan berbeda oleh setiap divisi",
+        "Audit internal sulit karena riwayat keputusan tidak terdokumentasi"
+      ],
+      "whyBms": [
+        "Kami petakan proses nyata di lapangan, bukan hanya SOP di atas kertas",
+        "Aturan alur bisa diubah seiring organisasi berkembang",
+        "Bisa dihubungkan dengan ERP, HRIS, atau sistem lain yang sudah berjalan"
+      ],
+      "testimonials": [],
+      "process": [
+        {
+          "title": "Pemetaan proses",
+          "desc": "Kami wawancarai pemilik proses dan pengguna, lalu memetakan langkah, peran, aturan approval, dan titik macet.",
+          "deliverable": "Diagram alur proses dan daftar prioritas digitalisasi."
+        },
+        {
+          "title": "Desain alur dan aturan",
+          "desc": "Kami rancang formulir, status, aturan eskalasi, batas waktu, dan hak akses, lalu menyusun scope, timeline, dan biaya.",
+          "deliverable": "Blueprint alur, wireframe formulir, timeline, dan quotation."
+        },
+        {
+          "title": "Development dan uji coba",
+          "desc": "Alur dibangun bertahap dan diuji bersama pengguna di staging, dengan demo mingguan.",
+          "deliverable": "Alur siap uji dan ringkasan progress per sprint."
+        },
+        {
+          "title": "Rollout dan training",
+          "desc": "Sistem diluncurkan per divisi atau per proses, pengguna dilatih, dan kami pantau adopsi di minggu-minggu awal.",
+          "deliverable": "Sistem live, panduan pengguna, dan sesi training."
+        }
+      ],
+      "useCases": [
+        "Approval pengeluaran, reimbursement, dan permintaan dana",
+        "Pengajuan cuti, lembur, dan perubahan data karyawan",
+        "Persetujuan kontrak dan dokumen legal lintas divisi",
+        "Tiket permintaan internal ke tim IT, GA, atau maintenance"
+      ],
+      "techStack": [
+        "React",
+        "Laravel",
+        "PostgreSQL",
+        "Redis",
+        "REST API",
+        "Webhook"
+      ],
+      "faqs": [
+        {
+          "q": "Apa itu workflow management system?",
+          "a": "Workflow management system adalah software yang mengatur alur pekerjaan dan persetujuan secara digital: siapa mengerjakan apa, dalam urutan apa, dengan batas waktu dan aturan yang sudah ditentukan."
+        },
+        {
+          "q": "Apa bedanya dengan layanan AI & Automation?",
+          "a": "AI & Automation fokus mengotomatiskan tugas berulang dan menghubungkan tools. Workflow management system fokus mengatur alur kerja dan approval antar orang dan divisi. Keduanya bisa digabung dalam satu sistem."
+        },
+        {
+          "q": "Apakah alurnya bisa diubah sendiri setelah sistem jadi?",
+          "a": "Sistem dapat kami rancang agar admin bisa mengubah pengaturan tertentu, seperti approver, batas nominal, atau batas waktu, tanpa developer. Perubahan struktur alur yang lebih besar dikerjakan lewat paket maintenance."
+        },
+        {
+          "q": "Bisakah dipakai dari HP?",
+          "a": "Bisa. Sistem berbasis web dan responsif, sehingga approver dapat menyetujui pengajuan dari HP di mana pun."
+        },
+        {
+          "q": "Bisakah terhubung dengan ERP atau HRIS kami?",
+          "a": "Bisa, melalui API atau integrasi database. Kebutuhan integrasi kami petakan saat discovery."
+        },
+        {
+          "q": "Berapa biaya pembuatannya?",
+          "a": "Biaya ditentukan oleh jumlah alur, formulir, dan integrasi. Gunakan kalkulator di halaman Harga untuk gambaran awal, lalu kami susun quotation tertulis setelah discovery."
+        }
+      ],
+      "relatedSlugs": [
+        "ai-automation",
+        "procurement-management-system"
+      ],
+      "caseStudySlugs": [
+        "rechtshulp-zekerheid-otomatisasi-manajemen-kasus-hukum",
+        "iso-daksysteem-roofing-business-management-platform",
+        "klantaanvragen-portal-marketplace-prospek-otomatis"
+      ],
+      "supportingPostSlugs": [
+        "business-workflow-management-untuk-otomatisasi-proses-bisnis",
+        "jasa-paperless-workflow-untuk-efisiensi-operasional-perusahaan"
+      ]
+    },
+    {
+      "slug": "recruitment-management-system",
+      "icon": "UserCheck",
+      "title": "Recruitment Management System",
+      "navLabel": "Recruitment Management",
+      "short": "Jasa pembuatan recruitment management system custom. Dari permintaan headcount sampai kandidat diterima, seluruh proses rekrutmen terpantau dalam satu pipeline.",
+      "description": "Kami bangun sistem rekrutmen yang mengikuti tahapan seleksi perusahaan Anda. Lowongan, lamaran masuk, screening, jadwal interview, penilaian, hingga offering tercatat di satu tempat, sehingga tim HR dan user bekerja dengan data yang sama dan keputusan hiring lebih cepat serta terdokumentasi.",
+      "benefits": [
+        "Pipeline kandidat per lowongan yang bisa dipantau HR dan user",
+        "Jadwal interview dan penilaian kandidat yang terstruktur",
+        "Database kandidat terpusat untuk kebutuhan hiring berikutnya",
+        "Hak akses dan jejak audit untuk menjaga kerahasiaan data kandidat"
+      ],
+      "signs": [
+        "CV kandidat tersebar di email, WhatsApp, dan folder bersama",
+        "User dan HR bolak-balik chat hanya untuk menjadwalkan interview",
+        "Kandidat bagus terlewat karena status lamarannya tidak terpantau",
+        "Penilaian interview ditulis di catatan pribadi, bukan di sistem",
+        "Rekrutmen massal untuk banyak posisi membuat tim HR kewalahan"
+      ],
+      "whyBms": [
+        "Tahapan seleksi mengikuti proses Anda, bukan template software luar negeri",
+        "Bisa dihubungkan dengan HRIS atau sistem payroll yang sudah ada",
+        "Source code milik Anda, tanpa biaya lisensi per recruiter"
+      ],
+      "testimonials": [],
+      "process": [
+        {
+          "title": "Pemetaan proses rekrutmen",
+          "desc": "Kami petakan alur dari permintaan headcount, approval, publikasi lowongan, sampai onboarding, termasuk peran HR, user, dan manajemen.",
+          "deliverable": "Peta proses rekrutmen dan daftar kebutuhan fitur."
+        },
+        {
+          "title": "Blueprint dan scope",
+          "desc": "Kami tentukan tahapan pipeline, formulir penilaian, hak akses, dan integrasi, lalu menyusun timeline serta biaya.",
+          "deliverable": "Blueprint sistem, wireframe utama, timeline, dan quotation."
+        },
+        {
+          "title": "Development dengan demo mingguan",
+          "desc": "Sistem dibangun bertahap dan diuji langsung oleh tim HR, sehingga alur terasa pas sebelum dipakai untuk rekrutmen nyata.",
+          "deliverable": "Build di staging dan ringkasan progress per sprint."
+        },
+        {
+          "title": "Migrasi data dan go-live",
+          "desc": "Data kandidat dan lowongan yang masih aktif dipindahkan, tim HR dan user dilatih, dan kami mendampingi rekrutmen pertama di sistem baru.",
+          "deliverable": "Sistem live, panduan pengguna, dan sesi training."
+        }
+      ],
+      "useCases": [
+        "Perusahaan dengan rekrutmen massal untuk posisi operasional",
+        "Grup usaha multi-cabang dengan kebutuhan hiring di banyak lokasi",
+        "Program management trainee dengan tahapan seleksi berlapis",
+        "Perusahaan outsourcing yang mengelola kandidat untuk banyak klien"
+      ],
+      "techStack": [
+        "React",
+        "Laravel",
+        "PostgreSQL",
+        "Redis",
+        "REST API",
+        "Webhook"
+      ],
+      "faqs": [
+        {
+          "q": "Apa itu recruitment management system?",
+          "a": "Recruitment management system adalah software untuk mengelola proses rekrutmen dari lowongan dibuka sampai kandidat diterima, termasuk lamaran, seleksi, interview, penilaian, dan offering."
+        },
+        {
+          "q": "Apa bedanya dengan software HRIS?",
+          "a": "HRIS mengelola karyawan yang sudah bergabung, seperti data karyawan, cuti, dan payroll. Recruitment management system fokus pada proses sebelum kandidat menjadi karyawan. Keduanya bisa dihubungkan agar data kandidat yang diterima langsung masuk ke HRIS."
+        },
+        {
+          "q": "Apakah kandidat bisa melamar langsung lewat website kami?",
+          "a": "Bisa. Kami dapat membuat halaman karier dan formulir lamaran yang terhubung langsung ke pipeline, sehingga lamaran tidak perlu diinput ulang."
+        },
+        {
+          "q": "Bagaimana dengan keamanan data kandidat?",
+          "a": "Data kandidat adalah data pribadi. Sistem kami rancang dengan hak akses per peran, jejak audit, dan pengaturan masa simpan data, untuk mendukung kepatuhan perusahaan terhadap UU Pelindungan Data Pribadi."
+        },
+        {
+          "q": "Bisakah menggunakan AI untuk screening CV?",
+          "a": "Bisa ditambahkan, misalnya untuk merangkum CV atau mencocokkan kandidat dengan kriteria lowongan. Keputusan akhir tetap di tangan tim HR."
+        },
+        {
+          "q": "Berapa biaya pembuatannya?",
+          "a": "Biaya tergantung tahapan seleksi, jumlah pengguna, dan integrasi. Gunakan kalkulator di halaman Harga untuk gambaran awal, lalu kami susun quotation tertulis setelah discovery."
+        }
+      ],
+      "relatedSlugs": [
+        "workflow-management-system",
+        "custom-software-solutions"
+      ],
+      "caseStudySlugs": [],
+      "supportingPostSlugs": [
+        "recruitment-management-system",
+        "software-hris-indonesia-terbaik-untuk-perusahaan-modern"
+      ]
+    }
+  ],
+  "servicesEnMap": {
+    "software-development": {
+      "title": "Dedicated Development Team",
+      "short": "Senior engineers ready to plug into your team, accelerate your roadmap, and close capacity gaps.",
+      "description": "We provide senior engineers, designers, and product specialists as an extension of your in-house team. You keep control of the roadmap and priorities while we add execution capacity through people already used to production standards.",
+      "benefits": [
+        "Team ready to work in weeks, not months",
+        "Senior engineers with cross-industry experience",
+        "We work inside your existing workflow and tooling",
+        "Scale up or down without the hiring burden"
+      ],
+      "signs": [
+        "Your engineering team is overloaded with feature requests",
+        "The product roadmap is slipping because of low engineering capacity",
+        "Hiring quality developers is taking months",
+        "You need specific skills (mobile, AI, DevOps) for a project",
+        "You want to scale the team fast without full-time hiring"
+      ],
+      "whyBms": [
+        "Senior engineering team with cross-industry experience",
+        "Code quality first, every merge goes through strict code review",
+        "Full transparency: GitHub access, daily standups, weekly demos"
+      ],
+      "testimonials": [
+        {
+          "name": "Eco Z",
+          "role": "Founder, Eco Z Sustainability",
+          "quote": "The BMS team helped us launch our MVP in just 7 weeks. Communication was clear and the code was clean."
+        },
+        {
+          "name": "Klantaanvragen",
+          "role": "CEO, Klantaanvragen.nl",
+          "quote": "They don't just code, they think product. Many great ideas came from the BMS team."
+        }
+      ],
+      "process": [
+        "Discuss team needs and skill profile",
+        "Match engineers from our talent pool",
+        "Onboard to your workflow and tooling",
+        "Weekly sprints with demo and retrospective"
+      ],
+      "useCases": [
+        "Startup team needs more engineers to speed up the roadmap",
+        "In-house company needs specific skills (mobile, AI, DevOps)",
+        "Short-term project without permanent hiring",
+        "Team augmentation for a large delivery with a tight deadline"
+      ],
+      "faqs": [
+        {
+          "q": "How quickly can the team start?",
+          "a": "For common skills (frontend, backend, fullstack), the team is usually ready to onboard within 1 to 2 weeks. More specific skills can take up to 3 weeks for the right match."
+        },
+        {
+          "q": "Do the engineers work full-time for my team?",
+          "a": "Yes, our main model is dedicated. Engineers focus 100% on your project, joining daily standups, sprint planning, and retrospectives with your in-house team."
+        },
+        {
+          "q": "How is this different from Custom Software?",
+          "a": "Dedicated Development Team means you add engineers to a team that already owns a roadmap. Custom Software means we design and build the product from scratch for you."
+        }
+      ]
+    },
+    "custom-software-solutions": {
+      "title": "Custom Software",
+      "navLabel": "Custom Software Solutions",
+      "short": "We work like a business partner. We understand your process first, then build the right solution.",
+      "description": "Every business is unique. We design custom software that fits your process, not the other way around. From ERP and CRM to inventory management systems, we build to your exact needs.",
+      "benefits": [
+        "100% aligned with your business workflow",
+        "Integrates with the systems you already use",
+        "Full ownership of the source code",
+        "Lower long-term cost vs. SaaS"
+      ],
+      "signs": [
+        "Off-the-shelf software does not fit your workflow",
+        "Your team works around manual gaps every day",
+        "Data is scattered across Excel, WhatsApp, and disconnected tools",
+        "SaaS licence costs keep rising but the features go unused",
+        "You need a system that scales with your growth"
+      ],
+      "whyBms": [
+        "Specialists in custom systems, no templates, no compromises",
+        "100% source code ownership, no vendor lock-in",
+        "Iterative approach: build, feedback, improve every week"
+      ],
+      "testimonials": [
+        {
+          "name": "Gefra Dakbeheer",
+          "role": "Operations Manager",
+          "quote": "The project management system BMS built fits exactly what we needed. No wasted features."
+        },
+        {
+          "name": "Eco Z",
+          "role": "Founder, Eco Z Sustainability",
+          "quote": "We used to pay for expensive SaaS where half the features went unused. With custom software, our monthly cost dropped 60%."
+        }
+      ],
+      "process": [
+        {
+          "title": "Deep needs analysis",
+          "desc": "Workshops and direct observation to understand your workflow, the tools you use, and your team's core problems.",
+          "deliverable": "Discovery report and prioritised problem list."
+        },
+        {
+          "title": "Solution blueprint and timeline",
+          "desc": "We design the system architecture, MVP scope, milestones, and a transparent cost estimate before any code is written.",
+          "deliverable": "Blueprint document, key wireframes, timeline, and quotation."
+        },
+        {
+          "title": "Iterative development with feedback",
+          "desc": "Build per sprint, weekly demos, and fast iteration on your team's feedback so there are no surprises at the end.",
+          "deliverable": "Weekly staging build plus per-sprint progress summary."
+        },
+        {
+          "title": "Team training and go-live",
+          "desc": "Data migration, training your team, and hands-on support during launch to guarantee smooth adoption.",
+          "deliverable": "Live production system, user documentation, and team training sessions."
+        }
+      ],
+      "useCases": [
+        "Custom ERP for manufacturing with specific workflows",
+        "CRM integrated with WhatsApp Business",
+        "Real-time multi-warehouse inventory system",
+        "HR and payroll apps aligned with local regulations"
+      ],
+      "faqs": [
+        {
+          "q": "How is custom software different from off-the-shelf SaaS?",
+          "a": "Custom software is built 100% around your process and you own the source code. SaaS is faster to start but forces you to adapt to its limits and keeps charging you forever."
+        },
+        {
+          "q": "Can it integrate with my legacy systems?",
+          "a": "Yes. We have experience integrating with ERP, accounting (Accurate, Jurnal), POS, e-commerce, and many other systems via API or direct database."
+        },
+        {
+          "q": "What about maintenance costs?",
+          "a": "After go-live we offer monthly maintenance packages. Because you own the source code, you are also free to use your in-house team or another vendor."
+        }
+      ]
+    },
+    "enterprise-web-applications": {
+      "title": "Enterprise Web Applications",
+      "short": "Enterprise-grade web apps that are secure, fast, and reliable.",
+      "description": "For businesses that need enterprise-grade web applications with high security, top performance, and the capacity to handle thousands of concurrent users.",
+      "benefits": [
+        "Enterprise-level security (SSO, RBAC)",
+        "High performance with load balancing",
+        "Audit log and compliance ready",
+        "SLA up to 99.9% uptime"
+      ],
+      "signs": [
+        "Your internal app handles thousands of concurrent users",
+        "Compliance and audit trail are non-negotiable",
+        "You need SSO and integration with Active Directory or Okta",
+        "Downtime is a serious business issue",
+        "Sensitive data must be encrypted at rest and in transit"
+      ],
+      "whyBms": [
+        "Experience building enterprise-scale systems with strict SLAs",
+        "Security standards: OWASP Top 10, encryption, audit logging",
+        "Infrastructure as Code: reproducible, testable, scalable"
+      ],
+      "testimonials": [
+        {
+          "name": "Klantaanvragen",
+          "role": "CEO, Klantaanvragen.nl",
+          "quote": "The system BMS built handles thousands of requests per minute without a hiccup. Monitoring is excellent too."
+        },
+        {
+          "name": "Gefra Dakbeheer",
+          "role": "Operations Manager",
+          "quote": "The Microsoft 365 SSO integration went smoothly. Our IT team is happy."
+        }
+      ],
+      "process": [
+        "Architecture review and security assessment",
+        "Scalability and infrastructure planning",
+        "Phased rollout with monitoring",
+        "24/7 dedicated support"
+      ],
+      "useCases": [
+        "Employee portal with SSO for 1000+ user corporates",
+        "B2B marketplace platform with multi-tenancy",
+        "Internal banking systems with audit compliance",
+        "Executive dashboards spanning multiple departments"
+      ],
+      "faqs": [
+        {
+          "q": "Do you support SSO and SAML?",
+          "a": "Yes. We implement SSO via SAML, OAuth 2.0, or OpenID Connect, compatible with Azure AD, Google Workspace, Okta, and other providers."
+        },
+        {
+          "q": "What about ISO/SOC compliance?",
+          "a": "We design systems with full audit logs, encryption at rest and in transit, role-based access, and documentation aligned to your compliance needs."
+        },
+        {
+          "q": "What SLA do you offer?",
+          "a": "For enterprise packages, up to 99.9% uptime with a dedicated DevOps team and 24/7 monitoring."
+        }
+      ]
+    },
+    "e-commerce-solutions": {
+      "title": "E-Commerce Solutions",
+      "short": "Modern online stores that turn visitors into buyers.",
+      "description": "Build your online business with a fast, mobile-first e-commerce platform stocked with everything you need: Indonesian payment gateways, marketplace integrations, and sales analytics.",
+      "benefits": [
+        "Indonesian payment gateway integration",
+        "Mobile-first and PWA-ready",
+        "SEO optimised for Google Shopping",
+        "Real-time sales dashboard"
+      ],
+      "signs": [
+        "Marketplaces alone are not enough, you need your own brand",
+        "Conversions are low because the store UX is slow",
+        "Stock between website and marketplace is out of sync",
+        "Tracking ad ROI is hard because analytics is messy",
+        "You want to scale with a loyalty programme and customer retention"
+      ],
+      "whyBms": [
+        "Indonesian e-commerce specialists who know local payments and logistics",
+        "Mobile-first design with Core Web Vitals kept in the green",
+        "Marketplace, accounting, and logistics integrations out of the box"
+      ],
+      "testimonials": [
+        {
+          "name": "Eco Z",
+          "role": "Founder, Eco Z Sustainability",
+          "quote": "Online sales tripled in 6 months after relaunching with BMS."
+        },
+        {
+          "name": "Klantaanvragen",
+          "role": "CEO, Klantaanvragen.nl",
+          "quote": "Conversion rate jumped from 1.2% to 3.4% after BMS optimised our checkout flow."
+        }
+      ],
+      "process": [
+        "Market research and competitor analysis",
+        "High-conversion UX design",
+        "Platform build and integrations",
+        "Launch plus marketing kickoff"
+      ],
+      "useCases": [
+        "Fashion store integrated with Tokopedia and Shopee",
+        "Multi-vendor marketplace with automatic commissions",
+        "Subscription box with recurring billing",
+        "D2C brand with loyalty programme and referrals"
+      ],
+      "faqs": [
+        {
+          "q": "Which payment gateways are supported?",
+          "a": "Midtrans, Xendit, Doku, and iPaymu. All support QRIS, bank transfer, credit card, and e-wallets (GoPay, OVO, Dana, ShopeePay)."
+        },
+        {
+          "q": "Can I sync stock with Tokopedia/Shopee?",
+          "a": "Yes, we integrate via official APIs or middleware such as Jubelio so stock and orders stay in sync automatically."
+        },
+        {
+          "q": "What about product SEO?",
+          "a": "We implement Product schema markup, dynamic sitemaps, Core Web Vitals optimisation, and Google Merchant Center integration for Google Shopping."
+        }
+      ]
+    },
+    "ai-automation": {
+      "title": "AI & Automation",
+      "short": "Smart automation that saves time and lifts productivity.",
+      "description": "Use the power of AI and automation to speed up your operations: smart chatbots, document automation, predictive analytics, and end-to-end workflow automation.",
+      "benefits": [
+        "Save thousands of hours of manual work",
+        "High accuracy with a low error rate",
+        "Measurable ROI within months",
+        "Scales automatically with demand"
+      ],
+      "signs": [
+        "Your team spends hours on repetitive tasks",
+        "Customer service is overwhelmed answering the same questions",
+        "Data from various tools has to be merged into Excel by hand",
+        "Many documents come in and need to be retyped into the system",
+        "You want to use AI but do not know where to start"
+      ],
+      "whyBms": [
+        "ROI-first approach: count the benefit first, then build",
+        "Experience with GPT, Claude, Gemini, and open-source models",
+        "Hybrid possible: enterprise API for scale, on-prem for sensitive data"
+      ],
+      "testimonials": [
+        {
+          "name": "Gefra Dakbeheer",
+          "role": "Operations Manager",
+          "quote": "The WhatsApp chatbot BMS built handles 70% of customer questions automatically."
+        },
+        {
+          "name": "Eco Z",
+          "role": "Founder, Eco Z Sustainability",
+          "quote": "Document automation saves us 30 hours of admin work every week."
+        }
+      ],
+      "process": [
+        "Identify processes to automate",
+        "Pilot project with ROI calculation",
+        "Integration and deployment",
+        "Continuous monitoring and tuning"
+      ],
+      "useCases": [
+        "24/7 WhatsApp customer service chatbot powered by AI",
+        "Automated data extraction from invoices and PDFs",
+        "Predictive analytics for sales forecasting",
+        "Workflow automation between tools (CRM, email, Slack)"
+      ],
+      "faqs": [
+        {
+          "q": "Which AI model do you use?",
+          "a": "We pick per use case. GPT-5 or Claude for complex reasoning, Gemini for multimodal, and open-source models when on-premise is required."
+        },
+        {
+          "q": "Is my company data safe?",
+          "a": "Yes. We use enterprise APIs with zero-retention policies, or deploy on-premise/private cloud models for sensitive data."
+        },
+        {
+          "q": "How fast is ROI from automation?",
+          "a": "For highly repetitive processes, ROI is usually reached within 3 to 6 months. We always run the ROI numbers before any pilot."
+        }
+      ]
+    },
+    "it-consulting-strategy": {
+      "title": "IT Consulting & Strategy",
+      "short": "IT strategy that aligns technology with business goals.",
+      "description": "Technology consulting that helps you make the right IT decisions: from stack selection and digital transformation roadmaps to security audits and infrastructure optimisation.",
+      "benefits": [
+        "A clear digital transformation roadmap",
+        "Avoid expensive IT investment mistakes",
+        "Independent team with no vendor bias",
+        "End-to-end execution support"
+      ],
+      "signs": [
+        "Stuck choosing between building in-house and buying SaaS",
+        "Large IT investment but the roadmap is unclear",
+        "Legacy systems are blocking innovation",
+        "You need a second opinion before signing a big vendor",
+        "Internal IT team needs mentoring and strategic direction"
+      ],
+      "whyBms": [
+        "Vendor-agnostic, recommendations based on needs, not commissions",
+        "Team with enterprise architecture and operational backgrounds",
+        "Concrete output: roadmap, RFP, action plan, not empty slides"
+      ],
+      "testimonials": [
+        {
+          "name": "Klantaanvragen",
+          "role": "CEO, Klantaanvragen.nl",
+          "quote": "The roadmap from BMS saved us from a misdirected investment worth hundreds of millions."
+        },
+        {
+          "name": "Gefra Dakbeheer",
+          "role": "Operations Manager",
+          "quote": "The vendor evaluation BMS did was very objective. It was a huge help."
+        }
+      ],
+      "process": [
+        "Current IT assessment",
+        "Strategy workshop with stakeholders",
+        "Roadmap and measurable action plan",
+        "Implementation support"
+      ],
+      "useCases": [
+        "Digital transformation roadmap for a traditional company",
+        "Security audit and penetration testing",
+        "Vendor selection and RFP evaluation",
+        "Cloud migration strategy (on-premise to AWS/GCP)"
+      ],
+      "faqs": [
+        {
+          "q": "Can consulting be advisory only without implementation?",
+          "a": "Absolutely. Many clients use us for second opinions, vendor evaluations, or roadmaps only. Implementation is then handled by internal teams or another vendor."
+        },
+        {
+          "q": "How long does a consulting engagement run?",
+          "a": "From a 1-week workshop for a quick audit, up to a monthly retainer for 6 to 12 months of transformation support."
+        },
+        {
+          "q": "Are you vendor-agnostic?",
+          "a": "Yes, we are not tied to any vendor. Our recommendations are based on your needs and budget, not vendor commissions."
+        }
+      ]
+    },
+    "website-development": {
+      "title": "Website Development",
+      "short": "Company profile, landing page, and lead-gen websites that are fast, mobile-first, and ready to be found on Google.",
+      "description": "We build websites for SMBs focused on conversion: company profile, campaign landing pages, product microsites, even content portals. Mobile-first, fast performance, SEO-ready, and a CMS your non-technical team can actually use.",
+      "benefits": [
+        "Mobile-first design that looks great on every device",
+        "SEO-ready: schema markup, sitemap, meta tags out of the box",
+        "Fast loading with Core Web Vitals kept healthy",
+        "User-friendly CMS for independent content updates"
+      ],
+      "signs": [
+        "Your current site is slow and uncomfortable on mobile",
+        "Hard to update content because everything goes through a developer",
+        "You do not show up on Google's first page for key terms",
+        "Design feels dated and loses out to competitors",
+        "Your site exists but has never generated serious leads"
+      ],
+      "whyBms": [
+        "Design focused on conversion, not just on looking pretty",
+        "Core Web Vitals kept healthy: LCP, INP, CLS all green",
+        "CMS picked to match your team's skills, not forced on them"
+      ],
+      "testimonials": [
+        {
+          "name": "Eco Z",
+          "role": "Founder, Eco Z Sustainability",
+          "quote": "The new site is much faster and bounce rate dropped sharply. Our marketing team can update it themselves too."
+        },
+        {
+          "name": "Gefra Dakbeheer",
+          "role": "Operations Manager",
+          "quote": "The lead form on the landing page BMS built worked from day one. Conversions doubled vs. our old site."
+        }
+      ],
+      "process": [
+        "Brief, audience research, and wireframes",
+        "Visual design aligned to your brand",
+        "Build, CMS integration, and cross-device QA",
+        "Launch plus handover and team training"
+      ],
+      "useCases": [
+        "Professional company profile for SMBs",
+        "Marketing campaign landing pages with A/B testing",
+        "News or blog portal with categories and authors",
+        "Product or event microsite on a tight timeline"
+      ],
+      "faqs": [
+        {
+          "q": "How long does a company profile site take?",
+          "a": "Usually 3 to 6 weeks from brief to launch, depending on page count and design complexity. A single landing page can take just 1 to 2 weeks."
+        },
+        {
+          "q": "Can I update content myself without a developer?",
+          "a": "Yes. We integrate a CMS (Sanity, WordPress, or Strapi) so your marketing team can edit text, images, and add pages with no code."
+        },
+        {
+          "q": "How is this different from Custom Software or Enterprise Web App?",
+          "a": "Website Development focuses on online presence, marketing, and content. Custom Software is for internal business workflows. Enterprise Web App is for large-scale apps with SSO and compliance."
+        }
+      ]
+    },
+    "seo-digital-marketing": {
+      "title": "SEO & Digital Marketing",
+      "short": "Climb Google rankings and attract qualified traffic with technical SEO, content, and measurable ads.",
+      "description": "A great website without traffic is wasted. We help you show up in search through technical SEO, on-page SEO, content strategy, and paid ads with measurable ROI. Pairs perfectly with your website or online store.",
+      "benefits": [
+        "Higher Google rankings for relevant keywords",
+        "Qualified organic traffic that converts",
+        "Paid ads with tightly monitored ROAS",
+        "Transparent monthly reporting"
+      ],
+      "signs": [
+        "You have a website but it does not show on Google's first page",
+        "Traffic is flat or declining over the last few months",
+        "You run Google Ads but do not know your ROAS",
+        "Competitors keep appearing above you in search results",
+        "You publish content regularly but it does not generate leads"
+      ],
+      "whyBms": [
+        "Technical-first approach: fix the structure before the content",
+        "Transparent reporting with a real-time dashboard",
+        "Team fluent in Indonesian SEO and local language context"
+      ],
+      "testimonials": [
+        {
+          "name": "Klantaanvragen",
+          "role": "CEO, Klantaanvragen.nl",
+          "quote": "In 4 months our organic traffic grew 180%. Main keywords that used to sit on page 3 are now in the top 5."
+        },
+        {
+          "name": "Eco Z",
+          "role": "Founder, Eco Z Sustainability",
+          "quote": "Our Google Ads ROAS jumped from 2.1 to 4.8 after BMS restructured our campaigns and landing page."
+        }
+      ],
+      "process": [
+        "Technical SEO audit and competitor analysis",
+        "Keyword strategy and content roadmap",
+        "Execution: on-page optimisation, link building, ads",
+        "Monthly reporting and iteration"
+      ],
+      "useCases": [
+        "SMB wanting organic lead generation from Google",
+        "E-commerce needing Google Shopping and product SEO",
+        "New brand needing visibility quickly via paid ads",
+        "B2B company wanting thought-leadership content"
+      ],
+      "faqs": [
+        {
+          "q": "How long until SEO shows results?",
+          "a": "For competitive keywords usually 3 to 6 months to start climbing. Quick wins from technical fixes can show up in the first few weeks."
+        },
+        {
+          "q": "Can we use SEO alone without ads?",
+          "a": "You can. Many of our clients start with organic SEO. We suggest ads when you need fast results or have a tight-deadline campaign."
+        },
+        {
+          "q": "How do I know the results are real and not just a report?",
+          "a": "We give you direct access to Google Search Console, GA4, and your ads dashboard. Every number is yours to verify any time."
+        }
+      ]
+    },
+    "maintenance-support": {
+      "title": "Maintenance & Support Retainer",
+      "short": "A monthly retainer for bug fixes, security patches, uptime monitoring, and minor updates to your website or app.",
+      "description": "After a website or app launches, the work is not done. We provide a monthly retainer to keep your system secure, fast, and up to date, with a clear SLA and measurable response time.",
+      "benefits": [
+        "Clear SLA with measurable response times",
+        "Routine security patches and dependency updates",
+        "24/7 uptime monitoring with automatic alerts",
+        "Remaining hours can be used for minor improvements"
+      ],
+      "signs": [
+        "Your website has gone down before and you only found out from a customer",
+        "No security updates on your system for a long time",
+        "Every small change means finding a new freelancer",
+        "Nobody is watching performance and error logs regularly",
+        "Your last backup, who knows when it was last tested"
+      ],
+      "whyBms": [
+        "Written SLA with clear response and resolution times",
+        "The same team from the original project keeps owning your system",
+        "Monthly report: uptime, incidents, changes, and hours used"
+      ],
+      "testimonials": [
+        {
+          "name": "Gefra Dakbeheer",
+          "role": "Operations Manager",
+          "quote": "The BMS team is responsive. A critical bug at 11pm had a hotfix by midnight. Very reassuring."
+        },
+        {
+          "name": "Klantaanvragen",
+          "role": "CEO, Klantaanvragen.nl",
+          "quote": "Been on the BMS retainer for 2 years. Uptime is 99.9%, security patches always current, and we never stress about tech anymore."
+        }
+      ],
+      "process": [
+        "Onboarding and current-system audit",
+        "Set up monitoring, backup, and alerts",
+        "Routine execution: patches, fixes, minor updates",
+        "Monthly report and quarterly review"
+      ],
+      "useCases": [
+        "Business websites that need high uptime and routine updates",
+        "Internal apps already live that need long-term care",
+        "E-commerce with seasonal promos needing standby support",
+        "Startups that want to focus on growth and outsource technical ops"
+      ],
+      "faqs": [
+        {
+          "q": "How many hours are included in the monthly retainer?",
+          "a": "Packages start from 10 hours/month for light maintenance, up to 40+ hours/month for active systems. Unused hours can be rolled over for up to a month."
+        },
+        {
+          "q": "Is the retainer only for projects BMS built?",
+          "a": "No. We also take on systems built by others, with a short onboarding to audit the code base and infrastructure first."
+        },
+        {
+          "q": "What about incidents outside working hours?",
+          "a": "For packages with 24/7 SLA, we provide an on-call rotation with response time up to 30 minutes for critical incidents."
+        }
+      ]
+    },
+    "procurement-management-system": {
+      "title": "Procurement Management System",
+      "navLabel": "Procurement Management",
+      "short": "Custom procurement management system development. From purchase request to vendor payment, every step is recorded, approved, and controlled in one system.",
+      "description": "We build a procurement system around your approval flow and purchasing policy, not a SaaS template. Purchase requests, RFQs, vendor quote comparison, purchase orders, goods receipt, and invoice matching run on one platform, with a full audit trail and budget control per department.",
+      "benefits": [
+        "Tiered approvals by amount, category, and department",
+        "Budget checks before a PO is issued, not after the money is spent",
+        "Objective, documented comparison of vendor quotes",
+        "A full audit trail for every request, change, and approval"
+      ],
+      "signs": [
+        "Purchase requests still arrive by WhatsApp, email, or paper",
+        "Approvals sit for days because a manager is out of the office",
+        "Department budgets are only found to be overspent at month end",
+        "Vendor prices for the same item vary with no clear reason",
+        "Finance struggles to match POs, delivery notes, and invoices"
+      ],
+      "whyBms": [
+        "Discovery first: we map your procurement flow and approval matrix before writing code",
+        "You own 100% of the source code, with no per-user license fees",
+        "Integration with the accounting and inventory systems you already use"
+      ],
+      "testimonials": [],
+      "process": [
+        {
+          "title": "Procurement flow mapping",
+          "desc": "We map the flow from request to payment, the approval matrix, goods and service categories, and the points where the process usually stalls.",
+          "deliverable": "Procurement flow map, approval matrix, and a prioritised problem list."
+        },
+        {
+          "title": "System blueprint and MVP scope",
+          "desc": "We decide which modules come first, which integrations are needed, and a transparent timeline and cost before development starts.",
+          "deliverable": "Blueprint, key wireframes, timeline, and quotation."
+        },
+        {
+          "title": "Sprint development with weekly demos",
+          "desc": "The system is built in stages, so purchasing and finance can try it and give feedback from the start.",
+          "deliverable": "Staging builds and a progress summary per sprint."
+        },
+        {
+          "title": "Data migration, training, and go-live",
+          "desc": "We import vendor and item data, train users by role, and support the team as the system goes into use.",
+          "deliverable": "Live system, user documentation, and training sessions per role."
+        }
+      ],
+      "useCases": [
+        "Manufacturers with recurring raw material purchases from many vendors",
+        "Multi-branch companies that want central procurement with local approvals",
+        "Contractors with purchasing budgets per project",
+        "Distributors that need POs in sync with warehouse stock"
+      ],
+      "faqs": [
+        {
+          "q": "What is a procurement management system?",
+          "a": "A procurement management system is software that manages the purchasing of goods and services, from purchase request, approval, and vendor selection to purchase order, goods receipt, and invoice matching, in one recorded flow."
+        },
+        {
+          "q": "How is this different from SaaS procurement software?",
+          "a": "SaaS is quicker to start, but your approval flow and purchasing policy have to fit the features on offer, and licenses are billed per user every month. A custom system follows your process, you own the source code, and there are no per-user license fees."
+        },
+        {
+          "q": "Can it integrate with our existing accounting system or ERP?",
+          "a": "Yes. We integrate through APIs or database connections, for example with Accurate, Jurnal, inventory systems, or an ERP you already run. We confirm the integration details during discovery."
+        },
+        {
+          "q": "Can vendors access the system to submit quotes?",
+          "a": "Yes, if you need it. A vendor portal lets vendors submit quotes, confirm POs, and upload invoices themselves, so purchasing no longer has to collect them from email."
+        },
+        {
+          "q": "How long does it take to build?",
+          "a": "It depends on the number of modules, the complexity of the approval flow, and integrations. After discovery we give you a written timeline and cost estimate before development starts."
+        },
+        {
+          "q": "How much does it cost?",
+          "a": "Cost depends on scope, not a fixed package. You can get a first indication from the calculator on the Pricing page, and we prepare a written quotation after the discovery session."
+        }
+      ]
+    },
+    "erp-online": {
+      "title": "Online ERP Software",
+      "navLabel": "Online ERP",
+      "short": "An online ERP built around your business process. Finance, inventory, sales, and purchasing stay in sync in real time and are accessible from any office, warehouse, or branch.",
+      "description": "We build a cloud-based ERP that brings the modules you actually need into one database. No unused modules, no per-user license fees, and the system can run in your company's own cloud account or be managed by our team. A fit for businesses that have outgrown spreadsheets or rigid SaaS ERP.",
+      "benefits": [
+        "Real-time access from browser and phone, wherever your team is",
+        "One database for finance, inventory, sales, and purchasing",
+        "Access rights per role, branch, and module",
+        "No per-user license fees, and you own the source code"
+      ],
+      "signs": [
+        "Stock and sales reports across branches can only be compiled at month end",
+        "Your team has to open several different apps for one transaction",
+        "Your old ERP can only be used from office computers",
+        "SaaS ERP license costs rise every time the team grows",
+        "Off-the-shelf ERP features do not match how your business works"
+      ],
+      "whyBms": [
+        "We start from your business process, then choose the modules you actually need",
+        "Staged releases per module, so your team can start using the system sooner",
+        "Support after go-live through our maintenance and support retainer"
+      ],
+      "testimonials": [],
+      "process": [
+        {
+          "title": "Process and module analysis",
+          "desc": "We map your finance, inventory, sales, and purchasing flows, then define the core modules and the ones that can follow later.",
+          "deliverable": "Business process map and prioritised module list."
+        },
+        {
+          "title": "Architecture and migration plan",
+          "desc": "We design the data structure, access rights, hosting option, and how data moves over from spreadsheets or your old system.",
+          "deliverable": "System blueprint, data migration plan, timeline, and quotation."
+        },
+        {
+          "title": "Module-by-module development",
+          "desc": "Modules are built and released in stages with weekly demos, so your team's feedback goes straight into the next iteration.",
+          "deliverable": "Modules ready for testing on staging and a progress summary per sprint."
+        },
+        {
+          "title": "Data migration, training, and go-live",
+          "desc": "Existing data is moved and validated, users are trained by role, and we support the transition period.",
+          "deliverable": "Live system in the cloud, user documentation, and training sessions."
+        }
+      ],
+      "useCases": [
+        "Multi-warehouse distributors that need real-time stock across locations",
+        "Multi-branch retail and F&B with central sales reporting",
+        "Manufacturers connecting production, material stock, and purchasing",
+        "Service companies bringing projects, invoicing, and finance together"
+      ],
+      "faqs": [
+        {
+          "q": "What is the difference between online ERP and on-premise ERP?",
+          "a": "Online ERP runs in the cloud and is used through a browser, so teams in the office, warehouse, and branches work with the same data in real time. On-premise ERP is installed on an office server and is usually harder to reach from outside."
+        },
+        {
+          "q": "Why choose a custom online ERP over SaaS ERP?",
+          "a": "SaaS ERP suits standard processes. If your workflow is specific, your team keeps growing, or you want full ownership of the source code and data, a custom ERP is usually cheaper over time and does not force your team to change how it works."
+        },
+        {
+          "q": "Is our data safe in the cloud?",
+          "a": "We apply role-based access, encrypted connections, regular backups, and audit logs. You can also choose to host in your company's own cloud account."
+        },
+        {
+          "q": "Can we start with one module?",
+          "a": "Yes, and that is what we recommend. Start with the most urgent module, such as inventory or sales, then add the next one once the team is comfortable."
+        },
+        {
+          "q": "Can it connect to the apps we already use?",
+          "a": "Yes. The ERP can integrate with accounting software, marketplaces, POS, or payment gateways through APIs."
+        },
+        {
+          "q": "How much does an online ERP cost?",
+          "a": "Cost depends on the number of modules, users, and integrations. Use the calculator on the Pricing page for a first indication, and we prepare a written quotation after discovery."
+        }
+      ]
+    },
+    "workflow-management-system": {
+      "title": "Workflow Management System",
+      "navLabel": "Workflow Management",
+      "short": "Custom workflow management system development. Approvals, internal forms, and cross-team tasks follow your company rules, with a status anyone can check at any time.",
+      "description": "We turn processes that run on chat, email, and paper into a structured digital flow. Every request has an owner, a deadline, and a clear history. Approval rules, escalations, and notifications follow your organisation structure, so work no longer gets stuck on one desk.",
+      "benefits": [
+        "Approval and escalation flows that match your organisation structure",
+        "Real-time status for every request, without having to ask around",
+        "Automatic email or WhatsApp notifications when a new task arrives",
+        "A full audit trail for every decision and change"
+      ],
+      "signs": [
+        "Internal requests are scattered across WhatsApp groups and email",
+        "Nobody knows whose desk a request is stuck on",
+        "Paper forms have to be signed and carried from desk to desk",
+        "Every division handles the same process differently",
+        "Internal audits are hard because decision history is not documented"
+      ],
+      "whyBms": [
+        "We map how the process really runs, not just the SOP on paper",
+        "Flow rules can change as your organisation grows",
+        "Connects to your ERP, HRIS, or other systems already in place"
+      ],
+      "testimonials": [],
+      "process": [
+        {
+          "title": "Process mapping",
+          "desc": "We interview process owners and users, then map the steps, roles, approval rules, and bottlenecks.",
+          "deliverable": "Process flow diagrams and a prioritised digitisation list."
+        },
+        {
+          "title": "Flow and rule design",
+          "desc": "We design the forms, statuses, escalation rules, deadlines, and access rights, then set the scope, timeline, and cost.",
+          "deliverable": "Flow blueprint, form wireframes, timeline, and quotation."
+        },
+        {
+          "title": "Development and testing",
+          "desc": "Flows are built in stages and tested with users on staging, with weekly demos.",
+          "deliverable": "Flows ready for testing and a progress summary per sprint."
+        },
+        {
+          "title": "Rollout and training",
+          "desc": "The system launches per division or per process, users are trained, and we monitor adoption in the first weeks.",
+          "deliverable": "Live system, user guide, and training sessions."
+        }
+      ],
+      "useCases": [
+        "Expense approvals, reimbursements, and fund requests",
+        "Leave, overtime, and employee data change requests",
+        "Contract and legal document approvals across divisions",
+        "Internal request tickets to IT, general affairs, or maintenance"
+      ],
+      "faqs": [
+        {
+          "q": "What is a workflow management system?",
+          "a": "A workflow management system is software that runs work and approval flows digitally: who does what, in which order, with set deadlines and rules."
+        },
+        {
+          "q": "How is this different from your AI & Automation service?",
+          "a": "AI & Automation focuses on automating repetitive tasks and connecting tools. A workflow management system focuses on organising work and approvals between people and divisions. The two can be combined in one system."
+        },
+        {
+          "q": "Can we change the flows ourselves once the system is live?",
+          "a": "We can design the system so admins change certain settings, such as approvers, amount limits, or deadlines, without a developer. Larger changes to the flow structure are handled through the maintenance retainer."
+        },
+        {
+          "q": "Can it be used on a phone?",
+          "a": "Yes. The system is web-based and responsive, so approvers can approve requests from their phone wherever they are."
+        },
+        {
+          "q": "Can it connect to our ERP or HRIS?",
+          "a": "Yes, through APIs or database integration. We map the integration needs during discovery."
+        },
+        {
+          "q": "How much does it cost?",
+          "a": "Cost depends on the number of flows, forms, and integrations. Use the calculator on the Pricing page for a first indication, and we prepare a written quotation after discovery."
+        }
+      ]
+    },
+    "recruitment-management-system": {
+      "title": "Recruitment Management System",
+      "navLabel": "Recruitment Management",
+      "short": "Custom recruitment management system development. From headcount request to accepted offer, the whole hiring process is tracked in one pipeline.",
+      "description": "We build a recruitment system around your company's selection stages. Job openings, incoming applications, screening, interview schedules, scores, and offers are recorded in one place, so HR and hiring managers work from the same data and hiring decisions are faster and documented.",
+      "benefits": [
+        "A candidate pipeline per opening that HR and hiring managers can follow",
+        "Structured interview scheduling and candidate scoring",
+        "A central candidate database for future hiring",
+        "Access rights and an audit trail to keep candidate data confidential"
+      ],
+      "signs": [
+        "Candidate CVs are scattered across email, WhatsApp, and shared folders",
+        "Hiring managers and HR go back and forth on chat just to schedule interviews",
+        "Strong candidates slip through because nobody tracks application status",
+        "Interview scores live in personal notes, not in a system",
+        "Volume hiring for many positions overwhelms the HR team"
+      ],
+      "whyBms": [
+        "Selection stages follow your process, not a foreign software template",
+        "Connects to your existing HRIS or payroll system",
+        "You own the source code, with no license fees per recruiter"
+      ],
+      "testimonials": [],
+      "process": [
+        {
+          "title": "Recruitment process mapping",
+          "desc": "We map the flow from headcount request, approval, and job posting to onboarding, including the roles of HR, hiring managers, and management.",
+          "deliverable": "Recruitment process map and feature requirements list."
+        },
+        {
+          "title": "Blueprint and scope",
+          "desc": "We define the pipeline stages, scoring forms, access rights, and integrations, then set the timeline and cost.",
+          "deliverable": "System blueprint, key wireframes, timeline, and quotation."
+        },
+        {
+          "title": "Development with weekly demos",
+          "desc": "The system is built in stages and tested directly by HR, so the flow fits before it is used for real hiring.",
+          "deliverable": "Staging builds and a progress summary per sprint."
+        },
+        {
+          "title": "Data migration and go-live",
+          "desc": "Active candidates and openings are moved over, HR and hiring managers are trained, and we support the first hiring round in the new system.",
+          "deliverable": "Live system, user guide, and training sessions."
+        }
+      ],
+      "useCases": [
+        "Companies doing volume hiring for operational roles",
+        "Multi-branch groups hiring across many locations",
+        "Management trainee programs with multi-stage selection",
+        "Outsourcing companies managing candidates for many clients"
+      ],
+      "faqs": [
+        {
+          "q": "What is a recruitment management system?",
+          "a": "A recruitment management system is software that manages hiring from the moment an opening is published until a candidate accepts, including applications, screening, interviews, scoring, and offers."
+        },
+        {
+          "q": "How is this different from HRIS software?",
+          "a": "HRIS manages people who have already joined, such as employee records, leave, and payroll. A recruitment management system covers the process before a candidate becomes an employee. The two can be connected so accepted candidates flow straight into your HRIS."
+        },
+        {
+          "q": "Can candidates apply directly through our website?",
+          "a": "Yes. We can build a careers page and application form connected straight to the pipeline, so applications never need to be re-entered."
+        },
+        {
+          "q": "What about candidate data security?",
+          "a": "Candidate data is personal data. We design the system with role-based access, an audit trail, and data retention settings to support your company's compliance with Indonesia's Personal Data Protection Law."
+        },
+        {
+          "q": "Can AI be used to screen CVs?",
+          "a": "It can be added, for example to summarise CVs or match candidates against the job criteria. The final decision always stays with HR."
+        },
+        {
+          "q": "How much does it cost?",
+          "a": "Cost depends on the selection stages, number of users, and integrations. Use the calculator on the Pricing page for a first indication, and we prepare a written quotation after discovery."
+        }
+      ]
+    }
+  },
+  "dict": {
+    "erp.seo_title": {
+      "id": "Jasa Pembuatan ERP System Profesional | BMS Services",
+      "en": "Professional ERP System Development | BMS Services"
+    },
+    "erp.eyebrow": {
+      "id": "Jasa Pembuatan ERP System",
+      "en": "ERP System Development"
+    },
+    "erp.hero_title": {
+      "id": "Jasa Pembuatan ERP System Custom untuk Bisnis Anda",
+      "en": "Custom ERP System Development for Your Business"
+    },
+    "erp.cta_consult": {
+      "id": "Konsultasi Gratis",
+      "en": "Free Consultation"
+    },
+    "erp.cta_portfolio": {
+      "id": "Lihat Portofolio",
+      "en": "View Portfolio"
+    },
+    "erp.b1_t": {
+      "id": "Modul Terintegrasi",
+      "en": "Integrated Modules"
+    },
+    "erp.b1_d": {
+      "id": "Finance, inventory, sales, purchasing, dan HR berjalan dalam satu sumber data — tanpa rekonsiliasi manual.",
+      "en": "Finance, inventory, sales, purchasing, and HR run from a single source of truth, with no manual reconciliation."
+    },
+    "erp.b2_t": {
+      "id": "Otomatisasi Proses",
+      "en": "Process Automation"
+    },
+    "erp.b2_d": {
+      "id": "Approval, journal entry, stock movement, dan reporting berjalan otomatis sesuai SOP perusahaan Anda.",
+      "en": "Approvals, journal entries, stock movements, and reporting run automatically based on your company SOPs."
+    },
+    "erp.b3_t": {
+      "id": "Skalabel & Performant",
+      "en": "Scalable & Performant"
+    },
+    "erp.b3_d": {
+      "id": "Arsitektur modern yang sanggup melayani ratusan user dan ribuan transaksi per hari tanpa melambat.",
+      "en": "Modern architecture that handles hundreds of users and thousands of transactions per day without slowing down."
+    },
+    "erp.b4_t": {
+      "id": "Hak Milik Source Code",
+      "en": "Source Code Ownership"
+    },
+    "erp.b4_d": {
+      "id": "Anda memiliki 100% kode sumber. Tidak ada vendor lock-in, tidak ada biaya per user yang membengkak.",
+      "en": "You own 100% of the source code. No vendor lock-in, no ballooning per-user fees."
+    },
+    "erp.b5_t": {
+      "id": "Dukungan Lokal Bahasa Indonesia",
+      "en": "Local Indonesian Support"
+    },
+    "erp.b5_d": {
+      "id": "Tim engineer di Indonesia siap bantu implementasi, training, dan maintenance jangka panjang.",
+      "en": "Indonesia-based engineers ready to help with implementation, training, and long-term maintenance."
+    },
+    "erp.b6_t": {
+      "id": "ROI Terukur",
+      "en": "Measurable ROI"
+    },
+    "erp.b6_d": {
+      "id": "Setiap modul dirancang dengan metrik bisnis yang jelas, sehingga investasi ERP terlihat dampaknya.",
+      "en": "Every module is designed with clear business metrics, so the ERP investment shows its impact."
+    },
+    "erp.s1_t": {
+      "id": "Diskusi & Audit Proses Bisnis",
+      "en": "Discovery & Business Process Audit"
+    },
+    "erp.s1_d": {
+      "id": "Kami pelajari alur kerja, pain points, dan KPI bisnis Anda. Hasilnya: blueprint ERP yang fit dengan operasional, bukan template kaku.",
+      "en": "We study your workflows, pain points, and business KPIs. The result: an ERP blueprint that fits your operations, not a rigid template."
+    },
+    "erp.s2_t": {
+      "id": "Rancang & Bangun Modul ERP Custom",
+      "en": "Design & Build Custom ERP Modules"
+    },
+    "erp.s2_d": {
+      "id": "Engineer senior membangun modul prioritas terlebih dahulu (mis. inventory + finance), dengan demo mingguan agar Anda selalu update.",
+      "en": "Senior engineers build the priority modules first (e.g. inventory + finance), with weekly demos so you stay in the loop."
+    },
+    "erp.s3_t": {
+      "id": "Implementasi, Training & Dukungan",
+      "en": "Implementation, Training & Support"
+    },
+    "erp.s3_d": {
+      "id": "Go-live bertahap, training tim Anda, plus dukungan maintenance berkelanjutan agar ERP tetap relevan saat bisnis berkembang.",
+      "en": "Phased go-live, training for your team, plus ongoing maintenance support so the ERP stays relevant as the business grows."
+    },
+    "erp.benefits_title": {
+      "id": "Kenapa Pilih Jasa Pembuatan ERP System dari BMS",
+      "en": "Why Choose ERP Development from BMS"
+    },
+    "erp.benefits_sub": {
+      "id": "Bukan paket ERP siap jadi yang dipaksakan ke bisnis Anda. Setiap modul kami bangun custom dengan fokus pada efisiensi operasional dan ROI yang terukur.",
+      "en": "Not an off-the-shelf package forced onto your business. Every module is built custom with a focus on operational efficiency and measurable ROI."
+    },
+    "erp.steps_title": {
+      "id": "Cara Kerja: 3 Langkah Membangun ERP Anda",
+      "en": "How It Works: 3 Steps to Build Your ERP"
+    },
+    "erp.steps_sub": {
+      "id": "Proses yang transparan dari hari pertama sampai go-live, dengan demo mingguan dan akses penuh ke progres development.",
+      "en": "A transparent process from day one to go-live, with weekly demos and full access to development progress."
+    },
+    "erp.check_1": {
+      "id": "Tidak ada biaya tersembunyi — quote tetap di awal",
+      "en": "No hidden fees, the quote stays fixed from the start"
+    },
+    "erp.check_2": {
+      "id": "Dokumentasi lengkap & training untuk tim Anda",
+      "en": "Complete documentation & training for your team"
+    },
+    "erp.check_3": {
+      "id": "Dukungan maintenance bulanan opsional",
+      "en": "Optional monthly maintenance support"
+    },
+    "erp.cta_title": {
+      "id": "Siap diskusikan ERP untuk bisnis Anda?",
+      "en": "Ready to discuss ERP for your business?"
+    },
+    "erp.cta_sub": {
+      "id": "Konsultasi awal 100% gratis. Kami bantu petakan kebutuhan dan beri estimasi yang realistis, tanpa komitmen.",
+      "en": "Initial consultation is 100% free. We help map out your needs and give a realistic estimate, with no commitment."
+    },
+    "erp.seo_desc": {
+      "id": "BMS Services menyediakan jasa pembuatan ERP system custom untuk bisnis Anda. Solusi terintegrasi, skalabel, dan profesional. Konsultasi gratis.",
+      "en": "BMS Services delivers custom ERP system development for your business. Integrated, scalable, and professional solutions. Free consultation."
+    },
+    "erp.hero_sub": {
+      "id": "Sistem ERP yang dirancang mengikuti proses bisnis Anda — bukan sebaliknya. Terintegrasi, skalabel, dan didukung tim engineer senior di Indonesia.",
+      "en": "An ERP system shaped around your processes, not the other way around. Integrated, scalable, and backed by senior engineers in Indonesia."
+    },
+    "svc.signs_title_a": {
+      "id": "Tanda Anda",
+      "en": "Signs you"
+    },
+    "svc.signs_title_b": {
+      "id": "membutuhkan layanan ini",
+      "en": "need this service"
+    },
+    "svc.solution_title_a": {
+      "id": "Apa yang Anda",
+      "en": "What you"
+    },
+    "svc.solution_title_b": {
+      "id": "dapatkan",
+      "en": "get"
+    },
+    "svc.usecases_title_a": {
+      "id": "Cocok untuk",
+      "en": "Fit for"
+    },
+    "svc.usecases_title_b": {
+      "id": "situasi seperti",
+      "en": "situations like these"
+    },
+    "svc.process_title_a": {
+      "id": "Cara kerja",
+      "en": "How we"
+    },
+    "svc.process_title_b": {
+      "id": "kami",
+      "en": "work"
+    },
+    "svc.tech_title_a": {
+      "id": "Teknologi yang",
+      "en": "The technology"
+    },
+    "svc.tech_title_b": {
+      "id": "kami gunakan",
+      "en": "we use"
+    },
+    "svc.why_title": {
+      "id": "Kenapa memilih kami untuk {svc}",
+      "en": "Why choose us for {svc}"
+    },
+    "svc.testimonials_title_a": {
+      "id": "Apa kata",
+      "en": "What our"
+    },
+    "svc.testimonials_title_b": {
+      "id": "klien kami",
+      "en": "clients say"
+    },
+    "svc.faq_title_a": {
+      "id": "Pertanyaan",
+      "en": "Questions"
+    },
+    "svc.faq_title_b": {
+      "id": "tentang layanan ini",
+      "en": "about this service"
+    },
+    "svc.related_title_a": {
+      "id": "Eksplor layanan",
+      "en": "Explore other"
+    },
+    "svc.related_title_b": {
+      "id": "lainnya",
+      "en": "services"
+    },
+    "svc.deliverable_label": {
+      "id": "Deliverable:",
+      "en": "Deliverable:"
+    },
+    "svc.step_fallback": {
+      "id": "Langkah {n}",
+      "en": "Step {n}"
+    },
+    "svc.proof_eyebrow": {
+      "id": "Proyek Terkait",
+      "en": "Related Projects"
+    },
+    "svc.proof_title_a": {
+      "id": "Proyek yang",
+      "en": "Relevant"
+    },
+    "svc.proof_title_b": {
+      "id": "relevan",
+      "en": "projects"
+    },
+    "svc.proof_cta": {
+      "id": "Baca case study",
+      "en": "Read the case study"
+    },
+    "svc.reading_eyebrow": {
+      "id": "Baca Juga",
+      "en": "Further Reading"
+    },
+    "svc.reading_title": {
+      "id": "Pelajari lebih lanjut tentang {svc}",
+      "en": "Learn more about {svc}"
+    },
+    "svc.reading_cta": {
+      "id": "Baca artikel",
+      "en": "Read the article"
+    },
+    "nav.beranda": {
+      "id": "Beranda",
+      "en": "Home"
+    },
+    "nav.layanan": {
+      "id": "Layanan",
+      "en": "Services"
+    },
+    "nav.portofolio": {
+      "id": "Portofolio",
+      "en": "Portfolio"
+    },
+    "nav.tentang": {
+      "id": "Tentang Kami",
+      "en": "About Us"
+    },
+    "nav.harga": {
+      "id": "Harga",
+      "en": "Pricing"
+    },
+    "nav.blog": {
+      "id": "Blog",
+      "en": "Blog"
+    },
+    "nav.case_studies": {
+      "id": "Case Studies",
+      "en": "Case Studies"
+    },
+    "nav.kontak": {
+      "id": "Kontak",
+      "en": "Contact"
+    },
+    "nav.cta_consult": {
+      "id": "Konsultasi Gratis",
+      "en": "Free Consultation"
+    },
+    "nav.view_all_services": {
+      "id": "Lihat Semua Layanan",
+      "en": "View All Services"
+    },
+    "nav.featured_badge": {
+      "id": "Unggulan",
+      "en": "Featured"
+    },
+    "nav.learn": {
+      "id": "Pelajari Layanan",
+      "en": "Explore services"
+    },
+    "nav.cat_software": {
+      "id": "Software & Development",
+      "en": "Software & Development"
+    },
+    "nav.cat_ops": {
+      "id": "Operations & Strategy",
+      "en": "Operations & Strategy"
+    },
+    "nav.cat_systems": {
+      "id": "Sistem Bisnis",
+      "en": "Business Systems"
+    },
+    "nav.coming_soon": {
+      "id": "Coming Soon",
+      "en": "Coming Soon"
+    },
+    "nav.coming_soon_sub": {
+      "id": "Layanan baru segera hadir",
+      "en": "New services coming soon"
+    },
+    "nav.tagline_strip": {
+      "id": "The Growth Partner for Your Business.",
+      "en": "The Growth Partner for Your Business."
+    },
+    "nav.featured.csai.title": {
+      "id": "Custom Software with AI",
+      "en": "Custom Software with AI"
+    },
+    "nav.featured.csai.tagline": {
+      "id": "Hingga 40% lebih hemat, 50% lebih cepat, sepenuhnya custom",
+      "en": "Up to 40% cheaper, 50% faster, fully custom"
+    },
+    "nav.featured.ocp.title": {
+      "id": "Operational Control Partner",
+      "en": "Operational Control Partner"
+    },
+    "nav.featured.ocp.tagline": {
+      "id": "Kontrol penuh atas inventaris & operasional Anda",
+      "en": "Full control over your inventory and operations"
+    },
+    "footer.tagline": {
+      "id": "Software house di Semarang yang membantu bisnis Anda tumbuh lewat teknologi yang tepat guna dan strategi digital yang terbukti.",
+      "en": "A Semarang-based software house helping your business grow through the right technology and proven digital strategy."
+    },
+    "footer.quick_links": {
+      "id": "Tautan Cepat",
+      "en": "Quick Links"
+    },
+    "footer.contact": {
+      "id": "Kontak",
+      "en": "Contact"
+    },
+    "footer.rights": {
+      "id": "Semua hak cipta dilindungi.",
+      "en": "All rights reserved."
+    },
+    "footer.lang_label": {
+      "id": "Bahasa",
+      "en": "Language"
+    },
+    "wa.float_label": {
+      "id": "Chat WhatsApp",
+      "en": "Chat on WhatsApp"
+    },
+    "wa.float_hint": {
+      "id": "Butuh bantuan? Chat kami",
+      "en": "Need help? Chat with us"
+    },
+    "wa.float_aria": {
+      "id": "Chat via WhatsApp",
+      "en": "Chat via WhatsApp"
+    },
+    "wa.float_hide": {
+      "id": "Sembunyikan tombol WhatsApp",
+      "en": "Hide WhatsApp button"
+    },
+    "wa.float_show": {
+      "id": "Tampilkan tombol WhatsApp",
+      "en": "Show WhatsApp button"
+    },
+    "home.hero_badge": {
+      "id": "Software House Terpercaya di Semarang",
+      "en": "Trusted Software House in Semarang"
+    },
+    "home.hero_title_a": {
+      "id": "Software House Semarang untuk",
+      "en": "Semarang Software House for"
+    },
+    "home.hero_title_b": {
+      "id": "Software Custom & Business Automation",
+      "en": "Custom Software & Business Automation"
+    },
+    "home.hero_subtitle": {
+      "id": "Kami bantu bisnis Anda tumbuh lewat website, software custom, dan strategi digital yang terbukti meningkatkan revenue.",
+      "en": "We help your business grow through websites, custom software, and digital strategy that consistently lifts revenue."
+    },
+    "home.hero_cta_primary": {
+      "id": "Mulai Konsultasi",
+      "en": "Start a Consultation"
+    },
+    "home.hero_cta_secondary": {
+      "id": "Lihat Portofolio",
+      "en": "View Portfolio"
+    },
+    "services_grid.eyebrow": {
+      "id": "Layanan Kami",
+      "en": "Our Services"
+    },
+    "services_grid.title_a": {
+      "id": "Solusi",
+      "en": "End-to-end"
+    },
+    "services_grid.title_b": {
+      "id": "end-to-end",
+      "en": "solutions"
+    },
+    "services_grid.title_c": {
+      "id": "untuk pertumbuhan bisnis Anda",
+      "en": "to grow your business"
+    },
+    "services_grid.subtitle": {
+      "id": "Dari ide hingga eksekusi, tim kami siap membantu setiap tahap perjalanan digital bisnis Anda.",
+      "en": "From idea to execution, our team supports every stage of your digital journey."
+    },
+    "services_grid.learn_more": {
+      "id": "Pelajari Lebih Lanjut",
+      "en": "Explore services"
+    },
+    "why.eyebrow": {
+      "id": "Mengapa BMS?",
+      "en": "Why BMS?"
+    },
+    "why.title_a": {
+      "id": "Lebih dari sekadar vendor.",
+      "en": "More than a vendor."
+    },
+    "why.title_b": {
+      "id": "Growth partner sejati",
+      "en": "A real growth partner"
+    },
+    "why.subtitle": {
+      "id": "Kami bukan agency biasa. Kami berinvestasi pada keberhasilan jangka panjang bisnis Anda dengan pendekatan yang terbukti.",
+      "en": "We are not a typical agency. We invest in your long-term success with a proven approach."
+    },
+    "why.item.cert.title": {
+      "id": "Tim Tersertifikasi",
+      "en": "Certified Team"
+    },
+    "why.item.cert.desc": {
+      "id": "Engineer dan designer kami bersertifikat dengan pengalaman lintas industri.",
+      "en": "Our engineers and designers are certified, with cross-industry experience."
+    },
+    "why.item.ontime.title": {
+      "id": "Tepat Waktu",
+      "en": "On Time, Every Time"
+    },
+    "why.item.ontime.desc": {
+      "id": "Komitmen pada deadline dengan sprint planning yang transparan.",
+      "en": "Deadline-driven delivery with fully transparent sprint planning."
+    },
+    "why.item.security.title": {
+      "id": "Keamanan Terjamin",
+      "en": "Security First"
+    },
+    "why.item.security.desc": {
+      "id": "Standar keamanan enterprise di setiap project, dari kode hingga infra.",
+      "en": "Enterprise-grade security on every project, from code to infrastructure."
+    },
+    "why.item.support.title": {
+      "id": "Support 24/7",
+      "en": "24/7 Support"
+    },
+    "why.item.support.desc": {
+      "id": "Tim support siap membantu kapan saja Anda membutuhkan.",
+      "en": "Our support team is ready whenever you need us."
+    },
+    "portfolio_preview.eyebrow": {
+      "id": "Portofolio",
+      "en": "Portfolio"
+    },
+    "portfolio_preview.title_a": {
+      "id": "Karya yang",
+      "en": "Work that"
+    },
+    "portfolio_preview.title_b": {
+      "id": "berbicara",
+      "en": "speaks for itself"
+    },
+    "portfolio_preview.cta": {
+      "id": "Semua Project",
+      "en": "View All Projects"
+    },
+    "portfolio_preview.loading": {
+      "id": "Memuat portofolio...",
+      "en": "Loading portfolio..."
+    },
+    "testimonials.eyebrow": {
+      "id": "Testimoni",
+      "en": "Testimonials"
+    },
+    "testimonials.title_a": {
+      "id": "Apa kata",
+      "en": "What our"
+    },
+    "testimonials.title_b": {
+      "id": "klien kami",
+      "en": "clients say"
+    },
+    "stats.projects": {
+      "id": "Project Berhasil",
+      "en": "Projects Delivered"
+    },
+    "stats.satisfaction": {
+      "id": "Kepuasan Klien",
+      "en": "Client Satisfaction"
+    },
+    "stats.team": {
+      "id": "Tim Profesional",
+      "en": "Professional Team Members"
+    },
+    "cta.title": {
+      "id": "Siap membawa bisnis Anda ke level berikutnya?",
+      "en": "Ready to take your business to the next level?"
+    },
+    "cta.subtitle": {
+      "id": "Konsultasi gratis dengan tim kami, tanpa komitmen dan tanpa biaya tersembunyi.",
+      "en": "Free consultation with our team, with no commitment and no hidden fees."
+    },
+    "cta.button": {
+      "id": "Mulai Konsultasi",
+      "en": "Start a Consultation"
+    },
+    "faq.eyebrow": {
+      "id": "FAQ",
+      "en": "FAQ"
+    },
+    "faq.default_title": {
+      "id": "Pertanyaan yang sering ditanyakan",
+      "en": "Frequently asked questions"
+    },
+    "layanan.title_a": {
+      "id": "Layanan",
+      "en": "Our"
+    },
+    "layanan.title_b": {
+      "id": "Kami",
+      "en": "Services"
+    },
+    "layanan.subtitle": {
+      "id": "Solusi end-to-end untuk setiap tahap pertumbuhan digital bisnis Anda.",
+      "en": "End-to-end solutions for every stage of your digital growth."
+    },
+    "layanan.seo_title": {
+      "id": "Layanan — BMS Services",
+      "en": "Services — BMS Services"
+    },
+    "layanan.seo_desc": {
+      "id": "Layanan software development, custom software, e-commerce, AI automation, dan IT consulting.",
+      "en": "Software development, custom software, e-commerce, AI automation, and IT consulting services."
+    },
+    "portfolio.title_a": {
+      "id": "Portofolio",
+      "en": "Our"
+    },
+    "portfolio.title_b": {
+      "id": "Kami",
+      "en": "Portfolio"
+    },
+    "portfolio.subtitle": {
+      "id": "Karya nyata yang membuktikan komitmen kami pada kualitas.",
+      "en": "Real work that proves our commitment to quality."
+    },
+    "portfolio.all": {
+      "id": "Semua",
+      "en": "All"
+    },
+    "portfolio.detail_btn": {
+      "id": "Lihat detail →",
+      "en": "View details →"
+    },
+    "portfolio.tech_used": {
+      "id": "Teknologi yang digunakan",
+      "en": "Technologies used"
+    },
+    "portfolio.visit": {
+      "id": "Kunjungi Project",
+      "en": "Visit Project"
+    },
+    "portfolio.discuss": {
+      "id": "Diskusi Project Serupa",
+      "en": "Discuss a Similar Project"
+    },
+    "about.title_a": {
+      "id": "Tentang",
+      "en": "About"
+    },
+    "about.title_b": {
+      "id": "BMS Services",
+      "en": "BMS Services"
+    },
+    "about.intro_part1": {
+      "id": "BMS, singkatan dari",
+      "en": "BMS stands for"
+    },
+    "about.intro_part2_strong": {
+      "id": "Business Marketing & Software",
+      "en": "Business Marketing & Software"
+    },
+    "about.intro_part3": {
+      "id": ", didirikan tahun {year} di Semarang. Kami percaya bahwa teknologi yang tepat adalah kunci pertumbuhan bisnis yang berkelanjutan.",
+      "en": ". Founded in {year} in Semarang, we believe the right technology is the key to sustainable business growth."
+    },
+    "about.mission_title": {
+      "id": "Misi Kami",
+      "en": "Our Mission"
+    },
+    "about.mission_body": {
+      "id": "Memberdayakan bisnis Indonesia dengan solusi teknologi berkualitas dunia yang mudah diakses, tepat guna, dan terbukti meningkatkan revenue.",
+      "en": "Empowering Indonesian businesses with world-class technology that is accessible, purpose-fit, and proven to lift revenue."
+    },
+    "about.vision_title": {
+      "id": "Visi Kami",
+      "en": "Our Vision"
+    },
+    "about.vision_body": {
+      "id": "Menjadi growth partner pilihan utama bagi bisnis di Indonesia yang ingin scale-up melalui transformasi digital yang strategis.",
+      "en": "To be the go-to growth partner for businesses in Indonesia scaling up through strategic digital transformation."
+    },
+    "about.team_title_a": {
+      "id": "Tim",
+      "en": "Our"
+    },
+    "about.team_title_b": {
+      "id": "Kami",
+      "en": "Team"
+    },
+    "harga.badge": {
+      "id": "Transparansi Harga",
+      "en": "Transparent Pricing"
+    },
+    "harga.title_a": {
+      "id": "Hitung",
+      "en": "Estimate Your"
+    },
+    "harga.title_b": {
+      "id": "Estimasi Proyek",
+      "en": "Project Cost"
+    },
+    "harga.title_c": {
+      "id": "Anda",
+      "en": ""
+    },
+    "harga.subtitle": {
+      "id": "Jawab beberapa pertanyaan singkat dan dapatkan ballpark harga + estimasi durasi proyek custom software Anda dalam hitungan detik. Gratis, tanpa daftar.",
+      "en": "Answer a few quick questions and get a ballpark price plus duration for your custom software project in seconds. Free, no sign-up."
+    },
+    "kontak.title_a": {
+      "id": "Mari",
+      "en": "Let's"
+    },
+    "kontak.title_b": {
+      "id": "Berbicara",
+      "en": "Talk"
+    },
+    "kontak.subtitle": {
+      "id": "Punya project di pikiran? Konsultasi gratis dengan tim kami.",
+      "en": "Got a project in mind? Free consultation with our team."
+    },
+    "kontak.form.name": {
+      "id": "Nama Lengkap *",
+      "en": "Full Name *"
+    },
+    "kontak.form.email": {
+      "id": "Email *",
+      "en": "Email *"
+    },
+    "kontak.form.phone": {
+      "id": "No. WhatsApp",
+      "en": "WhatsApp Number"
+    },
+    "kontak.form.service": {
+      "id": "Layanan yang Diminati",
+      "en": "Service of Interest"
+    },
+    "kontak.form.service_placeholder": {
+      "id": "Pilih layanan",
+      "en": "Select a service"
+    },
+    "kontak.form.message": {
+      "id": "Pesan *",
+      "en": "Message *"
+    },
+    "kontak.form.submit": {
+      "id": "Kirim Pesan",
+      "en": "Send Message"
+    },
+    "kontak.form.sending": {
+      "id": "Mengirim...",
+      "en": "Sending..."
+    },
+    "kontak.form.success": {
+      "id": "Pesan terkirim!",
+      "en": "Message sent!"
+    },
+    "kontak.form.thanks_title": {
+      "id": "Terima kasih, {name}!",
+      "en": "Thank you, {name}!"
+    },
+    "kontak.form.thanks_body": {
+      "id": "Pesan Anda sudah kami terima. Email konfirmasi sudah dikirim ke",
+      "en": "We received your message. A confirmation email has been sent to"
+    },
+    "kontak.form.thanks_follow": {
+      "id": "Tim kami akan menghubungi Anda dalam 1×24 jam.",
+      "en": "Our team will contact you within 24 hours."
+    },
+    "kontak.form.send_another": {
+      "id": "Kirim pesan lain",
+      "en": "Send another message"
+    },
+    "kontak.info.email": {
+      "id": "Email",
+      "en": "Email"
+    },
+    "kontak.info.phone": {
+      "id": "Telepon",
+      "en": "Phone"
+    },
+    "kontak.info.location": {
+      "id": "Lokasi",
+      "en": "Location"
+    },
+    "kontak.cta_wa": {
+      "id": "Chat WhatsApp",
+      "en": "Chat on WhatsApp"
+    },
+    "kontak.err.name": {
+      "id": "Nama wajib diisi",
+      "en": "Name is required"
+    },
+    "kontak.err.email": {
+      "id": "Email tidak valid",
+      "en": "Invalid email"
+    },
+    "kontak.err.phone": {
+      "id": "No. WhatsApp wajib diisi",
+      "en": "WhatsApp number is required"
+    },
+    "kontak.err.message": {
+      "id": "Pesan wajib diisi",
+      "en": "Message is required"
+    },
+    "kontak.err.generic": {
+      "id": "Gagal mengirim pesan. Silakan coba lagi.",
+      "en": "Failed to send message. Please try again."
+    },
+    "blog.title_a": {
+      "id": "Blog",
+      "en": "BMS"
+    },
+    "blog.title_b": {
+      "id": "BMS",
+      "en": "Blog"
+    },
+    "blog.subtitle": {
+      "id": "Insight teknologi, SEO, dan strategi bisnis dari tim kami.",
+      "en": "Technology, SEO, and business strategy insights from our team."
+    },
+    "blog.search_placeholder": {
+      "id": "Cari artikel...",
+      "en": "Search articles..."
+    },
+    "blog.search_aria": {
+      "id": "Cari artikel",
+      "en": "Search articles"
+    },
+    "blog.clear_search": {
+      "id": "Hapus pencarian",
+      "en": "Clear search"
+    },
+    "blog.results_for": {
+      "id": "hasil untuk",
+      "en": "results for"
+    },
+    "blog.empty": {
+      "id": "Belum ada artikel.",
+      "en": "No articles yet."
+    },
+    "blog.no_match": {
+      "id": "Tidak ada artikel cocok dengan \"{q}\".",
+      "en": "No articles matched \"{q}\"."
+    },
+    "blog.loading": {
+      "id": "Memuat artikel...",
+      "en": "Loading article..."
+    },
+    "blog.toc": {
+      "id": "Daftar isi",
+      "en": "Table of contents"
+    },
+    "blog.toc_aria": {
+      "id": "Daftar isi",
+      "en": "Table of contents"
+    },
+    "blog.faq_title": {
+      "id": "FAQ artikel",
+      "en": "Article FAQ"
+    },
+    "blog.faq_subtitle": {
+      "id": "Jawaban ringkas untuk pertanyaan yang sering muncul dari pembaca dan calon klien.",
+      "en": "Quick answers to the questions readers and potential clients ask most."
+    },
+    "cs.title_a": {
+      "id": "Case",
+      "en": "Case"
+    },
+    "cs.title_b": {
+      "id": "Studies",
+      "en": "Studies"
+    },
+    "cs.subtitle": {
+      "id": "Hasil nyata dari project yang kami kerjakan — dari masalah, solusi, hingga dampak terukur.",
+      "en": "Real outcomes from projects we delivered, from problem to solution to measurable impact."
+    },
+    "cs.search_placeholder": {
+      "id": "Cari case study...",
+      "en": "Search case studies..."
+    },
+    "cs.search_aria": {
+      "id": "Cari case study",
+      "en": "Search case studies"
+    },
+    "cs.empty": {
+      "id": "Belum ada case study.",
+      "en": "No case studies yet."
+    },
+    "cs.no_match": {
+      "id": "Tidak ada case study cocok dengan \"{q}\".",
+      "en": "No case studies matched \"{q}\"."
+    },
+    "cs.loading": {
+      "id": "Memuat case study...",
+      "en": "Loading case study..."
+    },
+    "cs.crumb_home": {
+      "id": "Beranda",
+      "en": "Home"
+    },
+    "cs.crumb_root": {
+      "id": "Case Studies",
+      "en": "Case Studies"
+    },
+    "cs.section.background": {
+      "id": "Latar Belakang Klien",
+      "en": "Client Background"
+    },
+    "cs.section.problem": {
+      "id": "Masalah",
+      "en": "The Problem"
+    },
+    "cs.section.solution": {
+      "id": "Solusi",
+      "en": "The Solution"
+    },
+    "cs.section.goals": {
+      "id": "Tujuan & Sasaran",
+      "en": "Goals & Objectives"
+    },
+    "cs.section.architecture": {
+      "id": "Arsitektur Teknis",
+      "en": "Technical Architecture"
+    },
+    "cs.section.features": {
+      "id": "Fitur & Deliverables Utama",
+      "en": "Key Features & Deliverables"
+    },
+    "cs.section.timeline": {
+      "id": "Proses & Timeline",
+      "en": "Process & Timeline"
+    },
+    "cs.section.before_after": {
+      "id": "Before & After",
+      "en": "Before & After"
+    },
+    "cs.section.results": {
+      "id": "Hasil",
+      "en": "Results"
+    },
+    "cs.section.impact": {
+      "id": "Hasil & Dampak",
+      "en": "Results & Impact"
+    },
+    "cs.section.gallery": {
+      "id": "Galeri",
+      "en": "Gallery"
+    },
+    "cs.see_more": {
+      "id": "Lihat case study lainnya",
+      "en": "See more case studies"
+    },
+    "svc.crumb_home": {
+      "id": "Beranda",
+      "en": "Home"
+    },
+    "svc.crumb_services": {
+      "id": "Layanan",
+      "en": "Services"
+    },
+    "svc.trust.rating": {
+      "id": "4.9/5",
+      "en": "4.9/5"
+    },
+    "svc.trust.delivered": {
+      "id": "project delivered",
+      "en": "projects delivered"
+    },
+    "svc.trust.warranty": {
+      "id": "Garansi",
+      "en": "Warranty"
+    },
+    "svc.trust.warranty_days": {
+      "id": "30 hari",
+      "en": "30 days"
+    },
+    "svc.warranty_label": {
+      "id": "30 hari pasca-launch",
+      "en": "30 days post-launch"
+    },
+    "svc.hero_cta_wa": {
+      "id": "Konsultasi Gratis",
+      "en": "Free Consultation"
+    },
+    "svc.hero_cta_quote": {
+      "id": "Request Quote",
+      "en": "Request a Quote"
+    },
+    "svc.cta_strip_ready": {
+      "id": "Siap memulai",
+      "en": "Ready to start"
+    },
+    "svc.cta_strip_q": {
+      "id": "?",
+      "en": "?"
+    },
+    "svc.cta_strip_sub": {
+      "id": "Konsultasi gratis 30 menit, tanpa komitmen.",
+      "en": "Free 30-minute consultation, no commitment."
+    },
+    "svc.cta_strip_wa": {
+      "id": "Chat WhatsApp",
+      "en": "Chat on WhatsApp"
+    },
+    "svc.cta_strip_quote": {
+      "id": "Request Quote",
+      "en": "Request a Quote"
+    },
+    "svc.signs_eyebrow": {
+      "id": "Tanda-tanda",
+      "en": "Signs"
+    },
+    "svc.solution_eyebrow": {
+      "id": "Solusi Kami",
+      "en": "Our Solution"
+    },
+    "svc.discuss_now": {
+      "id": "Diskusi Sekarang",
+      "en": "Talk to Us Now"
+    },
+    "svc.illust_alt": {
+      "id": "Ilustrasi {title}",
+      "en": "{title} illustration"
+    },
+    "svc.solution_alt": {
+      "id": "Solusi {title}",
+      "en": "{title} solution"
+    },
+    "svc.process_alt": {
+      "id": "Proses {title}",
+      "en": "{title} process"
+    },
+    "svc.testimonial_eyebrow": {
+      "id": "Kata Klien",
+      "en": "Client Voice"
+    },
+    "svc.usecases_eyebrow": {
+      "id": "Use Cases",
+      "en": "Use Cases"
+    },
+    "svc.process_eyebrow": {
+      "id": "Proses",
+      "en": "Process"
+    },
+    "svc.tech_eyebrow": {
+      "id": "Tech Stack",
+      "en": "Tech Stack"
+    },
+    "svc.why_eyebrow": {
+      "id": "Mengapa BMS",
+      "en": "Why BMS"
+    },
+    "svc.start_consult": {
+      "id": "Mulai Konsultasi Gratis",
+      "en": "Start a Free Consultation"
+    },
+    "svc.see_pricing": {
+      "id": "Lihat Harga",
+      "en": "See Pricing"
+    },
+    "svc.testimonials_eyebrow": {
+      "id": "Testimoni",
+      "en": "Testimonials"
+    },
+    "svc.faq_eyebrow": {
+      "id": "FAQ",
+      "en": "FAQ"
+    },
+    "svc.related_eyebrow": {
+      "id": "Layanan Terkait",
+      "en": "Related Services"
+    },
+    "svc.learn_more": {
+      "id": "Pelajari Lebih Lanjut",
+      "en": "View service details"
+    },
+    "svc.delivered_count": {
+      "id": "project delivered",
+      "en": "projects delivered"
+    },
+    "svc.warranty_word": {
+      "id": "Garansi",
+      "en": "Warranty"
+    },
+    "svc.warranty_days": {
+      "id": "30 hari",
+      "en": "30 days"
+    },
+    "blog_detail.loading": {
+      "id": "Memuat artikel...",
+      "en": "Loading article..."
+    },
+    "blog_detail.crumb_home": {
+      "id": "Beranda",
+      "en": "Home"
+    },
+    "blog_detail.toc_label": {
+      "id": "Daftar isi",
+      "en": "Table of contents"
+    },
+    "blog_detail.faq_title": {
+      "id": "FAQ artikel",
+      "en": "Article FAQ"
+    },
+    "blog_detail.faq_subtitle": {
+      "id": "Jawaban ringkas untuk pertanyaan yang sering muncul dari pembaca dan calon klien.",
+      "en": "Quick answers to questions that readers and prospective clients often ask."
+    },
+    "csd.loading": {
+      "id": "Memuat case study...",
+      "en": "Loading case study..."
+    },
+    "csd.crumb_home": {
+      "id": "Beranda",
+      "en": "Home"
+    },
+    "csd.crumb_root": {
+      "id": "Case Studies",
+      "en": "Case Studies"
+    },
+    "csd.section.background": {
+      "id": "Client Background",
+      "en": "Client Background"
+    },
+    "csd.section.problem": {
+      "id": "The Problem",
+      "en": "The Problem"
+    },
+    "csd.section.solution": {
+      "id": "The Solution",
+      "en": "The Solution"
+    },
+    "csd.section.goals": {
+      "id": "Goals & Objectives",
+      "en": "Goals & Objectives"
+    },
+    "csd.section.architecture": {
+      "id": "Technical Architecture",
+      "en": "Technical Architecture"
+    },
+    "csd.section.features": {
+      "id": "Key Features & Deliverables",
+      "en": "Key Features & Deliverables"
+    },
+    "csd.section.timeline": {
+      "id": "Process & Timeline",
+      "en": "Process & Timeline"
+    },
+    "csd.section.before_after": {
+      "id": "Before & After",
+      "en": "Before & After"
+    },
+    "csd.section.results": {
+      "id": "Results",
+      "en": "Results"
+    },
+    "csd.section.impact": {
+      "id": "Results & Impact",
+      "en": "Results & Impact"
+    },
+    "csd.section.gallery": {
+      "id": "Gallery",
+      "en": "Gallery"
+    },
+    "csd.before_label": {
+      "id": "Before",
+      "en": "Before"
+    },
+    "csd.after_label": {
+      "id": "After",
+      "en": "After"
+    },
+    "csd.step_fallback": {
+      "id": "Step {n}",
+      "en": "Step {n}"
+    },
+    "csd.see_more": {
+      "id": "Lihat case study lainnya",
+      "en": "See more case studies"
+    },
+    "calc.step": {
+      "id": "Langkah",
+      "en": "Step"
+    },
+    "calc.of": {
+      "id": "dari",
+      "en": "of"
+    },
+    "calc.next": {
+      "id": "Lanjut",
+      "en": "Next"
+    },
+    "calc.back": {
+      "id": "Kembali",
+      "en": "Back"
+    },
+    "calc.reset": {
+      "id": "Mulai ulang",
+      "en": "Start over"
+    },
+    "calc.calculate": {
+      "id": "Hitung Estimasi",
+      "en": "Calculate Estimate"
+    },
+    "nf.badge": {
+      "id": "404 • halaman tidak ditemukan",
+      "en": "404 • page not found"
+    },
+    "nf.title": {
+      "id": "Link ini sudah tidak tersedia, tapi pengunjung tetap bisa lanjut ke halaman yang relevan.",
+      "en": "This link is no longer available, but you can keep going to a relevant page."
+    },
+    "nf.body": {
+      "id": "Bisa jadi URL salah ketik, halaman sudah dipindahkan, atau link lama dari iklan dan bookmark belum diperbarui.",
+      "en": "The URL might be mistyped, the page may have moved, or an old link from an ad or bookmark may not yet be updated."
+    },
+    "nf.url_label": {
+      "id": "URL yang dicari:",
+      "en": "Requested URL:"
+    },
+    "nf.cta_home": {
+      "id": "Kembali ke beranda",
+      "en": "Back to home"
+    },
+    "nf.cta_contact": {
+      "id": "Hubungi tim kami",
+      "en": "Contact our team"
+    },
+    "nf.cta_help": {
+      "id": "Butuh bantuan cepat",
+      "en": "Need quick help"
+    },
+    "nf.popular": {
+      "id": "Halaman populer",
+      "en": "Popular pages"
+    },
+    "nf.featured_services": {
+      "id": "Layanan unggulan",
+      "en": "Featured services"
+    },
+    "nf.latest_articles": {
+      "id": "Artikel terbaru",
+      "en": "Latest articles"
+    },
+    "nf.loading_articles": {
+      "id": "Artikel terbaru sedang dimuat.",
+      "en": "Loading latest articles..."
+    },
+    "nf.featured_portfolio": {
+      "id": "Portofolio pilihan",
+      "en": "Featured portfolio"
+    },
+    "nf.loading_portfolio": {
+      "id": "Portofolio pilihan sedang dimuat.",
+      "en": "Loading featured portfolio..."
+    },
+    "nf.seo_title": {
+      "id": "404 — Halaman tidak ditemukan | BMS Services",
+      "en": "404 — Page Not Found | BMS Services"
+    },
+    "nf.seo_desc": {
+      "id": "Halaman yang Anda cari tidak tersedia. Lanjutkan ke halaman populer, layanan unggulan, artikel terbaru, atau hubungi tim BMS Services.",
+      "en": "The page you requested is not available. Continue to popular pages, featured services, latest articles, or contact the BMS Services team."
+    },
+    "unsub.seo_title": {
+      "id": "Berhenti berlangganan email — BMS Services",
+      "en": "Unsubscribe — BMS Services"
+    },
+    "unsub.seo_desc": {
+      "id": "Kelola preferensi email Anda dari BMS Services.",
+      "en": "Manage your email preferences from BMS Services."
+    },
+    "unsub.validating": {
+      "id": "Memvalidasi link...",
+      "en": "Validating link..."
+    },
+    "unsub.ready_title": {
+      "id": "Berhenti berlangganan email?",
+      "en": "Unsubscribe from email?"
+    },
+    "unsub.ready_body": {
+      "id": "Klik tombol di bawah untuk konfirmasi. Anda tidak akan menerima email dari BMS Services lagi.",
+      "en": "Click the button below to confirm. You will no longer receive emails from BMS Services."
+    },
+    "unsub.confirm": {
+      "id": "Konfirmasi berhenti berlangganan",
+      "en": "Confirm unsubscribe"
+    },
+    "unsub.processing": {
+      "id": "Memproses...",
+      "en": "Processing..."
+    },
+    "unsub.done_title": {
+      "id": "Berhasil berhenti berlangganan",
+      "en": "Successfully unsubscribed"
+    },
+    "unsub.done_body": {
+      "id": "Anda tidak akan menerima email dari kami lagi.",
+      "en": "You will not receive emails from us anymore."
+    },
+    "unsub.already_title": {
+      "id": "Anda sudah berhenti berlangganan",
+      "en": "You are already unsubscribed"
+    },
+    "unsub.already_body": {
+      "id": "Tidak ada tindakan lebih lanjut yang diperlukan.",
+      "en": "No further action is needed."
+    },
+    "unsub.invalid_title": {
+      "id": "Link tidak valid",
+      "en": "Invalid link"
+    },
+    "unsub.invalid_body_a": {
+      "id": "Link berhenti berlangganan tidak valid atau sudah kedaluwarsa. Silakan hubungi kami di",
+      "en": "The unsubscribe link is invalid or has expired. Please contact us at"
+    },
+    "sticky_audit.title_a": {
+      "id": "Mulai dengan",
+      "en": "Start with a"
+    },
+    "sticky_audit.title_b": {
+      "id": "audit gratis",
+      "en": "free audit"
+    },
+    "sticky_audit.subtitle": {
+      "id": "Tanpa komitmen • Respon dalam 24 jam",
+      "en": "No commitment • Reply within 24 hours"
+    },
+    "sticky_audit.cta": {
+      "id": "Mulai Audit Gratis",
+      "en": "Start Free Audit"
+    },
+    "trust.preheader": {
+      "id": "Dipercaya oleh tim operasional di",
+      "en": "Trusted by operations teams in"
+    },
+    "trust.industry.hotel": {
+      "id": "Hotel & Resort",
+      "en": "Hotels & Resorts"
+    },
+    "trust.industry.fb": {
+      "id": "F&B / Restoran",
+      "en": "F&B / Restaurants"
+    },
+    "trust.industry.retail": {
+      "id": "Retail & Distribusi",
+      "en": "Retail & Distribution"
+    },
+    "trust.industry.wholesale": {
+      "id": "Wholesale",
+      "en": "Wholesale"
+    },
+    "trust.industry.manufacturing": {
+      "id": "Manufaktur",
+      "en": "Manufacturing"
+    },
+    "trust.industry.multibranch": {
+      "id": "Multi-cabang",
+      "en": "Multi-branch"
+    },
+    "faq.default_subtitle": {
+      "id": "Jawaban ringkas untuk pertanyaan yang paling sering diajukan.",
+      "en": "Quick answers to the most commonly asked questions."
+    },
+    "home.seo_title": {
+      "id": "BMS Services | Software House Semarang & Software Custom",
+      "en": "BMS Services | Semarang Software House & Custom Software"
+    },
+    "home.seo_desc": {
+      "id": "Software house di Semarang untuk website, aplikasi custom, ERP, CRM, dan business automation. 70+ proyek selesai. Konsultasi gratis via WhatsApp.",
+      "en": "Semarang software house for custom websites, apps, ERP, CRM and business automation. 70+ projects delivered. Free WhatsApp consultation."
+    },
+    "page.layanan.seo_title": {
+      "id": "Layanan — BMS Services",
+      "en": "Services — BMS Services"
+    },
+    "page.layanan.seo_desc": {
+      "id": "Layanan software development, custom software, e-commerce, AI automation, dan IT consulting.",
+      "en": "Software development, custom software, e-commerce, AI automation, and IT consulting services."
+    },
+    "page.layanan.title_a": {
+      "id": "Layanan",
+      "en": "Our"
+    },
+    "page.layanan.title_b": {
+      "id": "Kami",
+      "en": "Services"
+    },
+    "page.layanan.subtitle": {
+      "id": "Solusi end-to-end untuk setiap tahap pertumbuhan digital bisnis Anda.",
+      "en": "End-to-end solutions for every stage of your digital growth."
+    },
+    "page.harga.seo_title": {
+      "id": "Kalkulator Harga Proyek — BMS Services",
+      "en": "Project Price Calculator — BMS Services"
+    },
+    "page.harga.seo_desc": {
+      "id": "Hitung estimasi biaya proyek custom software Anda dalam hitungan detik.",
+      "en": "Estimate the cost of your custom software project in seconds."
+    },
+    "page.harga.badge": {
+      "id": "Transparansi Harga",
+      "en": "Transparent Pricing"
+    },
+    "page.harga.title_a": {
+      "id": "Hitung",
+      "en": "Estimate Your"
+    },
+    "page.harga.title_b": {
+      "id": "Estimasi Proyek",
+      "en": "Project Cost"
+    },
+    "page.harga.title_c": {
+      "id": "Anda",
+      "en": ""
+    },
+    "page.harga.subtitle": {
+      "id": "Jawab beberapa pertanyaan singkat dan dapatkan ballpark harga + estimasi durasi proyek custom software Anda dalam hitungan detik. Gratis, tanpa daftar.",
+      "en": "Answer a few quick questions and get a ballpark price + duration estimate for your custom software project in seconds. Free, no sign-up."
+    },
+    "page.tentang.seo_title": {
+      "id": "Tentang Kami — BMS Services",
+      "en": "About Us — BMS Services"
+    },
+    "page.tentang.seo_desc": {
+      "id": "BMS Services — software house dari Semarang yang didirikan tahun 2024.",
+      "en": "BMS Services, a Semarang-based software house founded in 2024."
+    },
+    "page.tentang.title_a": {
+      "id": "Tentang",
+      "en": "About"
+    },
+    "page.tentang.intro": {
+      "id": "BMS, singkatan dari <strong>Business Marketing & Software</strong>, didirikan tahun {year} di Semarang. Kami percaya bahwa teknologi yang tepat adalah kunci pertumbuhan bisnis yang berkelanjutan.",
+      "en": "BMS, short for <strong>Business Marketing & Software</strong>, was founded in {year} in Semarang. We believe the right technology is the key to sustainable business growth."
+    },
+    "page.tentang.mission_title": {
+      "id": "Misi Kami",
+      "en": "Our Mission"
+    },
+    "page.tentang.mission_body": {
+      "id": "Memberdayakan bisnis Indonesia dengan solusi teknologi berkualitas dunia yang mudah diakses, tepat guna, dan terbukti meningkatkan revenue.",
+      "en": "Empower Indonesian businesses with world-class, accessible, fit-for-purpose technology that consistently lifts revenue."
+    },
+    "page.tentang.vision_title": {
+      "id": "Visi Kami",
+      "en": "Our Vision"
+    },
+    "page.tentang.vision_body": {
+      "id": "Menjadi growth partner pilihan utama bagi bisnis di Indonesia yang ingin scale-up melalui transformasi digital yang strategis.",
+      "en": "To be the growth partner of choice for Indonesian businesses scaling up through strategic digital transformation."
+    },
+    "page.tentang.team_title_a": {
+      "id": "Tim",
+      "en": "Our"
+    },
+    "page.tentang.team_title_b": {
+      "id": "Kami",
+      "en": "Team"
+    },
+    "page.portfolio.seo_title": {
+      "id": "Portofolio — BMS Services",
+      "en": "Portfolio — BMS Services"
+    },
+    "page.portfolio.seo_desc": {
+      "id": "Lihat project terbaik kami: website, software custom, e-commerce, dan lebih banyak lagi.",
+      "en": "See our best work: websites, custom software, e-commerce, and more."
+    },
+    "page.portfolio.title_a": {
+      "id": "Portofolio",
+      "en": "Our"
+    },
+    "page.portfolio.title_b": {
+      "id": "Kami",
+      "en": "Portfolio"
+    },
+    "page.portfolio.subtitle": {
+      "id": "Karya nyata yang membuktikan komitmen kami pada kualitas.",
+      "en": "Real work that proves our commitment to quality."
+    },
+    "page.portfolio.filter_all": {
+      "id": "Semua",
+      "en": "All"
+    },
+    "page.portfolio.see_detail": {
+      "id": "Lihat detail →",
+      "en": "See details →"
+    },
+    "page.portfolio.tech_used": {
+      "id": "Teknologi yang digunakan",
+      "en": "Technologies used"
+    },
+    "page.portfolio.visit": {
+      "id": "Kunjungi Project",
+      "en": "Visit Project"
+    },
+    "page.portfolio.discuss": {
+      "id": "Diskusi Project Serupa",
+      "en": "Discuss a similar project"
+    },
+    "page.blog.seo_title": {
+      "id": "Blog — BMS Services",
+      "en": "Blog — BMS Services"
+    },
+    "page.blog.seo_desc": {
+      "id": "Artikel, tips, dan insight seputar teknologi, SEO, dan pertumbuhan bisnis dari tim BMS Services.",
+      "en": "Articles, tips, and insights on technology, SEO, and business growth from the BMS Services team."
+    },
+    "page.blog.title_a": {
+      "id": "Blog",
+      "en": "BMS"
+    },
+    "page.blog.title_b": {
+      "id": "BMS",
+      "en": "Blog"
+    },
+    "page.blog.subtitle": {
+      "id": "Insight teknologi, SEO, dan strategi bisnis dari tim kami.",
+      "en": "Technology, SEO, and business strategy insights from our team."
+    },
+    "page.blog.search_placeholder": {
+      "id": "Cari artikel...",
+      "en": "Search articles..."
+    },
+    "page.blog.search_aria": {
+      "id": "Cari artikel",
+      "en": "Search articles"
+    },
+    "page.blog.clear_search": {
+      "id": "Hapus pencarian",
+      "en": "Clear search"
+    },
+    "page.blog.results_count": {
+      "id": "{n} hasil untuk",
+      "en": "{n} results for"
+    },
+    "page.blog.empty": {
+      "id": "Belum ada artikel.",
+      "en": "No articles yet."
+    },
+    "page.blog.no_match": {
+      "id": "Tidak ada artikel cocok dengan \"{q}\".",
+      "en": "No articles match \"{q}\"."
+    },
+    "page.cs.seo_title": {
+      "id": "Case Studies — BMS Services",
+      "en": "Case Studies — BMS Services"
+    },
+    "page.cs.seo_desc": {
+      "id": "Studi kasus nyata bagaimana BMS Services membantu klien mempercepat operasional, menumbuhkan revenue, dan menghadirkan teknologi tepat guna.",
+      "en": "Real case studies of how BMS Services helps clients speed up operations, grow revenue, and ship fit-for-purpose technology."
+    },
+    "page.cs.title_a": {
+      "id": "Case",
+      "en": "Case"
+    },
+    "page.cs.title_b": {
+      "id": "Studies",
+      "en": "Studies"
+    },
+    "page.cs.subtitle": {
+      "id": "Hasil nyata dari project yang kami kerjakan, dari masalah, solusi, hingga dampak terukur.",
+      "en": "Real outcomes from our projects: problem, solution, and measurable impact."
+    },
+    "page.cs.search_placeholder": {
+      "id": "Cari case study...",
+      "en": "Search case studies..."
+    },
+    "page.cs.search_aria": {
+      "id": "Cari case study",
+      "en": "Search case studies"
+    },
+    "page.cs.empty": {
+      "id": "Belum ada case study.",
+      "en": "No case studies yet."
+    },
+    "page.cs.no_match": {
+      "id": "Tidak ada case study cocok dengan \"{q}\".",
+      "en": "No case studies match \"{q}\"."
+    },
+    "page.kontak.seo_title": {
+      "id": "Kontak — BMS Services",
+      "en": "Contact — BMS Services"
+    },
+    "page.kontak.seo_desc": {
+      "id": "Hubungi BMS Services untuk konsultasi gratis project Anda.",
+      "en": "Contact BMS Services for a free consultation on your project."
+    },
+    "page.kontak.title_a": {
+      "id": "Mari",
+      "en": "Let's"
+    },
+    "page.kontak.title_b": {
+      "id": "Berbicara",
+      "en": "Talk"
+    },
+    "page.kontak.subtitle": {
+      "id": "Punya project di pikiran? Konsultasi gratis dengan tim kami.",
+      "en": "Have a project in mind? Get a free consultation with our team."
+    },
+    "page.kontak.field_name": {
+      "id": "Nama Lengkap *",
+      "en": "Full Name *"
+    },
+    "page.kontak.field_email": {
+      "id": "Email *",
+      "en": "Email *"
+    },
+    "page.kontak.field_phone": {
+      "id": "No. WhatsApp",
+      "en": "WhatsApp Number"
+    },
+    "page.kontak.field_service": {
+      "id": "Layanan yang Diminati",
+      "en": "Service of Interest"
+    },
+    "page.kontak.field_service_ph": {
+      "id": "Pilih layanan",
+      "en": "Select a service"
+    },
+    "page.kontak.field_message": {
+      "id": "Pesan *",
+      "en": "Message *"
+    },
+    "page.kontak.submit": {
+      "id": "Kirim Pesan",
+      "en": "Send Message"
+    },
+    "page.kontak.submitting": {
+      "id": "Mengirim...",
+      "en": "Sending..."
+    },
+    "page.kontak.success_toast": {
+      "id": "Pesan terkirim!",
+      "en": "Message sent!"
+    },
+    "page.kontak.thanks_title": {
+      "id": "Terima kasih, {first}!",
+      "en": "Thank you, {first}!"
+    },
+    "page.kontak.thanks_body": {
+      "id": "Pesan Anda sudah kami terima. Email konfirmasi sudah dikirim ke {email}. Tim kami akan menghubungi Anda dalam 1x24 jam.",
+      "en": "We've received your message. A confirmation email has been sent to {email}. Our team will get back to you within 24 hours."
+    },
+    "page.kontak.send_another": {
+      "id": "Kirim pesan lain",
+      "en": "Send another message"
+    },
+    "page.kontak.info_email": {
+      "id": "Email",
+      "en": "Email"
+    },
+    "page.kontak.info_phone": {
+      "id": "Telepon",
+      "en": "Phone"
+    },
+    "page.kontak.info_location": {
+      "id": "Lokasi",
+      "en": "Location"
+    },
+    "page.kontak.cta_wa": {
+      "id": "Chat WhatsApp",
+      "en": "Chat on WhatsApp"
+    },
+    "page.kontak.err_generic": {
+      "id": "Gagal mengirim pesan. Silakan coba lagi.",
+      "en": "Failed to send the message. Please try again."
+    },
+    "page.kontak.err_name": {
+      "id": "Nama wajib diisi",
+      "en": "Name is required"
+    },
+    "page.kontak.err_email": {
+      "id": "Email tidak valid",
+      "en": "Invalid email"
+    },
+    "page.kontak.err_phone": {
+      "id": "No. WhatsApp wajib diisi",
+      "en": "WhatsApp number is required"
+    },
+    "page.kontak.err_message": {
+      "id": "Pesan wajib diisi",
+      "en": "Message is required"
+    },
+    "page.404.seo_title": {
+      "id": "404 — Halaman tidak ditemukan | BMS Services",
+      "en": "404 — Page not found | BMS Services"
+    },
+    "page.404.seo_desc": {
+      "id": "Halaman yang Anda cari tidak tersedia. Lanjutkan ke halaman populer, layanan unggulan, artikel terbaru, atau hubungi tim BMS Services.",
+      "en": "The page you're looking for isn't available. Continue to popular pages, featured services, latest articles, or contact the BMS Services team."
+    },
+    "page.404.pill": {
+      "id": "404 • halaman tidak ditemukan",
+      "en": "404 • page not found"
+    },
+    "page.404.heading": {
+      "id": "Link ini sudah tidak tersedia, tapi pengunjung tetap bisa lanjut ke halaman yang relevan.",
+      "en": "This link is no longer available, but you can still continue to a relevant page."
+    },
+    "page.404.body": {
+      "id": "Bisa jadi URL salah ketik, halaman sudah dipindahkan, atau link lama dari iklan dan bookmark belum diperbarui.",
+      "en": "It may be a typo, the page may have moved, or an old link from an ad or bookmark hasn't been updated yet."
+    },
+    "page.404.url_label": {
+      "id": "URL yang dicari: {url}",
+      "en": "Requested URL: {url}"
+    },
+    "page.404.back_home": {
+      "id": "Kembali ke beranda",
+      "en": "Back to home"
+    },
+    "page.404.contact": {
+      "id": "Hubungi tim kami",
+      "en": "Contact our team"
+    },
+    "page.404.help_fast": {
+      "id": "Butuh bantuan cepat",
+      "en": "Need quick help"
+    },
+    "page.404.popular": {
+      "id": "Halaman populer",
+      "en": "Popular pages"
+    },
+    "page.404.featured_services": {
+      "id": "Layanan unggulan",
+      "en": "Featured services"
+    },
+    "page.404.latest_articles": {
+      "id": "Artikel terbaru",
+      "en": "Latest articles"
+    },
+    "page.404.featured_portfolio": {
+      "id": "Portofolio pilihan",
+      "en": "Featured portfolio"
+    },
+    "page.404.articles_loading": {
+      "id": "Artikel terbaru sedang dimuat.",
+      "en": "Loading latest articles."
+    },
+    "page.404.portfolio_loading": {
+      "id": "Portofolio pilihan sedang dimuat.",
+      "en": "Loading featured portfolio."
+    },
+    "page.404.help_wa_msg": {
+      "id": "Halo {brand}, saya membuka halaman {path} tetapi halaman tersebut tidak ditemukan.",
+      "en": "Hi {brand}, I opened {path} but the page wasn't found."
+    },
+    "csai.seo_title": {
+      "id": "Custom Software AI | BMS Services",
+      "en": "Custom Software with AI | BMS Services"
+    },
+    "csai.seo_desc": {
+      "id": "Pengembangan software custom dengan AI. Hingga 40% lebih hemat & 50% lebih cepat. 100% sesuai workflow Anda.",
+      "en": "Custom software development powered by AI. Up to 40% cheaper and 50% faster. 100% tailored to your workflow."
+    },
+    "csai.eyebrow": {
+      "id": "SOFTWARE CUSTOM UNTUK BISNIS YANG SUDAH BERJALAN",
+      "en": "CUSTOM SOFTWARE FOR ESTABLISHED BUSINESSES"
+    },
+    "csai.hero_h1_a": {
+      "id": "Tanpa Disadari,",
+      "en": "Without You Noticing,"
+    },
+    "csai.hero_h1_b": {
+      "id": "Sistem Lama Menggerus Profit Bisnis Anda.",
+      "en": "Legacy Systems Are Eating Your Profit."
+    },
+    "csai.hero_p": {
+      "id": "Saat operasional makin kompleks, sistem yang usang jadi bottleneck. Laporan telat, data tidak sinkron, dan tim Anda buang waktu untuk hal yang seharusnya bisa otomatis. Masalah kecil yang diam-diam menggerus margin.",
+      "en": "As operations get more complex, outdated systems become a bottleneck. Late reports, out-of-sync data, and a team wasting hours on things that should be automatic. Small issues that quietly erode your margin."
+    },
+    "csai.cta_main": {
+      "id": "Diskusikan Kebutuhan Sistem Anda",
+      "en": "Discuss Your System Needs"
+    },
+    "csai.cta_sub": {
+      "id": "Konsultasi teknis singkat untuk memetakan masalah operasional Anda. Respon dalam 24 jam.",
+      "en": "A short technical chat to map out your operational pain. Reply within 24 hours."
+    },
+    "ocp.seo_title": {
+      "id": "Operational Control Partner | BMS Services",
+      "en": "Operational Control Partner | BMS Services"
+    },
+    "ocp.seo_desc": {
+      "id": "Kontrol penuh atas operasional & inventaris bisnis Anda. Sistem terintegrasi, real-time, dan didampingi tim BMS.",
+      "en": "Full control over your operations and inventory. An integrated, real-time system with the BMS team alongside you."
+    },
+    "ocp.cta_main": {
+      "id": "Diskusikan Kebutuhan Operasional Anda",
+      "en": "Discuss Your Operational Needs"
+    },
+    "admin.en_tab": {
+      "id": "English (EN)",
+      "en": "English (EN)"
+    },
+    "admin.en_pending": {
+      "id": "EN pending",
+      "en": "EN pending"
+    },
+    "admin.en_ready": {
+      "id": "EN ready",
+      "en": "EN ready"
+    },
+    "calc.step_label": {
+      "id": "Langkah {step} dari {total}",
+      "en": "Step {step} of {total}"
+    },
+    "calc.step1_title": {
+      "id": "Apa jenis proyek Anda?",
+      "en": "What kind of project are you building?"
+    },
+    "calc.step1_subtitle": {
+      "id": "Pilih yang paling mendekati. Anda bisa selalu sesuaikan di langkah berikutnya.",
+      "en": "Pick the closest match — you can fine-tune it in the next step."
+    },
+    "calc.step2_title": {
+      "id": "Sesuaikan cakupan proyek",
+      "en": "Tailor your project scope"
+    },
+    "calc.step2_subtitle": {
+      "id": "Pertanyaan dipersonalisasi untuk jenis proyek yang Anda pilih.",
+      "en": "Questions are personalized to the project type you picked."
+    },
+    "calc.step3_title": {
+      "id": "Integrasi & fitur tambahan",
+      "en": "Integrations & extra features"
+    },
+    "calc.step3_subtitle": {
+      "id": "Pilih semua yang relevan. Kalau ragu, lewati saja.",
+      "en": "Pick everything relevant. When in doubt, skip it."
+    },
+    "calc.mobile_native_label": {
+      "id": "Perlu mobile app native?",
+      "en": "Need a native mobile app?"
+    },
+    "calc.mobile_native_helper": {
+      "id": "iOS / Android terpisah dari web. Menambah waktu pengembangan signifikan.",
+      "en": "Separate iOS / Android apps. Adds significant development time."
+    },
+    "calc.mobile_native_summary": {
+      "id": "Mobile app native",
+      "en": "Native mobile app"
+    },
+    "calc.no_integrations": {
+      "id": "Tidak ada integrasi tambahan yang relevan untuk jenis proyek ini — silakan lanjut ke estimasi.",
+      "en": "No extra integrations are relevant for this project type — go ahead to the estimate."
+    },
+    "calc.ai_hint": {
+      "id": "💡 Pakai AI bisa memangkas waktu development hingga 30% — sudah kami hitung otomatis.",
+      "en": "💡 Using AI can cut development time by up to 30% — we already factored it in."
+    },
+    "calc.view_estimate": {
+      "id": "Lihat Estimasi",
+      "en": "See estimate"
+    },
+    "calc.save_first": {
+      "id": "Simpan & buat variasi lain",
+      "en": "Save & create another variation"
+    },
+    "calc.save_more": {
+      "id": "Simpan & buat variasi ({n}/3)",
+      "en": "Save & create variation ({n}/3)"
+    },
+    "calc.compare_n": {
+      "id": "Bandingkan {n} variasi",
+      "en": "Compare {n} variations"
+    },
+    "calc.disclaimer": {
+      "id": "⚠ Estimasi awal berbasis input Anda. Harga final ditentukan setelah discovery call gratis dan analisa kebutuhan detail.",
+      "en": "⚠ Initial estimate based on your input. Final pricing is set after a free discovery call and detailed scoping."
+    },
+    "calc.wa_discuss": {
+      "id": "Diskusi langsung via WhatsApp",
+      "en": "Discuss directly on WhatsApp"
+    },
+    "calc.or": {
+      "id": "atau",
+      "en": "or"
+    },
+    "calc.restart": {
+      "id": "Mulai ulang",
+      "en": "Start over"
+    },
+    "calc.variation_label": {
+      "id": "Variasi {n}",
+      "en": "Variation {n}"
+    },
+    "calc.variation_current_suffix": {
+      "id": " (saat ini)",
+      "en": " (current)"
+    },
+    "result.badge": {
+      "id": "Estimasi Anda",
+      "en": "Your estimate"
+    },
+    "result.duration_label": {
+      "id": "Estimasi durasi",
+      "en": "Estimated duration"
+    },
+    "result.weeks": {
+      "id": "minggu",
+      "en": "weeks"
+    },
+    "result.weeks_short": {
+      "id": "mgg",
+      "en": "wk"
+    },
+    "result.stat_modules": {
+      "id": "Modul",
+      "en": "Modules"
+    },
+    "result.stat_pages": {
+      "id": "Halaman",
+      "en": "Pages"
+    },
+    "result.stat_complexity": {
+      "id": "Kompleksitas",
+      "en": "Complexity"
+    },
+    "result.based_on_a": {
+      "id": "Berdasarkan input Anda:",
+      "en": "Based on your input:"
+    },
+    "result.modules_backend": {
+      "id": "modul backend",
+      "en": "backend modules"
+    },
+    "result.pages_frontend": {
+      "id": "halaman frontend",
+      "en": "frontend pages"
+    },
+    "result.complexity_word": {
+      "id": "kompleksitas",
+      "en": "complexity"
+    },
+    "result.additional_integrations": {
+      "id": "{n} integrasi tambahan.",
+      "en": "{n} extra integrations."
+    },
+    "result.includes": {
+      "id": "Termasuk:",
+      "en": "Includes:"
+    },
+    "complexity.low": {
+      "id": "rendah",
+      "en": "low"
+    },
+    "complexity.medium": {
+      "id": "sedang",
+      "en": "medium"
+    },
+    "complexity.high": {
+      "id": "tinggi",
+      "en": "high"
+    },
+    "form.title": {
+      "id": "Request quote detail",
+      "en": "Request a detailed quote"
+    },
+    "form.subtitle": {
+      "id": "Isi data Anda — tim kami akan kirim proposal lengkap & jadwalkan discovery call gratis.",
+      "en": "Drop your details — we'll send a full proposal and book a free discovery call."
+    },
+    "form.name_label": {
+      "id": "Nama lengkap *",
+      "en": "Full name *"
+    },
+    "form.wa_label": {
+      "id": "No. WhatsApp *",
+      "en": "WhatsApp number *"
+    },
+    "form.email_label": {
+      "id": "Email *",
+      "en": "Email *"
+    },
+    "form.company_label": {
+      "id": "Nama perusahaan",
+      "en": "Company name"
+    },
+    "form.company_placeholder": {
+      "id": "Opsional",
+      "en": "Optional"
+    },
+    "form.email_placeholder": {
+      "id": "email@perusahaan.com",
+      "en": "email@company.com"
+    },
+    "form.notes_label": {
+      "id": "Catatan / detail tambahan",
+      "en": "Notes / additional details"
+    },
+    "form.notes_placeholder": {
+      "id": "Opsional — fitur spesifik, referensi, deadline, atau hal lain yang perlu kami tahu.",
+      "en": "Optional — specific features, references, deadlines, or anything else we should know."
+    },
+    "form.submit": {
+      "id": "Kirim Request Quote",
+      "en": "Send quote request"
+    },
+    "form.submitting": {
+      "id": "Mengirim...",
+      "en": "Sending..."
+    },
+    "form.success_toast": {
+      "id": "Quote request terkirim!",
+      "en": "Quote request sent!"
+    },
+    "form.error_default": {
+      "id": "Gagal mengirim. Silakan coba lagi.",
+      "en": "Failed to send. Please try again."
+    },
+    "form.err_name": {
+      "id": "Nama wajib diisi",
+      "en": "Name is required"
+    },
+    "form.err_email": {
+      "id": "Email tidak valid",
+      "en": "Invalid email"
+    },
+    "form.err_wa": {
+      "id": "Nomor WhatsApp wajib diisi",
+      "en": "WhatsApp number is required"
+    },
+    "form.thanks_title": {
+      "id": "Terima kasih, {name}!",
+      "en": "Thank you, {name}!"
+    },
+    "form.thanks_body": {
+      "id": "Quote request Anda sudah kami terima. Email konfirmasi sudah dikirim ke {email}. Tim kami akan menghubungi Anda di WhatsApp {wa} dalam 1×24 jam.",
+      "en": "We received your quote request. A confirmation email was sent to {email}. Our team will reach out on WhatsApp {wa} within 24 hours."
+    },
+    "cmp.title": {
+      "id": "Bandingkan Variasi",
+      "en": "Compare variations"
+    },
+    "cmp.count": {
+      "id": "{n} variasi",
+      "en": "{n} variations"
+    },
+    "cmp.back_to_estimate": {
+      "id": "Kembali ke estimasi",
+      "en": "Back to estimate"
+    },
+    "cmp.legend_label": {
+      "id": "Penanda:",
+      "en": "Legend:"
+    },
+    "cmp.legend_differ": {
+      "id": "Jawaban berbeda antar variasi",
+      "en": "Answers differ across variations"
+    },
+    "cmp.legend_yellow_strong": {
+      "id": "Sel kuning",
+      "en": "Yellow cell"
+    },
+    "cmp.legend_yellow_text": {
+      "id": "= jawaban berbeda antar variasi",
+      "en": "= answers differ across variations"
+    },
+    "cmp.cheapest": {
+      "id": "Termurah",
+      "en": "Cheapest"
+    },
+    "cmp.fastest": {
+      "id": "Tercepat",
+      "en": "Fastest"
+    },
+    "cmp.column_question": {
+      "id": "Pertanyaan",
+      "en": "Question"
+    },
+    "cmp.current_badge": {
+      "id": "Variasi saat ini",
+      "en": "Current variation"
+    },
+    "cmp.current_note": {
+      "id": "Sedang aktif. Tidak bisa dihapus.",
+      "en": "Currently active. Can't be removed."
+    },
+    "cmp.current_active": {
+      "id": "Variasi aktif",
+      "en": "Active variation"
+    },
+    "cmp.current_mobile": {
+      "id": "Variasi saat ini · tidak bisa dihapus",
+      "en": "Current variation · can't be removed"
+    },
+    "cmp.row_price": {
+      "id": "Estimasi harga",
+      "en": "Price estimate"
+    },
+    "cmp.row_duration": {
+      "id": "Estimasi durasi",
+      "en": "Duration estimate"
+    },
+    "cmp.row_modules": {
+      "id": "Modul / kompleksitas",
+      "en": "Modules / complexity"
+    },
+    "cmp.use_variation": {
+      "id": "Pakai variasi ini",
+      "en": "Use this variation"
+    },
+    "cmp.see_details": {
+      "id": "Lihat detail jawaban",
+      "en": "See answer details"
+    },
+    "cmp.modules_short": {
+      "id": "modul",
+      "en": "modules"
+    },
+    "cmp.section_result": {
+      "id": "Hasil estimasi",
+      "en": "Result"
+    },
+    "cmp.section_details": {
+      "id": "Detail jawaban",
+      "en": "Answer details"
+    },
+    "cmp.section_integrations": {
+      "id": "Integrasi & ekstra",
+      "en": "Integrations & extras"
+    },
+    "cmp.row_project_type": {
+      "id": "Jenis proyek",
+      "en": "Project type"
+    },
+    "cmp.row_integrations": {
+      "id": "Integrasi",
+      "en": "Integrations"
+    },
+    "cmp.row_mobile_native": {
+      "id": "Mobile app native",
+      "en": "Native mobile app"
+    },
+    "cmp.yes": {
+      "id": "Ya",
+      "en": "Yes"
+    },
+    "cmp.no": {
+      "id": "Tidak",
+      "en": "No"
+    },
+    "cmp.na": {
+      "id": "tidak berlaku",
+      "en": "not applicable"
+    },
+    "cmp.remove_aria": {
+      "id": "Hapus {label}",
+      "en": "Remove {label}"
+    },
+    "svc_portfolio.eyebrow": {
+      "id": "Portofolio Terkait",
+      "en": "Related Work"
+    },
+    "svc_portfolio.title_a": {
+      "id": "Project",
+      "en": "Our"
+    },
+    "svc_portfolio.title_b": {
+      "id": "kami",
+      "en": "projects"
+    },
+    "svc_portfolio.see_all": {
+      "id": "Lihat Semua",
+      "en": "See all"
+    },
+    "svc_portfolio.see_live": {
+      "id": "Lihat Live",
+      "en": "View live"
+    },
+    "qf.eyebrow": {
+      "id": "Request Quote",
+      "en": "Request a Quote"
+    },
+    "qf.headline_a": {
+      "id": "Dapatkan penawaran untuk",
+      "en": "Get a quote for"
+    },
+    "qf.intro": {
+      "id": "Isi detail kebutuhan Anda. Tim kami akan kirim estimasi & proposal awal dalam 1×24 jam. Gratis tanpa komitmen.",
+      "en": "Tell us about your needs. Our team will send an estimate and initial proposal within 1 business day. Free, no commitment."
+    },
+    "qf.field.name": {
+      "id": "Nama Lengkap *",
+      "en": "Full name *"
+    },
+    "qf.field.email": {
+      "id": "Email *",
+      "en": "Email *"
+    },
+    "qf.field.phone": {
+      "id": "No. WhatsApp",
+      "en": "WhatsApp number"
+    },
+    "qf.field.phone_req": {
+      "id": "No. WhatsApp *",
+      "en": "WhatsApp number *"
+    },
+    "qf.phone_placeholder": {
+      "id": "08xxx",
+      "en": "08xxx"
+    },
+    "qf.field.service": {
+      "id": "Layanan",
+      "en": "Service"
+    },
+    "qf.field.budget": {
+      "id": "Estimasi Budget *",
+      "en": "Estimated budget *"
+    },
+    "qf.budget_placeholder": {
+      "id": "Pilih range budget",
+      "en": "Select a budget range"
+    },
+    "qf.field.timeline": {
+      "id": "Timeline *",
+      "en": "Timeline *"
+    },
+    "qf.timeline_placeholder": {
+      "id": "Kapan harus mulai?",
+      "en": "When should it start?"
+    },
+    "qf.field.scope": {
+      "id": "Scope / Kebutuhan Project",
+      "en": "Scope / project requirements"
+    },
+    "qf.scope_placeholder": {
+      "id": "Ceritakan tujuan, fitur utama, integrasi yang dibutuhkan, dan referensi (jika ada).",
+      "en": "Describe your goals, key features, required integrations, and any references."
+    },
+    "qf.scope_optional_hint": {
+      "id": "Boleh diisi singkat, kami akan tanyakan lebih lanjut via WhatsApp.",
+      "en": "You can keep it short — we'll follow up via WhatsApp."
+    },
+    "qf.submit": {
+      "id": "Kirim Request Quote",
+      "en": "Send quote request"
+    },
+    "qf.submitting": {
+      "id": "Mengirim...",
+      "en": "Sending..."
+    },
+    "qf.success_title": {
+      "id": "Terima kasih, {first}!",
+      "en": "Thank you, {first}!"
+    },
+    "qf.success_received": {
+      "id": "Quote request Anda sudah kami terima.",
+      "en": "We've received your quote request."
+    },
+    "qf.success_email": {
+      "id": "Email konfirmasi sudah dikirim ke",
+      "en": "A confirmation email has been sent to"
+    },
+    "qf.success_followup": {
+      "id": "Tim kami akan menghubungi Anda dalam 1×24 jam.",
+      "en": "Our team will reach out within 1 business day."
+    },
+    "qf.success_toast": {
+      "id": "Quote request terkirim!",
+      "en": "Quote request sent!"
+    },
+    "qf.err_generic": {
+      "id": "Gagal mengirim. Silakan coba lagi.",
+      "en": "Failed to send. Please try again."
+    },
+    "qf.err_name": {
+      "id": "Nama wajib diisi",
+      "en": "Name is required"
+    },
+    "qf.err_email": {
+      "id": "Email tidak valid",
+      "en": "Invalid email"
+    },
+    "qf.err_budget": {
+      "id": "Pilih estimasi budget",
+      "en": "Pick a budget range"
+    },
+    "qf.err_timeline": {
+      "id": "Pilih timeline",
+      "en": "Pick a timeline"
+    },
+    "qf.err_scope": {
+      "id": "Jelaskan kebutuhan minimal 10 karakter",
+      "en": "Please describe your needs (at least 10 characters)"
+    },
+    "qf.err_phone": {
+      "id": "No. WhatsApp wajib diisi",
+      "en": "WhatsApp number is required"
+    },
+    "qf.scope_fallback": {
+      "id": "(belum diisi — akan didiskusikan via WhatsApp)",
+      "en": "(not provided — to be discussed via WhatsApp)"
+    },
+    "qf.email_fallback": {
+      "id": "(tidak diisi)",
+      "en": "(not provided)"
+    },
+    "qf.budget.1": {
+      "id": "< Rp 10 juta",
+      "en": "< IDR 10M"
+    },
+    "qf.budget.2": {
+      "id": "Rp 10–25 juta",
+      "en": "IDR 10–25M"
+    },
+    "qf.budget.3": {
+      "id": "Rp 25–50 juta",
+      "en": "IDR 25–50M"
+    },
+    "qf.budget.4": {
+      "id": "Rp 50–100 juta",
+      "en": "IDR 50–100M"
+    },
+    "qf.budget.5": {
+      "id": "Rp 100–250 juta",
+      "en": "IDR 100–250M"
+    },
+    "qf.budget.6": {
+      "id": "> Rp 250 juta",
+      "en": "> IDR 250M"
+    },
+    "qf.budget.7": {
+      "id": "Belum tahu / Diskusi",
+      "en": "Not sure / let's discuss"
+    },
+    "qf.timeline.1": {
+      "id": "Secepatnya (< 1 bulan)",
+      "en": "ASAP (< 1 month)"
+    },
+    "qf.timeline.2": {
+      "id": "1–3 bulan",
+      "en": "1–3 months"
+    },
+    "qf.timeline.3": {
+      "id": "3–6 bulan",
+      "en": "3–6 months"
+    },
+    "qf.timeline.4": {
+      "id": "> 6 bulan",
+      "en": "> 6 months"
+    },
+    "qf.timeline.5": {
+      "id": "Fleksibel",
+      "en": "Flexible"
+    }
+  },
+  "portfolio": [
+    {
+      "id": "c56f2482-48ff-42b5-a1d0-584d4b925814",
+      "name": "POS Lila Store",
+      "name_en": "Lila Store POS",
+      "category": "Software",
+      "category_en": "Software",
+      "description": "Solusi perangkat lunak kustom untuk mengelola operasional toko retail secara menyeluruh, yang dilengkapi dengan sistem Kasir (Point of Sales) untuk mempermudah transaksi dan manajemen inventaris secara efisien.",
+      "description_en": "Custom software solution for comprehensive retail store operations management, equipped with a Cashier (Point of Sale) system to simplify transactions and efficiently manage inventory.",
+      "image_url": "https://sbpodqyjwerdxvupjkyk.supabase.co/storage/v1/object/public/portfolio-images/1776849582964-b1o3kgzo0gm.webp"
+    },
+    {
+      "id": "755df7c9-98e9-4f4a-b766-47f200c82646",
+      "name": "Klantaanvragen Website",
+      "name_en": "Website Client Requests",
+      "category": "Website",
+      "category_en": "Website",
+      "description": "Platform \"Lead Generation\" yang dirancang khusus untuk menemukan dan mengelola prospek potensial (leads) bagi kebutuhan pemasaran digital secara efektif dan terarah.",
+      "description_en": "A \"Lead Generation\" platform specifically designed to effectively and targetedly find and manage potential leads for digital marketing needs.",
+      "image_url": "https://sbpodqyjwerdxvupjkyk.supabase.co/storage/v1/object/public/portfolio-images/1776849715866-cvdftgwvd1w.webp"
+    },
+    {
+      "id": "cccbb000-6bb0-40b5-adce-8f03ab53a8bf",
+      "name": "Marketing Agency Software",
+      "name_en": "Marketing Agency Software",
+      "category": "Software",
+      "category_en": "Software",
+      "description": "Perangkat lunak khusus untuk mengelola berbagai kebutuhan pemasaran digital, seperti pembuatan marketing funnels, otomatisasi email, pengelolaan formulir prospek (lead forms), dan berbagai fitur optimasi kampanye lainnya.",
+      "description_en": "Specialized software for managing various digital marketing needs, such as creating marketing funnels, email automation, lead form management, and various other campaign optimization features.",
+      "image_url": "https://sbpodqyjwerdxvupjkyk.supabase.co/storage/v1/object/public/portfolio-images/1776847336060-n6fuwc8ce5m.webp"
+    },
+    {
+      "id": "7cfcf466-1445-4aa5-969d-af188f1de92b",
+      "name": "RechtsHulp Zekerheid",
+      "name_en": "RechtsHulp Zekerheid",
+      "category": "Software",
+      "category_en": "Software",
+      "description": "Perangkat lunak pendukung hukum otomotif yang menyederhanakan manajemen kasus, mengotomatisasi pemrosesan dokumen, serta meningkatkan pelacakan klaim untuk memberikan respon hukum yang lebih cepat.",
+      "description_en": "Automotive legal support software that simplifies case management, automates document processing, and enhances claims tracking for faster legal responses.",
+      "image_url": "https://sbpodqyjwerdxvupjkyk.supabase.co/storage/v1/object/public/portfolio-images/1776854369808-2n7lrolntio.webp"
+    },
+    {
+      "id": "984f6989-f5b9-4d26-a4dd-515241d22b42",
+      "name": "Flexavi",
+      "name_en": "Flexavi",
+      "category": "Software",
+      "category_en": "Software",
+      "description": "Sistem manajemen operasional untuk layanan perbaikan atap yang mengintegrasikan pemantauan armada teknisi, otomatisasi penagihan, dan pengaturan jadwal janji temu pelanggan dalam satu platform terpadu.",
+      "description_en": "An operational management system for roof repair services that integrates technician fleet monitoring, invoicing automation, and customer appointment scheduling into one unified platform.",
+      "image_url": "https://sbpodqyjwerdxvupjkyk.supabase.co/storage/v1/object/public/portfolio-images/1776846813301-a0a0rfvy7rm.webp"
+    },
+    {
+      "id": "0dff1210-d1b2-44af-aab9-97f5acf341cc",
+      "name": "ISO Daksysteem",
+      "name_en": "ISO Roofing System",
+      "category": "Website",
+      "category_en": "Website",
+      "description": "Situs web profesional untuk spesialis perbaikan atap yang menawarkan solusi komprehensif bagi atap bermasalah, termasuk layanan penggantian atap baru dengan berbagai pilihan material dan sistem isolasi yang efisien.",
+      "description_en": "A professional website for roofing repair specialists, offering comprehensive solutions for problematic roofs, including new roof replacement services with various material options and efficient insulation systems.",
+      "image_url": "https://sbpodqyjwerdxvupjkyk.supabase.co/storage/v1/object/public/portfolio-images/1776851443461-enyq9lt88cq.webp"
+    },
+    {
+      "id": "c2d01fdb-f167-455e-8e4e-0e002734df3c",
+      "name": "Body Gravity",
+      "name_en": "Body Gravity",
+      "category": "Website",
+      "category_en": "Website",
+      "description": "Situs profil perusahaan untuk pionir sistem terapi gerak terintegrasi yang berfokus pada pemulihan dan maksimalisasi fungsi tubuh tanpa bantuan alat medis, tindakan bedah, maupun konsumsi obat-obatan.",
+      "description_en": "A company profile site for integrated motion therapy system pioneers focused on restoring and maximizing body function without the aid of medical devices, surgical procedures, or medication.",
+      "image_url": "https://sbpodqyjwerdxvupjkyk.supabase.co/storage/v1/object/public/portfolio-images/1776851154115-hk111kgz5v5.webp"
+    },
+    {
+      "id": "61dbf582-e3fd-435e-b911-4a93429c0a21",
+      "name": "DSH Dakdekkers",
+      "name_en": "DSH Dakdekkers",
+      "category": "Website",
+      "category_en": "Website",
+      "description": "Situs web profil perusahaan spesialis perbaikan atap bermasalah yang menawarkan solusi penggantian atap baru dengan berbagai pilihan layanan teknis yang komprehensif dan terpercaya.",
+      "description_en": "A company profile website for a roof repair specialist that offers new roof replacement solutions with a variety of comprehensive and reliable technical services.",
+      "image_url": "https://sbpodqyjwerdxvupjkyk.supabase.co/storage/v1/object/public/portfolio-images/1776866339125-falvwonpnam.webp"
+    },
+    {
+      "id": "7892498a-821b-47dc-ac9d-791e08142585",
+      "name": "Berita Kripto Terpercaya",
+      "name_en": "Trusted Crypto News",
+      "category": "Website",
+      "category_en": "Website",
+      "description": "Situs web media portal berita dan blog yang menyajikan informasi terkini, laporan pasar, serta edukasi mengenai dunia Kripto dan emas secara akurat dan terpercaya bagi para investor.",
+      "description_en": "A news portal and blog media website that provides the latest information, market reports, and education about the world of Crypto and gold accurately and reliably for investors.",
+      "image_url": "https://sbpodqyjwerdxvupjkyk.supabase.co/storage/v1/object/public/portfolio-images/1776851022371-2541dyn9u0a.webp"
+    },
+    {
+      "id": "49937d70-76a6-44b7-8eb6-d104018c8105",
+      "name": "Butonas Petrochemical Indonesia",
+      "name_en": "Butonas Petrochemical Indonesia",
+      "category": "Website",
+      "category_en": "Website",
+      "description": "Situs profil perusahaan untuk proyek pembangunan pabrik metanol terbesar di Indonesia yang berlokasi di Bojonegoro. Website ini menampilkan informasi strategis mengenai penggunaan teknologi AirLiquide dan kolaborasi dengan perusahaan EPC kelas dunia dalam pengelolaan sumber daya gas alam.",
+      "description_en": "A company profile website for Indonesia's largest methanol plant development project, located in Bojonegoro. This website showcases strategic information regarding the use of AirLiquide technology and collaboration with world-class EPC companies in natural gas resource management.",
+      "image_url": "https://sbpodqyjwerdxvupjkyk.supabase.co/storage/v1/object/public/portfolio-images/1776851263169-iuo0eqcd3x8.webp"
+    },
+    {
+      "id": "76858d4f-08ff-4ecd-bbf5-3e9e544aed26",
+      "name": "High Level Ondernemer",
+      "name_en": "High Level Entrepreneur",
+      "category": "Website",
+      "category_en": "Website",
+      "description": "Situs web lead generation yang berfungsi untuk mencari prospek pemasaran digital, dilengkapi dengan fitur analitik dan statistik untuk membantu pengguna menganalisis perkembangan data prospek secara akurat.",
+      "description_en": "A lead generation website designed to find digital marketing leads, equipped with analytics and statistics features to help users accurately analyze lead data progress.",
+      "image_url": "https://sbpodqyjwerdxvupjkyk.supabase.co/storage/v1/object/public/portfolio-images/1776853465586-k1giq05jp9.webp"
+    },
+    {
+      "id": "26ff8e02-6eb9-473d-a254-1602cd789e13",
+      "name": "Dak Perfect",
+      "name_en": "Dak Perfect",
+      "category": "Software",
+      "category_en": "Software",
+      "description": "Perangkat lunak analisis manajemen yang berfungsi untuk menghitung dan melacak progres KPI karyawan secara otomatis guna meningkatkan transparansi kinerja perusahaan.",
+      "description_en": "A management analysis software designed to automatically calculate and track employee KPI progress, thereby improving company performance transparency.",
+      "image_url": "https://sbpodqyjwerdxvupjkyk.supabase.co/storage/v1/object/public/portfolio-images/1776853894805-3ly7wrozaag.webp"
+    }
+  ]
+}

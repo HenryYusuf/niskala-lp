@@ -1,0 +1,107 @@
+---
+import ServiceDetailPage from '../../components/ServiceDetailPage.astro';
+import { getServices, type ServiceItem } from '../../data/bms';
+
+export function getStaticPaths() {
+  const services = getServices('id');
+  const bespokeExtras: ServiceItem[] = [
+    {
+      slug: 'jasa-pembuatan-erp-system',
+      icon: 'Layers',
+      title: 'Jasa Pembuatan ERP System Custom',
+      short: 'ERP custom yang menyatukan seluruh operasional bisnis Anda dalam satu sistem.',
+      description:
+        'Kami merancang dan membangun sistem ERP custom yang mengikuti alur unik operasional perusahaan Anda—mulai dari finance, inventory, procurement, produksi, hingga HR dalam satu platform terintegrasi.',
+      benefits: [
+        'Menyatukan seluruh departemen dalam satu sumber data real-time',
+        'Tanpa biaya lisensi per-user bulanan yang membengkak',
+        '100% mengikuti SOP dan alur approval perusahaan Anda',
+        'Integrasi penuh dengan software akuntansi, marketplace, atau mesin produksi',
+      ],
+      signs: [
+        'Data antar divisi tidak sinkron dan masih mengandalkan banyak file Excel',
+        'Proses closing laporan bulanan memakan waktu berminggu-minggu',
+        'ERP SaaS yang ada terlalu kaku atau biaya per-usernya terlalu mahal',
+      ],
+      whyBms: [],
+      process: [
+        { step: 'Discovery & Audit Proses', desc: 'Memetakan alur kerja dan kebutuhan tiap divisi.' },
+        { step: 'Arsitektur & Blueprint', desc: 'Desain database, role akses, dan UI/UX modul.' },
+        { step: 'Development Bertahap', desc: 'Implementasi modul prioritas dengan sprint transparan.' },
+        { step: 'Go-Live & Training', desc: 'Migrasi data, pelatihan tim, dan dukungan pasca rilis.' },
+      ],
+      useCases: [],
+      techStack: ['React', 'Node.js', 'PostgreSQL', 'Docker'],
+      faqs: [],
+    },
+    {
+      slug: 'custom-software-ai',
+      icon: 'Sparkles',
+      title: 'Custom Software with AI',
+      short: 'Hingga 40% lebih hemat, 50% lebih cepat, sepenuhnya custom.',
+      description:
+        'Bangun software custom lebih cepat dan efisien dengan akselerasi AI modern dan arsitektur enterprise yang tetap diaudit langsung oleh senior engineer kami.',
+      benefits: [
+        'Delivery hingga 50% lebih cepat dibanding pengembangan konvensional',
+        'Efisiensi biaya hingga 40% tanpa mengorbankan kualitas kode',
+        'Integrasi langsung fitur AI (OCR dokumen, asisten data, analisis otomatis)',
+        '100% kepemilikan source code dan bebas vendor lock-in',
+      ],
+      signs: [
+        'Ingin membangun sistem custom tetapi terkendala timeline yang ketat',
+        'Membutuhkan otomasi berbasis AI di dalam alur kerja internal',
+        'Ingin validasi dan rilis MVP produk digital lebih cepat ke pasar',
+      ],
+      whyBms: [],
+      process: [
+        { step: 'Rapid Scoping', desc: 'Definisi kebutuhan inti dan arsitektur sistem.' },
+        { step: 'AI-Accelerated Build', desc: 'Pengembangan cepat dengan review ketat engineer senior.' },
+        { step: 'QA & Security Audit', desc: 'Pengujian performa, keamanan, dan alur bisnis.' },
+        { step: 'Deployment & Handover', desc: 'Rilis ke produksi dan serah terima dokumentasi lengkap.' },
+      ],
+      useCases: [],
+      techStack: ['TypeScript', 'React', 'Python', 'OpenAI', 'PostgreSQL'],
+      faqs: [],
+    },
+    {
+      slug: 'operational-control-partner',
+      icon: 'ShieldCheck',
+      title: 'Operational Control Partner',
+      short: 'Kontrol penuh atas inventaris & operasional Anda.',
+      description:
+        'Pendampingan menyeluruh yang menggabungkan audit operasional, perapihan SOP, dan sistem kontrol inventaris serta keuangan agar bisnis berjalan rapi tanpa kebocoran.',
+      benefits: [
+        'Visibilitas stok dan arus barang secara real-time di seluruh gudang/cabang',
+        'Pencegahan kebocoran inventaris dan selisih stok',
+        'Standarisasi SOP operasional yang langsung dikunci di dalam sistem',
+        'Pendampingan implementasi langsung bersama tim operasional Anda',
+      ],
+      signs: [
+        'Sering terjadi selisih stok antara catatan dan fisik di gudang',
+        'Sulit memantau performa cabang atau gudang secara real-time',
+        'SOP perusahaan sering dilompati karena tidak ada kontrol sistem',
+      ],
+      whyBms: [],
+      process: [
+        { step: 'Operational Audit', desc: 'Identifikasi titik rawan kebocoran dan bottleneck.' },
+        { step: 'SOP & Control Design', desc: 'Perancangan alur kontrol dan otorisasi berjenjang.' },
+        { step: 'System Implementation', desc: 'Penerapan sistem inventaris & kontrol operasional.' },
+        { step: 'Continuous Evaluation', desc: 'Monitoring kepatuhan tim dan optimasi berkala.' },
+      ],
+      useCases: [],
+      techStack: ['Cloud ERP', 'Barcode/QR System', 'Real-time Dashboard'],
+      faqs: [],
+    },
+  ];
+
+  const all = [...services, ...bespokeExtras];
+  return all.map((service) => ({
+    params: { slug: service.slug },
+    props: { service },
+  }));
+}
+
+const { service } = Astro.props;
+---
+
+<ServiceDetailPage service={service} lang="id" />

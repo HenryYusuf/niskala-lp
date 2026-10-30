@@ -1,0 +1,904 @@
+---
+import '../styles/bms.css';
+import Icon from '../components/Icon.astro';
+import {
+  brand,
+  t,
+  localizedPath,
+  switchLangPath,
+  getServices,
+  megaMenuCategories,
+  getWhatsAppHref,
+  type Lang,
+} from '../data/bms';
+
+interface Props {
+  title?: string;
+  description?: string;
+  lang?: Lang;
+  currentPath?: string;
+  hideFloatingWa?: boolean;
+}
+
+const {
+  lang = 'id',
+  title = t('home.seo_title', lang),
+  description = t('home.seo_desc', lang),
+  currentPath = Astro.url.pathname,
+  hideFloatingWa = false,
+} = Astro.props;
+
+const services = getServices(lang);
+const svcBySlug = Object.fromEntries(services.map((s) => [s.slug, s]));
+
+const navItems = [
+  { href: '/', key: 'nav.beranda' },
+  { href: '/layanan', key: 'nav.layanan', isMega: true },
+  { href: '/portofolio', key: 'nav.portofolio' },
+  { href: '/tentang-kami', key: 'nav.tentang' },
+  { href: '/harga', key: 'nav.harga' },
+  { href: '/blog', key: 'nav.blog' },
+  { href: '/case-studies', key: 'nav.case_studies' },
+  { href: '/kontak', key: 'nav.kontak' },
+];
+
+const cleanPath = currentPath.replace(/\/+$/, '') || '/';
+const idSwitchHref = switchLangPath(cleanPath, 'id');
+const enSwitchHref = switchLangPath(cleanPath, 'en');
+const waDesktopHref = getWhatsAppHref(cleanPath, lang, { refCode: '0AHEYW' });
+const waFloatHref = getWhatsAppHref(cleanPath, lang, { refCode: 'U1TXMT' });
+
+function isNavActive(idHref: string): boolean {
+  const target = localizedPath(idHref, lang);
+  if (idHref === '/') {
+    return cleanPath === '/' || cleanPath === '/en';
+  }
+  return cleanPath === target || cleanPath.startsWith(target + '/');
+}
+---
+
+<!doctype html>
+<html lang={lang} style="color-scheme: light;">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{title}</title>
+    <meta name="description" content={description} />
+    <meta name="author" content="BMS Services" />
+    <meta name="theme-color" content="#1A1044" />
+    <link rel="icon" type="image/png" href="/favicon.png" />
+    <link rel="apple-touch-icon" href="/favicon.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="preload"
+      as="style"
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap"
+    />
+    <link rel="preload" as="image" href="/home/hero-bg.webp" type="image/webp" />
+    <style is:global>
+      [data-reveal] {
+        opacity: 0;
+        transform: translateY(20px);
+        transition:
+          opacity 0.55s cubic-bezier(0.22, 1, 0.36, 1),
+          transform 0.55s cubic-bezier(0.22, 1, 0.36, 1);
+      }
+      [data-reveal].is-visible {
+        opacity: 1;
+        transform: translateY(0);
+      }
+      @media (prefers-reduced-motion: reduce) {
+        [data-reveal] {
+          opacity: 1 !important;
+          transform: none !important;
+          transition: none !important;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div id="root">
+      <div class="min-h-screen flex flex-col">
+        <!-- Header -->
+        <header
+          id="site-header"
+          class="fixed top-0 inset-x-0 z-50 transition-all duration-300 bg-transparent"
+        >
+          <nav class="container mx-auto flex items-center justify-between h-16 md:h-20 px-4">
+            <a class="flex items-center group" aria-label="BMS Services" href={localizedPath('/', lang)}>
+              <img
+                src="/logo-dark.webp"
+                srcset="/logo-dark.webp 1x, /assets/logo-dark@2x-DutTjyT1.webp 2x"
+                alt="BMS Services"
+                height="40"
+                decoding="async"
+                class="w-auto h-8 md:h-10"
+              />
+            </a>
+
+            <!-- Desktop Navigation -->
+            <ul class="hidden lg:flex items-center gap-1 relative">
+              {navItems.map((item) => {
+                const active = isNavActive(item.href);
+                if (item.isMega) {
+                  return (
+                    <li id="mega-menu-trigger" class="group/mega">
+                      <a
+                        href={localizedPath(item.href, lang)}
+                        class={`px-4 py-2 rounded-full text-sm font-medium transition-colors inline-flex items-center gap-1 ${
+                          active
+                            ? 'bg-secondary text-brand-navy'
+                            : 'text-foreground/70 hover:text-foreground hover:bg-secondary/50'
+                        }`}
+                      >
+                        {t(item.key, lang)}
+                        <Icon
+                          name="ChevronDown"
+                          size={14}
+                          class="transition-transform duration-200 group-hover/mega:rotate-180"
+                        />
+                      </a>
+                      <div
+                        id="mega-menu-panel"
+                        class="fixed left-1/2 -translate-x-1/2 top-16 md:top-20 pt-3 transition-all duration-200 w-[72rem] max-w-[calc(100vw-2rem)] opacity-0 invisible pointer-events-none group-hover/mega:opacity-100 group-hover/mega:visible group-hover/mega:pointer-events-auto group-focus-within/mega:opacity-100 group-focus-within/mega:visible group-focus-within/mega:pointer-events-auto"
+                      >
+                        <div class="bg-background/95 backdrop-blur-xl border border-border/60 rounded-2xl shadow-xl overflow-hidden">
+                          <div class="grid grid-cols-3 xl:grid-cols-[1fr_1fr_1fr_0.85fr] gap-4 p-5">
+                            <!-- Col 1: Software & Development -->
+                            <div>
+                              <div class="text-[11px] font-bold uppercase tracking-wider text-brand-blue mb-2 px-2 whitespace-nowrap">
+                                {t('nav.cat_software', lang)}
+                              </div>
+                              <div class="space-y-0.5">
+                                {megaMenuCategories.software.map((slug) => {
+                                  const svc = svcBySlug[slug];
+                                  if (!svc) return null;
+                                  return (
+                                    <a
+                                      class="flex items-start gap-3 p-2.5 rounded-lg hover:bg-secondary/70 transition-colors"
+                                      href={localizedPath(`/layanan/${slug}`, lang)}
+                                    >
+                                      <div class="w-8 h-8 rounded-md gradient-mesh flex items-center justify-center text-white flex-shrink-0">
+                                        <Icon name={svc.icon} size={14} />
+                                      </div>
+                                      <div class="min-w-0">
+                                        <div class="text-sm font-semibold leading-tight">
+                                          {svc.navLabel || svc.title}
+                                        </div>
+                                        <div class="text-xs text-muted-foreground line-clamp-1 mt-0.5">
+                                          {svc.short}
+                                        </div>
+                                      </div>
+                                    </a>
+                                  );
+                                })}
+                              </div>
+                            </div>
+
+                            <!-- Col 2: Operations & Strategy -->
+                            <div>
+                              <div class="text-[11px] font-bold uppercase tracking-wider text-brand-blue mb-2 px-2 whitespace-nowrap">
+                                {t('nav.cat_ops', lang)}
+                              </div>
+                              <div class="space-y-0.5">
+                                {megaMenuCategories.ops.map((slug) => {
+                                  const svc = svcBySlug[slug];
+                                  if (!svc) return null;
+                                  return (
+                                    <a
+                                      class="flex items-start gap-3 p-2.5 rounded-lg hover:bg-secondary/70 transition-colors"
+                                      href={localizedPath(`/layanan/${slug}`, lang)}
+                                    >
+                                      <div class="w-8 h-8 rounded-md gradient-mesh flex items-center justify-center text-white flex-shrink-0">
+                                        <Icon name={svc.icon} size={14} />
+                                      </div>
+                                      <div class="min-w-0">
+                                        <div class="text-sm font-semibold leading-tight">
+                                          {svc.navLabel || svc.title}
+                                        </div>
+                                        <div class="text-xs text-muted-foreground line-clamp-1 mt-0.5">
+                                          {svc.short}
+                                        </div>
+                                      </div>
+                                    </a>
+                                  );
+                                })}
+                              </div>
+                            </div>
+
+                            <!-- Col 3: Sistem Bisnis -->
+                            <div>
+                              <div class="text-[11px] font-bold uppercase tracking-wider text-brand-blue mb-2 px-2 whitespace-nowrap">
+                                {t('nav.cat_systems', lang)}
+                              </div>
+                              <div class="space-y-0.5">
+                                <a
+                                  class="flex items-start gap-3 p-2.5 rounded-lg hover:bg-secondary/70 transition-colors"
+                                  href={localizedPath(
+                                    `/layanan/${megaMenuCategories.bespokeErp.slug}`,
+                                    lang
+                                  )}
+                                >
+                                  <div class="w-8 h-8 rounded-md gradient-mesh flex items-center justify-center text-white flex-shrink-0">
+                                    <Icon name={megaMenuCategories.bespokeErp.icon} size={14} />
+                                  </div>
+                                  <div class="min-w-0">
+                                    <div class="text-sm font-semibold leading-tight">
+                                      {megaMenuCategories.bespokeErp.title[lang]}
+                                    </div>
+                                    <div class="text-xs text-muted-foreground line-clamp-1 mt-0.5">
+                                      {megaMenuCategories.bespokeErp.short[lang]}
+                                    </div>
+                                  </div>
+                                </a>
+                                {megaMenuCategories.systems.map((slug) => {
+                                  const svc = svcBySlug[slug];
+                                  if (!svc) return null;
+                                  return (
+                                    <a
+                                      class="flex items-start gap-3 p-2.5 rounded-lg hover:bg-secondary/70 transition-colors"
+                                      href={localizedPath(`/layanan/${slug}`, lang)}
+                                    >
+                                      <div class="w-8 h-8 rounded-md gradient-mesh flex items-center justify-center text-white flex-shrink-0">
+                                        <Icon name={svc.icon} size={14} />
+                                      </div>
+                                      <div class="min-w-0">
+                                        <div class="text-sm font-semibold leading-tight">
+                                          {svc.navLabel || svc.title}
+                                        </div>
+                                        <div class="text-xs text-muted-foreground line-clamp-1 mt-0.5">
+                                          {svc.short}
+                                        </div>
+                                      </div>
+                                    </a>
+                                  );
+                                })}
+                              </div>
+                            </div>
+
+                            <!-- Col 4: Featured Cards -->
+                            <div class="col-span-3 xl:col-span-1 grid grid-cols-2 xl:grid-cols-1 gap-3 xl:content-start">
+                              {megaMenuCategories.featured.map((feat) => (
+                                <a
+                                  class="group block rounded-xl p-4 text-white shadow-md hover:shadow-lg transition-shadow"
+                                  href={localizedPath(feat.idHref, lang)}
+                                  style={`background: ${feat.gradient};`}
+                                >
+                                  <div class="flex items-center gap-2 mb-2">
+                                    <span class="text-[10px] font-bold uppercase tracking-wider bg-white/20 px-2 py-0.5 rounded-full">
+                                      {t('nav.featured_badge', lang)}
+                                    </span>
+                                    <Icon name={feat.icon} size={14} class="opacity-90" />
+                                  </div>
+                                  <div class="text-sm font-bold leading-tight mb-1">
+                                    {t(feat.titleKey, lang)}
+                                  </div>
+                                  <div class="text-xs text-white/85 leading-snug mb-3">
+                                    {t(feat.taglineKey, lang)}
+                                  </div>
+                                  <span class="inline-flex items-center gap-1 text-xs font-semibold opacity-90 group-hover:gap-2 transition-all">
+                                    {t('nav.learn', lang)} <Icon name="ArrowRight" size={12} />
+                                  </span>
+                                </a>
+                              ))}
+                            </div>
+                          </div>
+
+                          <div class="bg-secondary/50 border-t border-border/50 px-5 py-3 flex items-center justify-between">
+                            <span class="text-xs text-muted-foreground font-medium">
+                              {t('nav.tagline_strip', lang)}
+                            </span>
+                            <a
+                              class="inline-flex items-center gap-1 text-xs font-bold text-brand-blue hover:gap-2 transition-all"
+                              href={localizedPath('/layanan', lang)}
+                            >
+                              {t('nav.view_all_services', lang)}{' '}
+                              <Icon name="ArrowRight" size={12} />
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                  );
+                }
+                return (
+                  <li>
+                    <a
+                      class={`px-4 py-2 rounded-full text-sm font-medium transition-colors ${
+                        active
+                          ? 'bg-secondary text-brand-navy'
+                          : 'text-foreground/70 hover:text-foreground hover:bg-secondary/50'
+                      }`}
+                      href={localizedPath(item.href, lang)}
+                    >
+                      {t(item.key, lang)}
+                    </a>
+                  </li>
+                );
+              })}
+            </ul>
+
+            <!-- Right Controls -->
+            <div class="flex items-center gap-2">
+              <div
+                class="inline-flex items-center gap-1 p-1 rounded-full bg-background/90 border border-border shadow-sm backdrop-blur"
+                role="group"
+                aria-label="Language"
+              >
+                <Icon
+                  name="Globe"
+                  size={12}
+                  class="ml-1.5 mr-0.5 text-muted-foreground"
+                />
+                <a
+                  aria-current={lang === 'id' ? 'true' : undefined}
+                  aria-label="Bahasa Indonesia"
+                  class={`inline-flex items-center justify-center h-7 min-w-[2.25rem] px-2 rounded-full text-[11px] font-bold uppercase tracking-wider transition-colors ${
+                    lang === 'id'
+                      ? 'bg-brand-navy text-white'
+                      : 'text-foreground/70 hover:text-foreground hover:bg-secondary'
+                  }`}
+                  href={idSwitchHref}
+                >
+                  ID
+                </a>
+                <a
+                  aria-current={lang === 'en' ? 'true' : undefined}
+                  aria-label="English"
+                  class={`inline-flex items-center justify-center h-7 min-w-[2.25rem] px-2 rounded-full text-[11px] font-bold uppercase tracking-wider transition-colors ${
+                    lang === 'en'
+                      ? 'bg-brand-navy text-white'
+                      : 'text-foreground/70 hover:text-foreground hover:bg-secondary'
+                  }`}
+                  href={enSwitchHref}
+                >
+                  EN
+                </a>
+              </div>
+
+              <a
+                href={waDesktopHref}
+                target="_blank"
+                rel="noopener noreferrer"
+                class="items-center justify-center gap-2 whitespace-nowrap text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 bg-primary hover:bg-primary/90 h-9 px-3 hidden md:inline-flex rounded-full gradient-mesh text-white border-0 hover:opacity-90"
+              >
+                {t('nav.cta_consult', lang)}
+              </a>
+
+              <button
+                id="mobile-menu-btn"
+                class="lg:hidden p-2 rounded-lg hover:bg-secondary"
+                aria-label="Menu"
+                aria-expanded="false"
+              >
+                <span id="mobile-icon-open">
+                  <Icon name="Menu" size={20} />
+                </span>
+                <span id="mobile-icon-close" class="hidden">
+                  <Icon name="X" size={20} />
+                </span>
+              </button>
+            </div>
+          </nav>
+
+          <!-- Mobile Navigation Drawer -->
+          <div
+            id="mobile-menu-drawer"
+            class="hidden lg:hidden bg-background/95 backdrop-blur-xl border-b border-border animate-fade-in max-h-[80vh] overflow-y-auto"
+          >
+            <ul class="container mx-auto px-4 py-4 flex flex-col gap-1">
+              {navItems.map((item) => {
+                const active = isNavActive(item.href);
+                if (item.isMega) {
+                  return (
+                    <li>
+                      <button
+                        type="button"
+                        id="mobile-services-toggle"
+                        class={`w-full flex items-center justify-between px-4 py-3 rounded-xl text-sm font-medium ${
+                          active ? 'bg-secondary text-brand-navy' : 'hover:bg-secondary/50'
+                        }`}
+                      >
+                        <span>{t(item.key, lang)}</span>
+                        <Icon
+                          name="ChevronDown"
+                          size={16}
+                          class="transition-transform duration-200"
+                        />
+                      </button>
+                      <div id="mobile-services-panel" class="hidden pb-2 pt-1 space-y-3 px-1">
+                        <div>
+                          <div class="text-[11px] font-bold uppercase tracking-wider text-brand-blue px-3 mb-1">
+                            {t('nav.cat_software', lang)}
+                          </div>
+                          <div class="space-y-0.5">
+                            {megaMenuCategories.software.map((slug) => {
+                              const svc = svcBySlug[slug];
+                              if (!svc) return null;
+                              return (
+                                <a
+                                  class="flex items-start gap-3 p-2.5 rounded-lg hover:bg-secondary/70 transition-colors"
+                                  href={localizedPath(`/layanan/${slug}`, lang)}
+                                >
+                                  <div class="w-8 h-8 rounded-md gradient-mesh flex items-center justify-center text-white flex-shrink-0">
+                                    <Icon name={svc.icon} size={14} />
+                                  </div>
+                                  <div class="min-w-0">
+                                    <div class="text-sm font-semibold leading-tight">
+                                      {svc.navLabel || svc.title}
+                                    </div>
+                                    <div class="text-xs text-muted-foreground line-clamp-1 mt-0.5">
+                                      {svc.short}
+                                    </div>
+                                  </div>
+                                </a>
+                              );
+                            })}
+                          </div>
+                        </div>
+
+                        <div>
+                          <div class="text-[11px] font-bold uppercase tracking-wider text-brand-blue px-3 mb-1">
+                            {t('nav.cat_ops', lang)}
+                          </div>
+                          <div class="space-y-0.5">
+                            {megaMenuCategories.ops.map((slug) => {
+                              const svc = svcBySlug[slug];
+                              if (!svc) return null;
+                              return (
+                                <a
+                                  class="flex items-start gap-3 p-2.5 rounded-lg hover:bg-secondary/70 transition-colors"
+                                  href={localizedPath(`/layanan/${slug}`, lang)}
+                                >
+                                  <div class="w-8 h-8 rounded-md gradient-mesh flex items-center justify-center text-white flex-shrink-0">
+                                    <Icon name={svc.icon} size={14} />
+                                  </div>
+                                  <div class="min-w-0">
+                                    <div class="text-sm font-semibold leading-tight">
+                                      {svc.navLabel || svc.title}
+                                    </div>
+                                    <div class="text-xs text-muted-foreground line-clamp-1 mt-0.5">
+                                      {svc.short}
+                                    </div>
+                                  </div>
+                                </a>
+                              );
+                            })}
+                          </div>
+                        </div>
+
+                        <div>
+                          <div class="text-[11px] font-bold uppercase tracking-wider text-brand-blue px-3 mb-1">
+                            {t('nav.cat_systems', lang)}
+                          </div>
+                          <div class="space-y-0.5">
+                            <a
+                              class="flex items-start gap-3 p-2.5 rounded-lg hover:bg-secondary/70 transition-colors"
+                              href={localizedPath(
+                                `/layanan/${megaMenuCategories.bespokeErp.slug}`,
+                                lang
+                              )}
+                            >
+                              <div class="w-8 h-8 rounded-md gradient-mesh flex items-center justify-center text-white flex-shrink-0">
+                                <Icon name={megaMenuCategories.bespokeErp.icon} size={14} />
+                              </div>
+                              <div class="min-w-0">
+                                <div class="text-sm font-semibold leading-tight">
+                                  {megaMenuCategories.bespokeErp.title[lang]}
+                                </div>
+                                <div class="text-xs text-muted-foreground line-clamp-1 mt-0.5">
+                                  {megaMenuCategories.bespokeErp.short[lang]}
+                                </div>
+                              </div>
+                            </a>
+                            {megaMenuCategories.systems.map((slug) => {
+                              const svc = svcBySlug[slug];
+                              if (!svc) return null;
+                              return (
+                                <a
+                                  class="flex items-start gap-3 p-2.5 rounded-lg hover:bg-secondary/70 transition-colors"
+                                  href={localizedPath(`/layanan/${slug}`, lang)}
+                                >
+                                  <div class="w-8 h-8 rounded-md gradient-mesh flex items-center justify-center text-white flex-shrink-0">
+                                    <Icon name={svc.icon} size={14} />
+                                  </div>
+                                  <div class="min-w-0">
+                                    <div class="text-sm font-semibold leading-tight">
+                                      {svc.navLabel || svc.title}
+                                    </div>
+                                    <div class="text-xs text-muted-foreground line-clamp-1 mt-0.5">
+                                      {svc.short}
+                                    </div>
+                                  </div>
+                                </a>
+                              );
+                            })}
+                          </div>
+                        </div>
+
+                        <a
+                          href={localizedPath('/layanan', lang)}
+                          class="block px-3 py-2 rounded-lg text-sm font-semibold text-brand-blue hover:bg-secondary/50"
+                        >
+                          {t('nav.view_all_services', lang)} →
+                        </a>
+                      </div>
+                    </li>
+                  );
+                }
+                return (
+                  <li>
+                    <a
+                      href={localizedPath(item.href, lang)}
+                      class={`block px-4 py-3 rounded-xl text-sm font-medium ${
+                        active ? 'bg-secondary text-brand-navy' : 'hover:bg-secondary/50'
+                      }`}
+                    >
+                      {t(item.key, lang)}
+                    </a>
+                  </li>
+                );
+              })}
+              <li class="pt-2">
+                <a
+                  href={waDesktopHref}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="inline-flex items-center justify-center h-10 px-4 py-2 w-full rounded-full gradient-mesh text-white text-sm font-medium border-0"
+                >
+                  {t('nav.cta_consult', lang)}
+                </a>
+              </li>
+            </ul>
+          </div>
+        </header>
+
+        <!-- Main Content -->
+        <main class="flex-1 pt-16 md:pt-20">
+          <slot />
+        </main>
+
+        <!-- Footer -->
+        <footer class="relative bg-brand-navy text-white mt-24">
+          <div
+            class="absolute inset-x-0 top-0 h-px bg-gradient-to-r from-transparent via-brand-cyan/50 to-transparent"
+          >
+          </div>
+          <div class="container mx-auto px-4 py-16">
+            <div class="grid md:grid-cols-4 gap-10">
+              <div class="md:col-span-2">
+                <a
+                  class="inline-flex items-center mb-4"
+                  aria-label="BMS Services"
+                  href={localizedPath('/', lang)}
+                >
+                  <img
+                    src="/logo-light.webp"
+                    srcset="/logo-light.webp 1x, /assets/logo-light@2x-BDI0rk_x.webp 2x"
+                    alt="BMS Services"
+                    height="40"
+                    decoding="async"
+                    class="w-auto h-10"
+                  />
+                </a>
+                <p class="text-white/70 max-w-md leading-relaxed">
+                  {brand.tagline}. {t('footer.tagline', lang)}
+                </p>
+                <div class="flex gap-3 mt-6">
+                  <a
+                    href={brand.instagram}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="Instagram"
+                    class="w-10 h-10 rounded-full bg-white/10 hover:bg-white/20 flex items-center justify-center transition-colors"
+                  >
+                    <Icon name="Instagram" size={18} />
+                  </a>
+                  <a
+                    href={brand.linkedin}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="LinkedIn"
+                    class="w-10 h-10 rounded-full bg-white/10 hover:bg-white/20 flex items-center justify-center transition-colors"
+                  >
+                    <Icon name="Linkedin" size={18} />
+                  </a>
+                </div>
+                <div class="mt-6">
+                  <div
+                    class="inline-flex items-center gap-1 p-1 rounded-full bg-white/10 border border-white/20 text-white"
+                    role="group"
+                    aria-label="Language"
+                  >
+                    <Icon name="Globe" size={12} class="ml-1.5 mr-0.5 text-white/70" />
+                    <a
+                      aria-current={lang === 'id' ? 'true' : undefined}
+                      aria-label="Bahasa Indonesia"
+                      class={`inline-flex items-center justify-center h-7 min-w-[2.25rem] px-2 rounded-full text-[11px] font-bold uppercase tracking-wider transition-colors ${
+                        lang === 'id'
+                          ? 'bg-white text-brand-navy'
+                          : 'text-white/70 hover:text-white hover:bg-white/10'
+                      }`}
+                      href={idSwitchHref}
+                    >
+                      ID
+                    </a>
+                    <a
+                      aria-current={lang === 'en' ? 'true' : undefined}
+                      aria-label="English"
+                      class={`inline-flex items-center justify-center h-7 min-w-[2.25rem] px-2 rounded-full text-[11px] font-bold uppercase tracking-wider transition-colors ${
+                        lang === 'en'
+                          ? 'bg-white text-brand-navy'
+                          : 'text-white/70 hover:text-white hover:bg-white/10'
+                      }`}
+                      href={enSwitchHref}
+                    >
+                      EN
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+              <div>
+                <h4 class="font-semibold mb-4 text-white">{t('footer.quick_links', lang)}</h4>
+                <ul class="space-y-2">
+                  {navItems.map((item) => (
+                    <li>
+                      <a
+                        class="text-white/70 hover:text-white text-sm transition-colors"
+                        href={localizedPath(item.href, lang)}
+                      >
+                        {t(item.key, lang)}
+                      </a>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+
+              <div>
+                <h4 class="font-semibold mb-4 text-white">{t('footer.contact', lang)}</h4>
+                <ul class="space-y-3 text-sm text-white/70">
+                  <li class="flex items-start gap-2">
+                    <Icon name="Mail" size={16} class="mt-0.5 shrink-0" />
+                    <a href={`mailto:${brand.email}`} class="hover:text-white">
+                      {brand.email}
+                    </a>
+                  </li>
+                  <li class="flex items-start gap-2">
+                    <Icon name="Phone" size={16} class="mt-0.5 shrink-0" />
+                    <a href={`tel:${brand.phoneIntl}`} class="hover:text-white">
+                      {brand.phone}
+                    </a>
+                  </li>
+                  <li class="flex items-start gap-2">
+                    <Icon name="MapPin" size={16} class="mt-0.5 shrink-0" />
+                    <span>{brand.address}</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="border-t border-white/10 mt-12 pt-6 text-center text-white/50 text-sm">
+              © 2026 {brand.name}. {t('footer.rights', lang)}
+            </div>
+          </div>
+        </footer>
+
+        <!-- Floating WhatsApp Widget -->
+        {!hideFloatingWa && (
+          <>
+            <div
+              id="wa-float-expanded"
+              class="fixed bottom-5 right-5 md:bottom-6 md:right-6 z-50 max-md:[body.sticky-audit-active_&]:hidden"
+            >
+              <div class="relative group">
+                <div
+                  id="wa-float-tooltip"
+                  aria-hidden="false"
+                  class="absolute bottom-full right-0 mb-3 origin-bottom-right transition-all duration-300 ease-out pointer-events-none opacity-100 translate-y-0 scale-100"
+                >
+                  <div
+                    class="relative rounded-2xl bg-foreground text-background text-sm font-medium px-4 py-2.5 shadow-xl whitespace-nowrap"
+                  >
+                    {t('wa.float_hint', lang)}
+                    <span class="absolute -bottom-1 right-6 w-3 h-3 bg-foreground rotate-45">
+                    </span>
+                  </div>
+                </div>
+                <a
+                  href={waFloatHref}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label={t('wa.float_aria', lang)}
+                  class="group flex items-center gap-2 pl-3.5 pr-4 py-3 md:py-3.5 rounded-full bg-[#25D366] text-white shadow-lg shadow-[#25D366]/30 hover:shadow-xl hover:shadow-[#25D366]/40 hover:scale-105 transition-all duration-300 relative animate-attention-pulse"
+                >
+                  <span
+                    class="absolute inset-0 rounded-full bg-[#25D366] animate-ping opacity-30 -z-10"
+                  >
+                  </span>
+                  <Icon name="MessageCircle" size={22} class="fill-white" />
+                  <span
+                    id="wa-float-label"
+                    class="text-sm font-semibold whitespace-nowrap overflow-hidden hidden sm:inline-block transition-all duration-300 ease-out max-w-[160px] opacity-100"
+                  >
+                    {t('wa.float_label', lang)}
+                  </span>
+                </a>
+                <button
+                  type="button"
+                  id="wa-hide-btn"
+                  aria-label={t('wa.float_hide', lang)}
+                  title={t('wa.float_hide', lang)}
+                  class="absolute -top-1.5 -right-1.5 h-6 w-6 rounded-full bg-background text-foreground border border-border shadow-md grid place-items-center hover:bg-muted transition-colors"
+                >
+                  <Icon name="ChevronRight" size={14} />
+                </button>
+              </div>
+            </div>
+
+            <div
+              id="wa-float-collapsed"
+              class="hidden fixed bottom-5 right-0 md:bottom-6 z-50 animate-fade-in max-md:[body.sticky-audit-active_&]:hidden"
+            >
+              <div class="relative flex items-stretch">
+                <a
+                  href={waFloatHref}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label={t('wa.float_aria', lang)}
+                  class="flex items-center justify-center h-11 w-11 rounded-l-full bg-[#25D366] text-white shadow-lg shadow-[#25D366]/30 hover:w-12 transition-all duration-300"
+                >
+                  <Icon name="MessageCircle" size={20} class="fill-white" />
+                </a>
+                <button
+                  type="button"
+                  id="wa-show-btn"
+                  aria-label={t('wa.float_show', lang)}
+                  class="flex items-center justify-center h-11 w-5 bg-[#1ebe57] text-white rounded-l-none hover:bg-[#19a84c] transition-colors"
+                >
+                  <Icon name="ChevronLeft" size={14} />
+                </button>
+              </div>
+            </div>
+          </>
+        )}
+      </div>
+    </div>
+
+    <script>
+      // Sticky Header glass effect on scroll
+      const header = document.getElementById('site-header');
+      const updateHeader = () => {
+        if (!header) return;
+        if (window.scrollY > 20) {
+          header.classList.remove('bg-transparent');
+          header.classList.add(
+            'bg-background/80',
+            'backdrop-blur-xl',
+            'border-b',
+            'border-border/50',
+            'shadow-sm'
+          );
+        } else {
+          header.classList.add('bg-transparent');
+          header.classList.remove(
+            'bg-background/80',
+            'backdrop-blur-xl',
+            'border-b',
+            'border-border/50',
+            'shadow-sm'
+          );
+        }
+      };
+      updateHeader();
+      window.addEventListener('scroll', updateHeader, { passive: true });
+
+      // Mobile Menu Drawer & Accordion
+      const mobileBtn = document.getElementById('mobile-menu-btn');
+      const mobileDrawer = document.getElementById('mobile-menu-drawer');
+      const iconOpen = document.getElementById('mobile-icon-open');
+      const iconClose = document.getElementById('mobile-icon-close');
+      const servicesToggle = document.getElementById('mobile-services-toggle');
+      const servicesPanel = document.getElementById('mobile-services-panel');
+
+      mobileBtn?.addEventListener('click', () => {
+        const isHidden = mobileDrawer?.classList.toggle('hidden');
+        iconOpen?.classList.toggle('hidden', !isHidden);
+        iconClose?.classList.toggle('hidden', Boolean(isHidden));
+        mobileBtn.setAttribute('aria-expanded', String(!isHidden));
+      });
+
+      servicesToggle?.addEventListener('click', () => {
+        servicesPanel?.classList.toggle('hidden');
+        servicesToggle.querySelector('svg')?.classList.toggle('rotate-180');
+      });
+
+      // Floating WhatsApp hide/show & tooltip behavior
+      const waExpanded = document.getElementById('wa-float-expanded');
+      const waCollapsed = document.getElementById('wa-float-collapsed');
+      const waHideBtn = document.getElementById('wa-hide-btn');
+      const waShowBtn = document.getElementById('wa-show-btn');
+      const waTooltip = document.getElementById('wa-float-tooltip');
+
+      if (sessionStorage.getItem('wa-hidden') === '1') {
+        waExpanded?.classList.add('hidden');
+        waCollapsed?.classList.remove('hidden');
+      } else {
+        setTimeout(() => {
+          waTooltip?.classList.remove('opacity-100', 'translate-y-0', 'scale-100');
+          waTooltip?.classList.add('opacity-0', 'translate-y-2', 'scale-95');
+          waTooltip?.setAttribute('aria-hidden', 'true');
+        }, 6000);
+      }
+
+      waHideBtn?.addEventListener('click', (e) => {
+        e.preventDefault();
+        e.stopPropagation();
+        sessionStorage.setItem('wa-hidden', '1');
+        waExpanded?.classList.add('hidden');
+        waCollapsed?.classList.remove('hidden');
+      });
+
+      waShowBtn?.addEventListener('click', (e) => {
+        e.preventDefault();
+        e.stopPropagation();
+        sessionStorage.removeItem('wa-hidden');
+        waCollapsed?.classList.add('hidden');
+        waExpanded?.classList.remove('hidden');
+      });
+
+      // Scroll-reveal observer for [data-reveal] elements
+      const revealEls = document.querySelectorAll('[data-reveal]');
+      if ('IntersectionObserver' in window) {
+        const io = new IntersectionObserver(
+          (entries) => {
+            entries.forEach((entry) => {
+              if (entry.isIntersecting) {
+                entry.target.classList.add('is-visible');
+                io.unobserve(entry.target);
+              }
+            });
+          },
+          { threshold: 0.12 }
+        );
+        revealEls.forEach((el) => io.observe(el));
+      } else {
+        revealEls.forEach((el) => el.classList.add('is-visible'));
+      }
+
+      // Animated number counter for [data-count-to]
+      const countEls = document.querySelectorAll<HTMLElement>('[data-count-to]');
+      if ('IntersectionObserver' in window && countEls.length > 0) {
+        const countIo = new IntersectionObserver(
+          (entries) => {
+            entries.forEach((entry) => {
+              if (!entry.isIntersecting) return;
+              const el = entry.target as HTMLElement;
+              countIo.unobserve(el);
+              const target = parseFloat(el.dataset.countTo || '0');
+              const suffix = el.dataset.countSuffix || '';
+              const isInt = Number.isInteger(target);
+              const duration = 1800;
+              const start = performance.now();
+              const step = (now: number) => {
+                const progress = Math.min(1, (now - start) / duration);
+                const eased = 1 - Math.pow(1 - progress, 3);
+                const val = target * eased;
+                el.textContent = (isInt ? Math.round(val).toString() : val.toFixed(1)) + suffix;
+                if (progress < 1) requestAnimationFrame(step);
+              };
+              requestAnimationFrame(step);
+            });
+          },
+          { threshold: 0.2 }
+        );
+        countEls.forEach((el) => countIo.observe(el));
+      }
+    </script>
+  </body>
+</html>
